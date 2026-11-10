@@ -1,0 +1,218 @@
+{
+  "date": "2026-10-13",
+  "scope": "fixed posthoc adapted-matrix own-GPU comparison and conditional static resource path",
+  "new_resolve_frames": 0,
+  "formal_resolve_frames_total": 48,
+  "own_GPU_executions": 1,
+  "fitted_parameters": 0,
+  "actual_Resolve_backend_capture": false,
+  "current_user_GPU_reply": "\u81ea\u52a8",
+  "current_auto_selection_witness_only": true,
+  "retrospective_backend_binding": false,
+  "numeric_review": {
+    "input_checks": 101,
+    "output_checks": 1238,
+    "all_pass": true,
+    "F32_matrix_payloads_equal": 18,
+    "RGB_predictions_equal": 1152,
+    "statistics": 48,
+    "max_statistic_difference": 2.117582368135751e-22,
+    "sRGB_exact_sample_channels": 96,
+    "unchanged_control_trace_values": 1920,
+    "unchanged_work_RGB_values": 1152
+  },
+  "static_scope": {
+    "work_matrix_checks": 47,
+    "adaptation_core_checks": 37,
+    "default_inverse_decimal_places": 4,
+    "table_bytes": 4096,
+    "width": 1024,
+    "conditional_native_array_height": 1,
+    "own_probe_array_height": 0,
+    "resource_rank_equal_claimed": false,
+    "all_allocator_paths_complete": false
+  },
+  "bindings": [
+    {
+      "path": "experiments/prepare-hdr-adapted-gpu.py",
+      "bytes": 3510,
+      "sha256": "fba97f29e2727b9f54c9d7a5e444254f3caa52b6201abf0003a9d9aae127957f"
+    },
+    {
+      "path": "experiments/analyze-hdr-adapted-gpu.py",
+      "bytes": 4493,
+      "sha256": "feb31f737f03369a0c10fa1e509ce647ca4c9d91fd1323b4261fa2611088d823"
+    },
+    {
+      "path": "experiments/hdr-transfer-gpu-probe.cu",
+      "bytes": 6747,
+      "sha256": "09c80ad8263309dd0f63853e42fe3a0ecadbda83645c19cecebb1b33e5a0ddec"
+    },
+    {
+      "path": "docs/experiments/hdr-adapted-gpu-result.json",
+      "bytes": 55296,
+      "sha256": "579721cb7866aa5d67b19fd2fcc28344f1142c5f06b8d59bf1567f0aee7d52be"
+    },
+    {
+      "path": "docs/research/hdr-white-adaptation-and-upload.md",
+      "bytes": 9152,
+      "sha256": "cfc7e869db3b468b672ba37c0b2673b44d36703715b2a7e733a5fb86dfd34ac2"
+    },
+    {
+      "path": "docs/reviews/hdr-white-adaptation-review.md",
+      "bytes": 2433,
+      "sha256": "1fe42e93b76f8bcfe725e52af07c9d374568b9de927adf552e0f91b35eee4366"
+    },
+    {
+      "path": "docs/experiments/hdr-transfer-gpu-evidence.json",
+      "bytes": 8779,
+      "sha256": "a523d6423626268a5c00ce533b9fbeff8b6120f5a82b4415916557b24ec705d9"
+    },
+    {
+      "path": "docs/experiments/hdr-mixed-input-freeze.json",
+      "bytes": 27543,
+      "sha256": "9cb32be3c50b6e0f5342259fa18669f6dcc745439eb8cccb5b9dabc490b892aa"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-adapted-gpu-input.bin",
+      "bytes": 9052,
+      "sha256": "108e14d94158ed1b49ca9c0d3f5cbe21563d92fce68ede6fb550db4096a4d780"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-adapted-gpu-input.json",
+      "bytes": 5508,
+      "sha256": "8550d2c87b38121876c3896fd6453ebdbb3d6aa356d2c97a90e1941641e1a4ad"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-adapted-gpu-output.bin",
+      "bytes": 15380,
+      "sha256": "00202ae11882bfd3e55dfd9e6802ece05f66316c7b71fd51a8d25031c6291805"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-adapted-gpu-run.json",
+      "bytes": 127,
+      "sha256": "c8791472bcced85f9911fefa603c5c47d7366a3ba14569924241c03a0aa8973f"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-transfer-gpu-probe.exe",
+      "bytes": 366080,
+      "sha256": "4534207287f355203465a52697b175c5f9303745e12572aacf56834e6cf1dce0"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-transfer-gpu-input-v2.bin",
+      "bytes": 9052,
+      "sha256": "b3bffc9fd3b7c92bc3d5cfd26c5f4424c94dfc9dd6e9b5a50c50750df83e7cf7"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-transfer-gpu-output-v2.bin",
+      "bytes": 15380,
+      "sha256": "7af9e74fb026343de4d9f319d6b0b71c2229aa2baa97aee5bfb7d18d3ea0f3f0"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-array-full-copy.txt",
+      "bytes": 36028,
+      "sha256": "a339097e609546775f9cadf0ef0725306f7706e3ab7542f95ad630cade2a8414"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-array-full-unwind-families.json",
+      "bytes": 679,
+      "sha256": "301fc3ae8fe35eb334678e28528297f74fd71141661c27295be6c9e8bbe239be"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-texture-upload-helpers-v2.txt",
+      "bytes": 13124,
+      "sha256": "8dc1897c4eb0e8b4340862012dbb8e8f5b6c64794cdfed34a1e89dc4de39d8db"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-texture-upload-factory.txt",
+      "bytes": 7769,
+      "sha256": "f2a3efc8420c742874b5dc45c960af7db50b84099b1ed0b3d64c92447eb14848"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-texture-staging-and-matrix.txt",
+      "bytes": 37118,
+      "sha256": "adf7d3a4f0acfeffcba3150f427795e2eaf3d6510ccd4e8b56a07b6650938d81"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-array-and-adaptation.txt",
+      "bytes": 29216,
+      "sha256": "63c278a86bffbbeb2e06b521e30e4254a645d3d299a9322c837381ab6536e428"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-matrix-cuda-core.txt",
+      "bytes": 135092,
+      "sha256": "75d34049846ba7426cb2d9d80c1d6c1d0b1862c4ff67b61105d0d7f35ff9f9e8"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-array-extent-copy.txt",
+      "bytes": 26177,
+      "sha256": "ba04cb9347fc8711cf6c4e3c1bec798fea17fadfeddc2d3f6d733be2c27b1770"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-matrix-resource-closure.txt",
+      "bytes": 26709,
+      "sha256": "3929ed87e8392cd57f5e4be77850a228b7f723ab463c5f14627c64dbf07a4931"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/independent-work-matrix-review.json",
+      "bytes": 13550,
+      "sha256": "97834abc31d6f9001a04d3a67f14db5188df8fc96340a2779c93b6f8fdb0bc0f"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/independent-white-adaptation-core-review.json",
+      "bytes": 9768,
+      "sha256": "9fbb77e5575beeb65fb0151eeac6fe084fce608e6b4f9e5db261881d44766d23"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/independent-white-adaptation-core-addendum.md",
+      "bytes": 2658,
+      "sha256": "f9c9d17082b3038338e6b6fad20f3436d66f96da81961b3ded369a90cd15c285"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/independent-adapted-gpu-input-validation.json",
+      "bytes": 9872,
+      "sha256": "8f95008854622fe15944606ba2e7cb7707f47b4f467f28a32662643b08eed058"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/independent-adapted-gpu-input-review.md",
+      "bytes": 3460,
+      "sha256": "503810ac5bfdd7aad071260f5f1a59c6c75e6a1eb2b4676761b5923dea191d6d"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/independent-hdr-adapted-output-review.json",
+      "bytes": 111911,
+      "sha256": "246d427ee7328a8e24d1de6d1d67f571dc6f87c885c3eb65a4f28a883d7c1578"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/independent-hdr-adapted-output-review.md",
+      "bytes": 4075,
+      "sha256": "6d459ff534ed3f68e11752b83ab22c5d14dfbd9a64335700dcf6ccdb454ba37b"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/independent-texture-upload-review.md",
+      "bytes": 11996,
+      "sha256": "99dc9ed09fbc33e1a691597168d66bd7a55e43f886d0199a3f585b056e7fbeeb"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/independent-white-adaptation-public-final-addendum.md",
+      "bytes": 6153,
+      "sha256": "e9e3e6dcf51aedec9c474b10ae975d1b1b5998a5b6e9a456a09671bfd11d2db8"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-user-preferences-api-capture.json",
+      "bytes": 3708,
+      "sha256": "c76e63bba3389937f0d5aeae517a4eca3f59268199d46c515360ebbb9ddd28d2"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-user-preferences-export-check.json",
+      "bytes": 577,
+      "sha256": "3d33a202fb9cedd68a4862446052110fc0567630b2351a50a7790246d707438a"
+    }
+  ],
+  "limits": [
+    "Posthoc existing-sample agreement is not an unseen native test.",
+    "No runtime matrix, table bytes or backend capture; user Auto reply does not select CUDA.",
+    "Only the fixed finite Global +/-1, empty-zone and zero-black-offset conditions are compared.",
+    "Public descriptions exclude private binary, grade and decompiler contents."
+  ]
+}

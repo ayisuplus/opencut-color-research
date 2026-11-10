@@ -1,0 +1,550 @@
+{
+  "scope": "Near-black frozen new colors at calibrated -1/+1; scoped official native transport and independent measurements.",
+  "date": "2026-10-14",
+  "Resolve_version": "21.1.1.10",
+  "frozen_commit": "def8933",
+  "new_resolve_frames": 6,
+  "previous_formal_resolve_frames": 54,
+  "formal_resolve_frames_total": 60,
+  "own_GPU_executions": 1,
+  "fitted_parameters": 0,
+  "prespecified_error_gate": 1e-06,
+  "transport_checks": 294,
+  "primary_center_channels": 96,
+  "primary_ROI_channels": 393216,
+  "decoded_scalar_channels": 37324800,
+  "whole_image_paired_controls": 3,
+  "independent_numeric_and_transport_checks": 440,
+  "independent_final_binding_checks": 106,
+  "source_full_captured_snapshot_match": true,
+  "source_jobs_preserved": 23,
+  "limits": [
+    "The full-image controls do not extend the center/ROI primary error gate to arbitrary pixels.",
+    "Actual HDR Gamma/matrix/resource/backend and full exposure formula remain unverified.",
+    "The fixed paired ideal CPU diagnostic excludes this concrete no-clamp candidate only.",
+    "No new UI calibration, upper-4608 clamp, negative float, nonzero black offset or nonempty zone coverage.",
+    "Source restoration covers captured getters/objects, not all invisible application state."
+  ],
+  "bindings": [
+    {
+      "path": "experiments/analyze-hdr-near-black.py",
+      "bytes": 8863,
+      "sha256": "2c8cb88f6fa5808a788bb62fdd7846a3046a285f8af53ee9dc0da64a7f89b020"
+    },
+    {
+      "path": "docs/experiments/hdr-near-black-input-freeze.json",
+      "bytes": 7133,
+      "sha256": "0f573da34d419b9d106bf2ae5df5a9799f4ab45c65c4bd2d61016cfe965a0fc5"
+    },
+    {
+      "path": "docs/experiments/hdr-near-black-prediction-freeze.json",
+      "bytes": 24247,
+      "sha256": "24298e00d3b8b25d3d11c85a7105b3817e33aeea7634a09da1b71d27d628e61c"
+    },
+    {
+      "path": "docs/experiments/hdr-near-black-clamp-diagnostic.json",
+      "bytes": 10020,
+      "sha256": "ebbfaa48f9549b1083617c7c256d80ae4b3959195165c4bb955ae51196a43289"
+    },
+    {
+      "path": "docs/experiments/hdr-near-black-result.json",
+      "bytes": 20087,
+      "sha256": "b72e0f4b00fb95f3cfeda2893df3bce18603596079f465546d4f5b067c66f196"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/input-freeze.json",
+      "bytes": 1043,
+      "sha256": "945be20fc1f637bb530c2c4c0666aa144419caa2f3ec6bc6824c1c6ca13f0709"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/near-black-run.json",
+      "bytes": 126,
+      "sha256": "c5b5326425e8648dc4729c2b1d5c850d0d766b97e0186440651abba659338a5c"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/GPU-execution-record.json",
+      "bytes": 396,
+      "sha256": "d073ea966d3f3c8f30e4ff56cd31d2d1603404319c8ce4cc666afe7f3026c085"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/frozen-plan.json",
+      "bytes": 100366,
+      "sha256": "d4566dcc8eaed467e70230ba29f9be20c4a4f92f5e766781b4688cf522180e71"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/native-results.json",
+      "bytes": 17909,
+      "sha256": "40757584f5aee20116facddf1c5e068f5494accf2434cd91f9b4e9773e2988d9"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/gate-adaptation-provenance.json",
+      "bytes": 2494,
+      "sha256": "276beb4559de8761868b3b4f512436e64993068977afabd673c3f4d51e38cd2a"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/relink-result-validation.json",
+      "bytes": 858,
+      "sha256": "5c96225127e86dd000594b2eb23646ea1821ad4d7c60eeeac8475c6db680a520"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/baseline-input-gate.json",
+      "bytes": 2420,
+      "sha256": "68874112da3ab9cf07d6f67ef92529fbbb3fb16a02cd2ce06b3ed7578bf76e00"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/completed-009-export-evidence.json",
+      "bytes": 1871,
+      "sha256": "8e8006c03286f25a634f56508bd5191ae659f36eb605f06372190b5413642d7d"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/source-005-reference.json",
+      "bytes": 41885,
+      "sha256": "fe1f349379644292bf5dc63f57f7949b43c048ef1941740163b139a5edd38c84"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/source-005-extra.json",
+      "bytes": 350,
+      "sha256": "69a63d75c2a0639c8424e5661b6c231e3ffb9303c7805edcbe2181339c0d60a0"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/independent-near-black-native-check.py",
+      "bytes": 10620,
+      "sha256": "2583f7743f0a632d43e2c79e6c1acf0bd5f328fa6758b5aa71c603993df6b40d"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/independent-near-black-native-review.json",
+      "bytes": 60788,
+      "sha256": "11cee9d3922d3e289c2f06fa8392b727f61fe862acbda1725cadbce2f912b28d"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/independent-near-black-native-final-binding.json",
+      "bytes": 10660,
+      "sha256": "06c036be79e586750e6323458ec1881c2dac7513d720b53322d8e917c015b104"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/independent-009-neutral-drx-check.py",
+      "bytes": 8098,
+      "sha256": "51c29bf2631c874b727e93446e3ed08b050603d665a0c4078fe94eabf157c743"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/independent-009-neutral-drx-review.json",
+      "bytes": 16972,
+      "sha256": "e34892656931f9d562d61136e78338b24e1fe43dbedb50322ccd71a0aa88d0ab"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/runtime/create-copy-result.json",
+      "bytes": 291,
+      "sha256": "5fdc7c802008dd29825d3135f613a8c0b48a128cc85e4f969ec9eb432706bb45"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/runtime/copy-after-failure.json",
+      "bytes": 20368,
+      "sha256": "35e884924e7f05192002eade8320dc1bd19c02fb80cb908cc45ab4b6af3811b2"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/runtime/copy-enumerate-after-failure.json",
+      "bytes": 53329,
+      "sha256": "4143d7b755adc0a079cb430038f6b04f7ef92d0af28fa761e8b65914cb78e3f1"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/runtime/gamma-restore-probe.json",
+      "bytes": 73338,
+      "sha256": "a68ab48f2d6e275050ed408ea25381c5f06ef75176770fb4ec0c3105fb1077b1"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/runtime/archive-failed-008.json",
+      "bytes": 20559,
+      "sha256": "9dfd5317872e8af9467a8113aaa82852ff9b874a1b2cfdc5b0ee8f4438912b3e"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/runtime/create-relink-copy-result.json",
+      "bytes": 73838,
+      "sha256": "c98e2151e63902f49536f581d7e48d3a65f5aeee3c57190aaa78f336ee2710ff"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/runtime/relink-probe.json",
+      "bytes": 73922,
+      "sha256": "1d4a8b6d2259c0c0b60fb59dce693c2d0f3a89f4791cbc465079c06f8671c1c9"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/runtime/create-relink-result.json",
+      "bytes": 73962,
+      "sha256": "6be60fd34929bbf1295860d1316cf44748ba25cc74f1cc7e98ab29e964265338"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/runtime/finalize-recovery.py",
+      "bytes": 109479,
+      "sha256": "04191f691f822ec2791de0ab4f866d1fba4dba543f6fb9236e9f12be8bfb9d20"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/runtime/finalize-recovery.json",
+      "bytes": 551,
+      "sha256": "96082580e31d5970e030214df17c61bb851e55c102898d86117371fea7c4af83"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/original-005-before-near-black.drp",
+      "bytes": 159133,
+      "sha256": "32641cbff1eba063eae6477fee8e4d8aece7ef482e8a0e0c820c59de44d1b692"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/failed-008-gamma-reset.drp",
+      "bytes": 77318,
+      "sha256": "52fd3e6feac735bc9924df6d84fe2c6f220d484d65732687f0e586de0ba0d63f"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/source-005-before-relink009.drp",
+      "bytes": 159145,
+      "sha256": "692368c10ee06dc56bec5d0c8ef2560aebd616e0a8713fd267e480f52039b320"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/completed-009.drp",
+      "bytes": 106002,
+      "sha256": "b4a7da0adaee273dc35cdf05a1c1b0095b758c3560a8f2273e270e6a0d611123"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/renders/neutral-before/neutral-before00108000.exr",
+      "bytes": 24900921,
+      "sha256": "b6b8915e980de1544afe306bf4aa64527d0654bb68d1a81b4961d82c15d9a374"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/grades/readbacks/neutral-before/neutral-before_1.1.7.drx",
+      "bytes": 9654,
+      "sha256": "c57906b198d568b3af6bb6235ce2b3410ddc5e8411d8f3da33ceabd00386d196"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/neutral-before-measured.json",
+      "bytes": 3636,
+      "sha256": "5199b2ea5bf90a276e84fe3943272f11cb9681292976fa64696cfafc84fc509d"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/neutral-before-readback-validation.json",
+      "bytes": 140847,
+      "sha256": "e77f7fc38f010d05a84beee020e86c2a568496267768bf7d5af84b21ab773d97"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/neutral-before-step-gate.json",
+      "bytes": 517,
+      "sha256": "7dd8f7a225745a9c501ddeb756b7bee04d630b6fccdfb67fde197d0fa203ce24"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/runtime/0-neutral-before-apply.json",
+      "bytes": 149,
+      "sha256": "5cb608ae7e127e301bc118b5b438d0e4329cb875e92e6eeafd40f0649a0ae89f"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/runtime/0-neutral-before-export.json",
+      "bytes": 134,
+      "sha256": "932e674b5fc899fed9538d435778af367741128f3c9bbc7735f161040502ac85"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/runtime/0-neutral-before-create.json",
+      "bytes": 975,
+      "sha256": "45ae479ebb64899e812ea77f9b7ded157d71d5756d0b42172071e2ef287ba8b7"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/runtime/0-neutral-before-start.json",
+      "bytes": 152,
+      "sha256": "8a9c57d97e71ab1d3495004e6b1cb59465c9a208727190c8f81510214e3cd11c"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/runtime/0-neutral-before-poll.json",
+      "bytes": 184,
+      "sha256": "42181f36b8a5117879b464cafcfc3822c1894b92e5cfb1905eb4def89fe94f4a"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/renders/minus1/minus1_00108000.exr",
+      "bytes": 24900921,
+      "sha256": "9bad791d5440ec436573f99501c88bc9132c3ae0196613d583c9a377f068575b"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/grades/readbacks/minus1/minus1_1.1.8.drx",
+      "bytes": 9417,
+      "sha256": "1f331b651e5548f5daf73d7c502d18b882b643a5b9bbee7c491c4591a3a94e4b"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/minus1-measured.json",
+      "bytes": 3641,
+      "sha256": "c8619679384db21f713a5405d1018eff2c428b36883c3a9b87b7ce97559a4408"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/minus1-readback-validation.json",
+      "bytes": 215315,
+      "sha256": "fcc72f9f9a207594a0cf8ec4a8a42f6d6498e09dde34f2c66e94cc0b110f4fbf"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/minus1-step-gate.json",
+      "bytes": 660,
+      "sha256": "c4fc4bf8364babb882fa775f9ed1fcc8cb896908e1c7b1c4acfe81b68fb023f7"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/runtime/1-minus1-apply.json",
+      "bytes": 154,
+      "sha256": "ee6021a8833dc95780de3258207847e4f26f8e6240d01a0861caf6a8b44975e9"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/runtime/1-minus1-export.json",
+      "bytes": 139,
+      "sha256": "1738f7568f2ed33aff4a435edff17cc5f80876f49c675d09cde5be9fc32e2c34"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/runtime/1-minus1-create.json",
+      "bytes": 965,
+      "sha256": "b8416cd546535a0b8782ea31de0d4779a4f670b98f935d4381362898e49f8397"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/runtime/1-minus1-start.json",
+      "bytes": 152,
+      "sha256": "79102fca7b671aac2e364fe368129d011c6b5d08fe739bd1463b4bb9b06b8ec5"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/runtime/1-minus1-poll.json",
+      "bytes": 184,
+      "sha256": "42181f36b8a5117879b464cafcfc3822c1894b92e5cfb1905eb4def89fe94f4a"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/renders/plus1/plus1_00108000.exr",
+      "bytes": 24900921,
+      "sha256": "826cfa256fd0490e4b0b5f282b41ca5e899f2d6f58ac3db8d839392b1da86e09"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/grades/readbacks/plus1/plus1_1.1.9.drx",
+      "bytes": 10125,
+      "sha256": "9d5a6fdf4938443b44a3fc1499fe05a1a93b4067898734ea62956786408838a2"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/plus1-measured.json",
+      "bytes": 3614,
+      "sha256": "c8c4796f6268e3b3084303ccda2af63da18079b7e5301b38c46755068f53e3b9"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/plus1-readback-validation.json",
+      "bytes": 215300,
+      "sha256": "29e2c5f56b3feac0e8ae3daf1eec55a76197b184a5ebc7bb8437ba649a0961b3"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/plus1-step-gate.json",
+      "bytes": 660,
+      "sha256": "f477ecf8e95ff1ef502a8924ad2995b5cfbe1c2324532e5bacbd517ba4583a42"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/runtime/2-plus1-apply.json",
+      "bytes": 154,
+      "sha256": "ee6021a8833dc95780de3258207847e4f26f8e6240d01a0861caf6a8b44975e9"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/runtime/2-plus1-export.json",
+      "bytes": 139,
+      "sha256": "1738f7568f2ed33aff4a435edff17cc5f80876f49c675d09cde5be9fc32e2c34"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/runtime/2-plus1-create.json",
+      "bytes": 963,
+      "sha256": "a29cd7c9f420bcefaf4ef78d674f1d6be7741ef23cebec3127ae9ccf11bb0838"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/runtime/2-plus1-start.json",
+      "bytes": 152,
+      "sha256": "370029105dc6fd951eebfb5df0b1ea8145d968908225317b0c1b220ac92df3b8"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/runtime/2-plus1-poll.json",
+      "bytes": 184,
+      "sha256": "42181f36b8a5117879b464cafcfc3822c1894b92e5cfb1905eb4def89fe94f4a"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/renders/plus1-replay/plus1-replay00108000.exr",
+      "bytes": 24900921,
+      "sha256": "826cfa256fd0490e4b0b5f282b41ca5e899f2d6f58ac3db8d839392b1da86e09"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/grades/readbacks/plus1-replay/plus1-replay_1.1.10.drx",
+      "bytes": 12547,
+      "sha256": "74fcb1764133f512b857f3722c64593333250500252dd207b9f815b9b848259f"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/plus1-replay-measured.json",
+      "bytes": 3614,
+      "sha256": "c8c4796f6268e3b3084303ccda2af63da18079b7e5301b38c46755068f53e3b9"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/plus1-replay-readback-validation.json",
+      "bytes": 215442,
+      "sha256": "f398c06e0e701cdd2c57a8860894d7a8a3d6fcc96553a84c4a3cb8475e9bf7ff"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/plus1-replay-step-gate.json",
+      "bytes": 702,
+      "sha256": "4605b725f0f9f75c61d483e80523efbc9b494ccb727f69d685b2708741bad7ed"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/runtime/3-plus1-replay-apply.json",
+      "bytes": 154,
+      "sha256": "ee6021a8833dc95780de3258207847e4f26f8e6240d01a0861caf6a8b44975e9"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/runtime/3-plus1-replay-export.json",
+      "bytes": 139,
+      "sha256": "1738f7568f2ed33aff4a435edff17cc5f80876f49c675d09cde5be9fc32e2c34"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/runtime/3-plus1-replay-create.json",
+      "bytes": 976,
+      "sha256": "f283f325a92ad88ac7d0b613ddd6644f7680686b78fee228fd6c6c7293c4676a"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/runtime/3-plus1-replay-start.json",
+      "bytes": 152,
+      "sha256": "e4dce9eadfc82e1c67c21ab8da25db3805ad3854fc0b280f2cfef8986584840e"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/runtime/3-plus1-replay-poll.json",
+      "bytes": 184,
+      "sha256": "42181f36b8a5117879b464cafcfc3822c1894b92e5cfb1905eb4def89fe94f4a"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/renders/minus1-replay/minus1-replay00108000.exr",
+      "bytes": 24900921,
+      "sha256": "9bad791d5440ec436573f99501c88bc9132c3ae0196613d583c9a377f068575b"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/grades/readbacks/minus1-replay/minus1-replay_1.1.11.drx",
+      "bytes": 9417,
+      "sha256": "87938cac5b6d7e0dec5bb4440c58b3fdeb5226e1303167b818675ba391e80dd7"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/minus1-replay-measured.json",
+      "bytes": 3641,
+      "sha256": "c8619679384db21f713a5405d1018eff2c428b36883c3a9b87b7ce97559a4408"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/minus1-replay-readback-validation.json",
+      "bytes": 215337,
+      "sha256": "5611303eed461a0bbb30d7e206f4eefb379793ee67f5326e74e5f24008c19e63"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/minus1-replay-step-gate.json",
+      "bytes": 702,
+      "sha256": "3a060c664c9a42be0d73bd3c96fdcc612ea911f1c030d7582d098165c343b9e1"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/runtime/4-minus1-replay-apply.json",
+      "bytes": 154,
+      "sha256": "ee6021a8833dc95780de3258207847e4f26f8e6240d01a0861caf6a8b44975e9"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/runtime/4-minus1-replay-export.json",
+      "bytes": 139,
+      "sha256": "1738f7568f2ed33aff4a435edff17cc5f80876f49c675d09cde5be9fc32e2c34"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/runtime/4-minus1-replay-create.json",
+      "bytes": 978,
+      "sha256": "78b237786e6e493a436ca7c3648287ded2cc195a9cef666003be2f80d367b522"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/runtime/4-minus1-replay-start.json",
+      "bytes": 152,
+      "sha256": "f23e20c55ad60e32008a1049548f451792a831c2088e409bd3d268b3d3588fea"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/runtime/4-minus1-replay-poll.json",
+      "bytes": 184,
+      "sha256": "42181f36b8a5117879b464cafcfc3822c1894b92e5cfb1905eb4def89fe94f4a"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/renders/neutral-restored/neutral-restored00108000.exr",
+      "bytes": 24900921,
+      "sha256": "b6b8915e980de1544afe306bf4aa64527d0654bb68d1a81b4961d82c15d9a374"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/grades/readbacks/neutral-restored/neutral-restored_1.1.12.drx",
+      "bytes": 9654,
+      "sha256": "b8f6aa2ee41278289842a910c0e7eee9a759d0b32fe4f1f7cd8e07f6cf238e84"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/neutral-restored-measured.json",
+      "bytes": 3636,
+      "sha256": "5199b2ea5bf90a276e84fe3943272f11cb9681292976fa64696cfafc84fc509d"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/neutral-restored-readback-validation.json",
+      "bytes": 140854,
+      "sha256": "95415ac0c4ecfc2b0333164b23af83b0e9f1c1865ff7b57b14eb073983438b67"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/neutral-restored-step-gate.json",
+      "bytes": 522,
+      "sha256": "975fcd8274eba05bf965763d8bae4a06b7595655486aea294ead3c7bae58b033"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/runtime/5-neutral-restored-apply.json",
+      "bytes": 149,
+      "sha256": "5cb608ae7e127e301bc118b5b438d0e4329cb875e92e6eeafd40f0649a0ae89f"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/runtime/5-neutral-restored-export.json",
+      "bytes": 134,
+      "sha256": "932e674b5fc899fed9538d435778af367741128f3c9bbc7735f161040502ac85"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/runtime/5-neutral-restored-create.json",
+      "bytes": 979,
+      "sha256": "92993a8485cd079aae34e724cd62707128bca5f25577a720dccc5e1bc4894473"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/runtime/5-neutral-restored-start.json",
+      "bytes": 152,
+      "sha256": "c9e8cbf7958f28cddaee60ac7345f47cc25941fbff43db83b750d68ff0c0c70f"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/runtime/5-neutral-restored-poll.json",
+      "bytes": 184,
+      "sha256": "42181f36b8a5117879b464cafcfc3822c1894b92e5cfb1905eb4def89fe94f4a"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/measure-near-black-exr.py",
+      "bytes": 3306,
+      "sha256": "3c716c97e562497e3049bab103c7211321a6c84c2668575170d7f7b49ef1facf"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/check-completed-step.py",
+      "bytes": 3296,
+      "sha256": "bf5d387122987df44084ba6d8e1e53573b04b5cfdafa86040f881ce085e58078"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/make-native-script.py",
+      "bytes": 6121,
+      "sha256": "4aca8aa3345e2dcd46a59ecd6879a5f74cfc5a3ea3b348533455e7c44bf3b536"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/check-native-preflight.py",
+      "bytes": 2700,
+      "sha256": "f62ff7fc238e27f7be4ba776d962950f434304edea3ee4238646d168dcb73c8b"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/validate-mixed-readback.py",
+      "bytes": 19949,
+      "sha256": "65da57ee7695969afefb003a9e2f2f15a92ef2368726348739a5e7300fcfcf0f"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/check-baseline-input.py",
+      "bytes": 2831,
+      "sha256": "4c37c34f9bec3ca8f14ca824fb66ff2469c2e8608b3b8d14fe75b4158fb851c8"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/record-owned-job.py",
+      "bytes": 958,
+      "sha256": "8094b016e72d924049b7b80a3a52eae6fe66c2ad54caf0bba56f8f1de23d9cd8"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/record-completion.py",
+      "bytes": 2141,
+      "sha256": "a677638054c3944e670bac7335772016139c2f549808795380ec7e3b4315aeb1"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/measure-completed-row.py",
+      "bytes": 1160,
+      "sha256": "501baebd191115ea14b15976026263168d2fb75ae5b5715a1cfd16d2cef3de15"
+    }
+  ]
+}

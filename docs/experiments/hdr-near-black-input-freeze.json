@@ -1,0 +1,420 @@
+{
+  "scope": "Prospective new near-black colors; stored gains -1/+1 previously observed",
+  "generator_sha256": "76d6100e19f3c9486c4471993ad29ad17c89b5979a3f10ca080de8c38942d2fd",
+  "source_owned": true,
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "encoding": "RGB16 full-range PNG with sRGB intent0; same metadata as old fixture",
+  "normalization": "float32(code) * float32(1/65535)",
+  "fixture": {
+    "path": "experiments/output/hdr-near-black-input/near-black-srgb16.png",
+    "bytes": 27021,
+    "sha256": "01c3fb96c9bb4438f73fe0fc2e7d65e7a5e53b1a176b9fd00d363ad7006689a5"
+  },
+  "samples": [
+    {
+      "id": 0,
+      "encoded_rgb_u16": [
+        0,
+        0,
+        0
+      ],
+      "sample_xy": [
+        240,
+        135
+      ],
+      "roi_xyxy": [
+        208,
+        103,
+        272,
+        167
+      ],
+      "normalized_F32_RGB": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": 1,
+      "encoded_rgb_u16": [
+        1,
+        1,
+        1
+      ],
+      "sample_xy": [
+        720,
+        135
+      ],
+      "roi_xyxy": [
+        688,
+        103,
+        752,
+        167
+      ],
+      "normalized_F32_RGB": [
+        1.5259021893143654e-05,
+        1.5259021893143654e-05,
+        1.5259021893143654e-05
+      ]
+    },
+    {
+      "id": 2,
+      "encoded_rgb_u16": [
+        8,
+        8,
+        8
+      ],
+      "sample_xy": [
+        1200,
+        135
+      ],
+      "roi_xyxy": [
+        1168,
+        103,
+        1232,
+        167
+      ],
+      "normalized_F32_RGB": [
+        0.00012207217514514923,
+        0.00012207217514514923,
+        0.00012207217514514923
+      ]
+    },
+    {
+      "id": 3,
+      "encoded_rgb_u16": [
+        64,
+        64,
+        64
+      ],
+      "sample_xy": [
+        1680,
+        135
+      ],
+      "roi_xyxy": [
+        1648,
+        103,
+        1712,
+        167
+      ],
+      "normalized_F32_RGB": [
+        0.0009765774011611938,
+        0.0009765774011611938,
+        0.0009765774011611938
+      ]
+    },
+    {
+      "id": 4,
+      "encoded_rgb_u16": [
+        128,
+        128,
+        128
+      ],
+      "sample_xy": [
+        240,
+        405
+      ],
+      "roi_xyxy": [
+        208,
+        373,
+        272,
+        437
+      ],
+      "normalized_F32_RGB": [
+        0.0019531548023223877,
+        0.0019531548023223877,
+        0.0019531548023223877
+      ]
+    },
+    {
+      "id": 5,
+      "encoded_rgb_u16": [
+        200,
+        200,
+        200
+      ],
+      "sample_xy": [
+        720,
+        405
+      ],
+      "roi_xyxy": [
+        688,
+        373,
+        752,
+        437
+      ],
+      "normalized_F32_RGB": [
+        0.0030518043786287308,
+        0.0030518043786287308,
+        0.0030518043786287308
+      ]
+    },
+    {
+      "id": 6,
+      "encoded_rgb_u16": [
+        207,
+        207,
+        207
+      ],
+      "sample_xy": [
+        1200,
+        405
+      ],
+      "roi_xyxy": [
+        1168,
+        373,
+        1232,
+        437
+      ],
+      "normalized_F32_RGB": [
+        0.0031586175318807364,
+        0.0031586175318807364,
+        0.0031586175318807364
+      ]
+    },
+    {
+      "id": 7,
+      "encoded_rgb_u16": [
+        208,
+        208,
+        208
+      ],
+      "sample_xy": [
+        1680,
+        405
+      ],
+      "roi_xyxy": [
+        1648,
+        373,
+        1712,
+        437
+      ],
+      "normalized_F32_RGB": [
+        0.00317387655377388,
+        0.00317387655377388,
+        0.00317387655377388
+      ]
+    },
+    {
+      "id": 8,
+      "encoded_rgb_u16": [
+        209,
+        209,
+        209
+      ],
+      "sample_xy": [
+        240,
+        675
+      ],
+      "roi_xyxy": [
+        208,
+        643,
+        272,
+        707
+      ],
+      "normalized_F32_RGB": [
+        0.0031891355756670237,
+        0.0031891355756670237,
+        0.0031891355756670237
+      ]
+    },
+    {
+      "id": 9,
+      "encoded_rgb_u16": [
+        211,
+        211,
+        211
+      ],
+      "sample_xy": [
+        720,
+        675
+      ],
+      "roi_xyxy": [
+        688,
+        643,
+        752,
+        707
+      ],
+      "normalized_F32_RGB": [
+        0.003219653619453311,
+        0.003219653619453311,
+        0.003219653619453311
+      ]
+    },
+    {
+      "id": 10,
+      "encoded_rgb_u16": [
+        256,
+        256,
+        256
+      ],
+      "sample_xy": [
+        1200,
+        675
+      ],
+      "roi_xyxy": [
+        1168,
+        643,
+        1232,
+        707
+      ],
+      "normalized_F32_RGB": [
+        0.003906309604644775,
+        0.003906309604644775,
+        0.003906309604644775
+      ]
+    },
+    {
+      "id": 11,
+      "encoded_rgb_u16": [
+        512,
+        512,
+        512
+      ],
+      "sample_xy": [
+        1680,
+        675
+      ],
+      "roi_xyxy": [
+        1648,
+        643,
+        1712,
+        707
+      ],
+      "normalized_F32_RGB": [
+        0.00781261920928955,
+        0.00781261920928955,
+        0.00781261920928955
+      ]
+    },
+    {
+      "id": 12,
+      "encoded_rgb_u16": [
+        1024,
+        1024,
+        1024
+      ],
+      "sample_xy": [
+        240,
+        945
+      ],
+      "roi_xyxy": [
+        208,
+        913,
+        272,
+        977
+      ],
+      "normalized_F32_RGB": [
+        0.0156252384185791,
+        0.0156252384185791,
+        0.0156252384185791
+      ]
+    },
+    {
+      "id": 13,
+      "encoded_rgb_u16": [
+        11262,
+        11262,
+        11262
+      ],
+      "sample_xy": [
+        720,
+        945
+      ],
+      "roi_xyxy": [
+        688,
+        913,
+        752,
+        977
+      ],
+      "normalized_F32_RGB": [
+        0.17184710502624512,
+        0.17184710502624512,
+        0.17184710502624512
+      ]
+    },
+    {
+      "id": 14,
+      "encoded_rgb_u16": [
+        25944,
+        25944,
+        25944
+      ],
+      "sample_xy": [
+        1200,
+        945
+      ],
+      "roi_xyxy": [
+        1168,
+        913,
+        1232,
+        977
+      ],
+      "normalized_F32_RGB": [
+        0.3958800733089447,
+        0.3958800733089447,
+        0.3958800733089447
+      ]
+    },
+    {
+      "id": 15,
+      "encoded_rgb_u16": [
+        11262,
+        25944,
+        45967
+      ],
+      "sample_xy": [
+        1680,
+        945
+      ],
+      "roi_xyxy": [
+        1648,
+        913,
+        1712,
+        977
+      ],
+      "normalized_F32_RGB": [
+        0.17184710502624512,
+        0.3958800733089447,
+        0.7014114856719971
+      ]
+    }
+  ],
+  "controls_new_to_old_input_indices": [
+    [
+      13,
+      28
+    ],
+    [
+      14,
+      29
+    ],
+    [
+      15,
+      16
+    ]
+  ],
+  "native_rows": [
+    "neutral-before",
+    "minus1",
+    "plus1",
+    "plus1-replay",
+    "minus1-replay",
+    "neutral-restored"
+  ],
+  "new_resolve_frames_at_freeze": 0,
+  "formal_resolve_frames_total_at_freeze": 54,
+  "primary_model": [
+    1,
+    0
+  ],
+  "primary_max_absolute_error_limit": 1e-06,
+  "limits": [
+    "No new native output observed. No physical-EV or arbitrary-image validation.",
+    "Gamma0/class1/empty zones/zero black offset/default adapted matrix remain conditional.",
+    "Upper clamp4608 and negative float inputs are outside this PNG16 protocol."
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "date": "2026-10-12",
+  "scope": "native_static_library_analysis_and_readonly_sdk_runtime_probe",
+  "target_snapshot_sha256": "a1658f7bbe6193ce34f9f6dd4beaf5820c19a2455758c91a9bdb6d2ba5444478",
+  "source_ref": {
+    "tag": "v2.4.0",
+    "commit": "2831d2547d133b326c6e9a09726ceeb7fe46f997",
+    "opcpu": "https://github.com/AcademySoftwareFoundation/OpenColorIO/blob/2831d2547d133b326c6e9a09726ceeb7fe46f997/src/OpenColorIO/Op.h#L34-L51",
+    "renderer_base": "https://github.com/AcademySoftwareFoundation/OpenColorIO/blob/2831d2547d133b326c6e9a09726ceeb7fe46f997/src/OpenColorIO/ops/exposurecontrast/ExposureContrastOpCPU.cpp#L20-L41",
+    "linear": "https://github.com/AcademySoftwareFoundation/OpenColorIO/blob/2831d2547d133b326c6e9a09726ceeb7fe46f997/src/OpenColorIO/ops/exposurecontrast/ExposureContrastOpCPU.cpp#L131-L140",
+    "video": "https://github.com/AcademySoftwareFoundation/OpenColorIO/blob/2831d2547d133b326c6e9a09726ceeb7fe46f997/src/OpenColorIO/ops/exposurecontrast/ExposureContrastOpCPU.cpp#L341-L350",
+    "logarithmic": "https://github.com/AcademySoftwareFoundation/OpenColorIO/blob/2831d2547d133b326c6e9a09726ceeb7fe46f997/src/OpenColorIO/ops/exposurecontrast/ExposureContrastOpCPU.cpp#L548-L557"
+  },
+  "rtti_report_sha256": "d261e59b7334d9d75d4b69eb9b173c79cad1716f9406f5d2b2fc7568ea8150d6",
+  "renderers": [
+    {
+      "class_assignment": "inferred_from_validated_rtti_and_official_virtual_order",
+      "class": "ECLinearRenderer",
+      "type_descriptor_rva": "0x4455c0",
+      "col_rva": "0x3b84b8",
+      "vtable_rva": "0x384720",
+      "entry_rva": "0x154180",
+      "entry_preferred_va": "0x180154180",
+      "pdata_entry_fragment": {
+        "begin_rva": "0x154180",
+        "end_rva": "0x15419f",
+        "unwind_rva": "0x4013ac"
+      },
+      "ghidra_body": {
+        "available": true,
+        "provenance": "ghidra-function-body-address-set",
+        "ranges": [
+          {
+            "start": "0x180154180",
+            "end": "0x18015458b"
+          }
+        ],
+        "total_bytes": 1036,
+        "span_bytes": 1036,
+        "non_contiguous": false,
+        "contains_entry": true
+      },
+      "assembly_instructions": 228,
+      "native_value_flow_truncated": true,
+      "evidence_id": "ev_48c389de59273ee83862488cb06ef7974c15dd1ce781a7e5081057b94c558173",
+      "dossier_sha256": "91ca3cba14ab4da1dd05dceb87434d6b596909d5125544f5787547bc7ef39d52"
+    },
+    {
+      "class_assignment": "inferred_from_validated_rtti_and_official_virtual_order",
+      "class": "ECVideoRenderer",
+      "type_descriptor_rva": "0x445660",
+      "col_rva": "0x3b85c8",
+      "vtable_rva": "0x384790",
+      "entry_rva": "0x154dd0",
+      "entry_preferred_va": "0x180154dd0",
+      "pdata_entry_fragment": {
+        "begin_rva": "0x154dd0",
+        "end_rva": "0x154def",
+        "unwind_rva": "0x4013ac"
+      },
+      "ghidra_body": {
+        "available": true,
+        "provenance": "ghidra-function-body-address-set",
+        "ranges": [
+          {
+            "start": "0x180154dd0",
+            "end": "0x1801551eb"
+          }
+        ],
+        "total_bytes": 1052,
+        "span_bytes": 1052,
+        "non_contiguous": false,
+        "contains_entry": true
+      },
+      "assembly_instructions": 231,
+      "native_value_flow_truncated": true,
+      "evidence_id": "ev_1e12cbb476611541771dee2c18c872db843fdf8e0c7266643dde4e9d46f97d96",
+      "dossier_sha256": "13a482d4ee5717b9ca9713dba33827d95bf69d6009d2e9e81f7c8bac69ef8179"
+    },
+    {
+      "class_assignment": "inferred_from_validated_rtti_and_official_virtual_order",
+      "class": "ECLogarithmicRenderer",
+      "type_descriptor_rva": "0x445700",
+      "col_rva": "0x3b86d8",
+      "vtable_rva": "0x384800",
+      "entry_rva": "0x1549b0",
+      "entry_preferred_va": "0x1801549b0",
+      "pdata_entry_fragment": {
+        "begin_rva": "0x1549b0",
+        "end_rva": "0x154b7c",
+        "unwind_rva": "0x401620"
+      },
+      "ghidra_body": {
+        "available": true,
+        "provenance": "ghidra-function-body-address-set",
+        "ranges": [
+          {
+            "start": "0x1801549b0",
+            "end": "0x180154b7b"
+          }
+        ],
+        "total_bytes": 460,
+        "span_bytes": 460,
+        "non_contiguous": false,
+        "contains_entry": true
+      },
+      "assembly_instructions": 116,
+      "native_value_flow_truncated": false,
+      "evidence_id": "ev_592023aa7ffca9bdd5fe2192575bd9aa2340335ce7ffd9d649d5adbe5b8c1052",
+      "dossier_sha256": "e3b7b4c4e97d217f64068eaa7098c4b27618efabebe75962b5324bd6bfc4fde9"
+    }
+  ],
+  "sdk": {
+    "lua_interpreter": "installed_signed_fuscript.exe",
+    "fusionscript_dll_sha256": "b694cd033c342f669d50f7787f53f1c02493d2dd5b50301a637a86103ab0fc16",
+    "fuscript_exe_sha256": "e7badb45a00fa838c455c4c6492360d9713462eea8c0e4e55cccc1016043078a",
+    "lua_connected": true,
+    "runtime_version": "21.0.0.47",
+    "library_count": 1,
+    "current_library_type": "Disk",
+    "test_library_current": false,
+    "default_untitled_project": true,
+    "create_database_property_type": "nil",
+    "create_project_library_property_type": "nil",
+    "positive_existing_method_type": "function",
+    "negative_missing_method_type": "nil",
+    "lua_stdout_sha256": "5305ae5351051716bc92d43330beee3163cba9132da18612f834a84f2d5bfb60",
+    "surface_stdout_sha256": "9805fa4213bc1f7d8ede58bf0497883df8c071d4e6142ef3c8c18682cc36fbe1",
+    "python_probes": [
+      {
+        "version": "3.12.0",
+        "bits": 64,
+        "resolve_headless_present": false,
+        "failure_stage": "native_extension_create_module_during_sdk_import",
+        "failure": "access_violation",
+        "stdout_sha256": "22bc846249e73d977238e7d35c9d6ee59c799a021aa1dae6213848955ff18bb0",
+        "stderr_sha256": "b6bce6d44d8484c243d714f5cd8a18a41af1316b8a66a37793fcb09d85f7c750"
+      },
+      {
+        "version": "3.11.9",
+        "bits": 64,
+        "resolve_headless_present": false,
+        "failure_stage": "native_extension_create_module_during_sdk_import",
+        "failure": "access_violation",
+        "stdout_sha256": "3824fb297483a8d354f4d10f6201adc83cc141d6b436b64b4e19a45d8de02aac",
+        "stderr_sha256": "34a95b6ecfcd865a07fc1c6657963495537ca43221889a42a4470f11bd1a396a"
+      },
+      {
+        "version": "3.9.25",
+        "bits": 64,
+        "resolve_headless_present": false,
+        "failure_stage": "native_extension_create_module_during_sdk_import",
+        "failure": "access_violation",
+        "stdout_sha256": "f06e20e07e5f566efcefb22bc8963d2e1aaae6401d00db1662dcb86c90158616",
+        "stderr_sha256": "feb370fd0c9102ee63f518fe3f38e5c31b61df4ededaeac600d896506664a064"
+      },
+      {
+        "version": "3.12.0",
+        "bits": 64,
+        "resolve_headless_present": true,
+        "failure_stage": "native_extension_create_module_during_sdk_import",
+        "failure": "access_violation",
+        "stdout_sha256": "22bc846249e73d977238e7d35c9d6ee59c799a021aa1dae6213848955ff18bb0",
+        "stderr_sha256": "0f311b6076316c46775b80f8f67d320eef7d16b3b0a8119f77f15ae7365d09d9"
+      }
+    ],
+    "owned_headless_session_quit_and_exit_verified": true,
+    "project_mutations_requested": false,
+    "library_directory_empty": true,
+    "dedicated_library_created": false,
+    "native_exposure_control_set": false,
+    "native_frames_rendered": 0,
+    "signed_components_authenticode_status": "Valid_for_fuscript.exe_and_fusionscript.dll"
+  },
+  "reference": {
+    "result": "exposure-reference-result.json",
+    "validation": "exposure-reference-validation.json",
+    "is_resolve_output": false
+  },
+  "limitations": [
+    "These OCIO renderer candidates do not establish any Resolve HDR exposure control call chain.",
+    "Linear and Video native value-flow sections are truncated; no complete def-use claim.",
+    "Signed scripting components do not prove integrity of the modified Resolve installation.",
+    "The two queried missing library methods do not prove that every undocumented API is absent.",
+    "Project library isolation and native HDR control/export validation remain incomplete.",
+    "Only our reference table preserves superwhite; no Resolve superwhite behavior has been measured."
+  ],
+  "integrity": {
+    "VerifiedUtc": "2026-10-12T10:59:27.3515980Z",
+    "Files": [
+      {
+        "Name": "Resolve.exe",
+        "Sha256": "4f3a637aadb6817d3cb5afa2ebcb97d646af8fd67e8b262acda26ff06acfa91e",
+        "OriginalMatches": true,
+        "CopyMatches": true,
+        "CopyReadOnly": true
+      },
+      {
+        "Name": "OpenColorIO_2_4.dll",
+        "Sha256": "a1658f7bbe6193ce34f9f6dd4beaf5820c19a2455758c91a9bdb6d2ba5444478",
+        "OriginalMatches": true,
+        "CopyMatches": true,
+        "CopyReadOnly": true
+      }
+    ]
+  }
+}

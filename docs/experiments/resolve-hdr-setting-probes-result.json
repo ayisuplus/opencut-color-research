@@ -1,0 +1,197 @@
+{
+  "scope": "native_GetSettings_configuration_probes_not_operation_domain_proof",
+  "native_version": "21.1.1.10",
+  "copy": "EXPO_004_HDR_DOMAIN",
+  "source": "EXPO_003_HDR_MAPPING",
+  "cases": [
+    {
+      "request": {
+        "separateColorSpaceAndGamma": "1"
+      },
+      "setter_return": true,
+      "changes": {
+        "project_settings": {
+          "colorSpaceOutput": {
+            "before": "Rec.709 (Scene)",
+            "after": "Rec.709"
+          },
+          "colorSpaceTimeline": {
+            "before": "Rec.709 (Scene)",
+            "after": "Rec.709"
+          },
+          "separateColorSpaceAndGamma": {
+            "before": "0",
+            "after": "1"
+          }
+        },
+        "timeline_settings": {
+          "colorSpaceOutput": {
+            "before": "Rec.709 (Scene)",
+            "after": "Rec.709"
+          },
+          "colorSpaceTimeline": {
+            "before": "Rec.709 (Scene)",
+            "after": "Rec.709"
+          },
+          "separateColorSpaceAndGamma": {
+            "before": "0",
+            "after": "1"
+          }
+        },
+        "clip_properties": {
+          "Input Gamma": {
+            "before": "Gamma 2.4",
+            "after": "Rec.709"
+          }
+        }
+      },
+      "linear_request_attempted": false,
+      "receipt_sha256": "2fc12ac39096198b4b4c7b00d126d6dce1bfe543dbfa2319195ccec36e57eb03"
+    },
+    {
+      "request": {
+        "colorSpaceInput": "Rec.709",
+        "colorSpaceInputGamma": "Gamma 2.4",
+        "colorSpaceTimeline": "Rec.709",
+        "colorSpaceTimelineGamma": "Rec.709",
+        "colorSpaceOutput": "Rec.709",
+        "colorSpaceOutputGamma": "Rec.709"
+      },
+      "setter_return": false,
+      "changes": {
+        "project_settings": {
+          "colorSpaceTimelineGamma": {
+            "before": "",
+            "after": "Rec.709"
+          }
+        },
+        "timeline_settings": {
+          "colorSpaceTimelineGamma": {
+            "before": "",
+            "after": "Rec.709"
+          }
+        },
+        "clip_properties": {}
+      },
+      "all_requested_conditions_ready": false,
+      "linear_request_attempted": false,
+      "receipt_sha256": "1c3eea26fcd1506f09d6ebb5285bcf56f2d9792032b3f4991d837da0fa03d5b5"
+    },
+    {
+      "request": {
+        "colorSpaceTimelineGamma": "Rec.709"
+      },
+      "setter_return": true,
+      "changes": {
+        "project_settings": {},
+        "timeline_settings": {},
+        "clip_properties": {}
+      },
+      "receipt_sha256": "3f841a507fde7273f6a172e0eac24f0c6b0d4d5a21f01038117a3c244e55e94a"
+    },
+    {
+      "request": {
+        "colorSpaceTimelineGamma": "Linear"
+      },
+      "setter_return": false,
+      "changes": {
+        "project_settings": {},
+        "timeline_settings": {},
+        "clip_properties": {}
+      },
+      "receipt_sha256": "3f841a507fde7273f6a172e0eac24f0c6b0d4d5a21f01038117a3c244e55e94a"
+    },
+    {
+      "request": {
+        "colorSpaceTimelineGamma": "Gamma 2.4"
+      },
+      "setter_return": true,
+      "changes": {
+        "project_settings": {
+          "colorSpaceTimelineGamma": {
+            "before": "Rec.709",
+            "after": "Gamma 2.4"
+          }
+        },
+        "timeline_settings": {
+          "colorSpaceTimelineGamma": {
+            "before": "Rec.709",
+            "after": "Gamma 2.4"
+          }
+        },
+        "clip_properties": {}
+      },
+      "receipt_sha256": "14b034f52d9249627cb6c45116f1b314f8f23cd44b535f0904638bcfbeeaf099"
+    }
+  ],
+  "post_save_reload": {
+    "color_changes": {
+      "project_settings": {
+        "colorSpaceInputGamma": {
+          "before": "",
+          "after": "Gamma 2.4"
+        },
+        "colorSpaceOutputGamma": {
+          "before": "",
+          "after": "Gamma 2.4"
+        }
+      },
+      "timeline_settings": {
+        "colorSpaceInputGamma": {
+          "before": "",
+          "after": "Gamma 2.4"
+        },
+        "colorSpaceOutputGamma": {
+          "before": "",
+          "after": "Gamma 2.4"
+        }
+      },
+      "clip_properties": {}
+    },
+    "path_changes": {
+      "colorGalleryStillsLocation": "case/gallery-cache path: forward slashes to backslashes",
+      "projectMediaLocation": "case/project-media path: forward slashes to backslashes",
+      "perfCacheClipsLocation": {
+        "before": "absolute case/render-cache path",
+        "after": "CacheClip"
+      }
+    },
+    "clip_changes": {},
+    "receipt_sha256": "53f4dca2e8018f9364df3d48374f8d0d665f4aee79f49198c50742842b9995f2",
+    "grid_rendered_before_this_reload": true
+  },
+  "restoration": {
+    "active_project": "EXPO_003_HDR_MAPPING",
+    "source_frozen_color_field_count": 18,
+    "source_frozen_color_fields_match": true,
+    "source_full_clip_and_identity_match": true,
+    "source_neutral_tools": null,
+    "source_job_ids_match": true,
+    "rendering": false,
+    "copy_own_job_count": 7,
+    "copy_own_jobs_complete_100": true,
+    "source_full_settings_comparison_claimed": false,
+    "receipt_sha256": "7f8368e2deebd0f2e947fa26be83504bfd1123d6b84788ca2363d423395a6e7f"
+  },
+  "recovery_assertion_stops": [
+    {
+      "script": "finalize-and-return-source",
+      "cause": "Compared frozen 18-field subset to full settings dictionary; copy saved/exported and source loaded before stop."
+    },
+    {
+      "script": "verify-restored-source-and-copy",
+      "cause": "Copy configuration changed after save/reload; strict full-snapshot guard stopped."
+    },
+    {
+      "script": "verify-copy-reload-and-return-source",
+      "cause": "Recovery script used source-project identities for the imported copy; guard stopped without setting changes."
+    }
+  ],
+  "limits": [
+    "False setter return is not atomic no-change: readback is required.",
+    "Linear rejection applies only to this tested setter, literal, build and configuration.",
+    "Getter Gamma labels and source clip labels do not establish native decoding.",
+    "004 palette Use Timeline selection was not directly witnessed.",
+    "Before another 004 experiment, freeze the actual reload state and revalidate cache isolation."
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "date": "2026-10-13",
+  "scope": "prospective own-GPU predictions and private-grade admission; native execution not started",
+  "new_resolve_frames": 0,
+  "formal_resolve_frames_total": 48,
+  "own_GPU_executions_reported_by_parent": 2,
+  "execution_count_not_inferred_from_run_metadata": true,
+  "fitted_parameters": 0,
+  "input_review_checks": 4187,
+  "output_review_checks": 1291,
+  "all_reviewed_checks_pass": true,
+  "predicted_RGB_channels": 576,
+  "primary_RGB_channels": 144,
+  "old_plus1_control_trace_bits_equal": 640,
+  "stored_gains": [
+    -0.5,
+    0.5,
+    2.0
+  ],
+  "UI_physical_EV_newly_calibrated": false,
+  "primary_max_absolute_error_limit": 1e-06,
+  "native_error_gate_evaluated": false,
+  "private_grade_review": {
+    "Bodies": 8,
+    "messages_including_roots": 160,
+    "fields": 484,
+    "Parameters_per_grade": 7,
+    "other_Parameters_raw_unchanged": 6,
+    "only_changed_body_bytes": [
+      147,
+      151
+    ]
+  },
+  "native_identity_ready": false,
+  "current_db_and_page_readback": null,
+  "current_user_GPU_reply": "\u81ea\u52a8",
+  "actual_backend_captured": false,
+  "native_script_admitted": false,
+  "bindings": [
+    {
+      "path": "experiments/prepare-hdr-unseen-gains.py",
+      "bytes": 4328,
+      "sha256": "a2f0ce3aa87a4536ef140747f5c6d964bebf071086089bff195572cd21973f9c"
+    },
+    {
+      "path": "experiments/freeze-hdr-unseen-predictions.py",
+      "bytes": 3444,
+      "sha256": "94443375c96a343f2cd2b99755b914137cc3eab74fb068bddd6e1eaa621fcd58"
+    },
+    {
+      "path": "docs/experiments/hdr-unseen-gains-prediction-freeze.json",
+      "bytes": 27201,
+      "sha256": "13b8f6c48c87dc6406fc4d904a79d9e16fd0732dba12392b078a470d9b353862"
+    },
+    {
+      "path": "docs/research/hdr-unseen-gains-preflight.md",
+      "bytes": 5481,
+      "sha256": "21bb5409efbe33aaf882416cf9ac057ede11512dc36a6ec41e48c96ef8ab9888"
+    },
+    {
+      "path": "docs/reviews/hdr-unseen-gains-preflight-review.md",
+      "bytes": 1976,
+      "sha256": "0621b898da6883dc700adff9b56807bde17e64d6b32f9bc94392f03cca338f2b"
+    },
+    {
+      "path": "docs/experiments/hdr-adapted-gpu-evidence.json",
+      "bytes": 9166,
+      "sha256": "687f86e6a5fd5946f9551c4d243da40084f512d00eae4d9261d2ee00fae6be19"
+    },
+    {
+      "path": "docs/experiments/hdr-mixed-input-freeze.json",
+      "bytes": 27543,
+      "sha256": "9cb32be3c50b6e0f5342259fa18669f6dcc745439eb8cccb5b9dabc490b892aa"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-unseen-gains-20261013/analysis/input-freeze.json",
+      "bytes": 2775,
+      "sha256": "1e76654d3d5d5b7874309997efbce874b01e010534253640ef3feee774837034"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-unseen-gains-20261013/analysis/half-input.bin",
+      "bytes": 8540,
+      "sha256": "05ace05d0b7de076f3d0f3dfb10bd9753cd96b8ac5e0a5a656e6c17350694001"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-unseen-gains-20261013/analysis/half-output.bin",
+      "bytes": 5140,
+      "sha256": "62ece1396f9505ec6585dbe6f5671dba58bf9dc361372d3f32f166a6afc8538f"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-unseen-gains-20261013/analysis/half-run.json",
+      "bytes": 127,
+      "sha256": "16e5971a32299578486e40ebafd14389649da3fe8af4fa03bdef74e0d4655ec4"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-unseen-gains-20261013/analysis/two-control-input.bin",
+      "bytes": 8540,
+      "sha256": "444b660f115112759da28e468742c6ad2709f815b6b936c28e3dcdec8a70050d"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-unseen-gains-20261013/analysis/two-control-output.bin",
+      "bytes": 5140,
+      "sha256": "db46213132a676f94adde4984a88e0c5b7cb06f74d3a92f9f18aaa38ee1a5c90"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-unseen-gains-20261013/analysis/two-control-run.json",
+      "bytes": 127,
+      "sha256": "16e5971a32299578486e40ebafd14389649da3fe8af4fa03bdef74e0d4655ec4"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-unseen-gains-20261013/analysis/independent-unseen-input-check.py",
+      "bytes": 5658,
+      "sha256": "354124b0ac6d602e65bd721099e0e14a78c79b2b511d4ff53f014f226db587fa"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-unseen-gains-20261013/analysis/independent-unseen-input-review.json",
+      "bytes": 318191,
+      "sha256": "5ad12d6c9e4b7d6c1288409ba2101c142b812716e4427cd98d0d5d9a996806ab"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-unseen-gains-20261013/analysis/independent-unseen-input-review.md",
+      "bytes": 3647,
+      "sha256": "d3adee764785ec7f82779c57bbee02f1f93ab781d21835edc98e0f5178ba9182"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-unseen-gains-20261013/analysis/independent-unseen-output-check.py",
+      "bytes": 5858,
+      "sha256": "0107d034e277dacda0581f420d35f428f8a5978763d430d329a5961390686e57"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-unseen-gains-20261013/analysis/independent-unseen-output-review.json",
+      "bytes": 95974,
+      "sha256": "2799e8a1b8362b96e93da20d47781c535de2f179364937fb590f897b85599582"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-unseen-gains-20261013/analysis/independent-unseen-output-review.md",
+      "bytes": 3123,
+      "sha256": "26a6f34afd40112114b98416388692ac9588c4fb45809aa5c2910e0f66509926"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-unseen-gains-20261013/analysis/prepare-private-grades.py",
+      "bytes": 3313,
+      "sha256": "47195199735e78acc063472717dba845432979c18e8cd14d03965c9dcedc6e29"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-unseen-gains-20261013/analysis/grade-freeze.json",
+      "bytes": 1576,
+      "sha256": "3b66e93adcb4e19fd6d6b9abec4944a29abeb11746b7fcf7a5e859b3ec3fca94"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-unseen-gains-20261013/analysis/independent-private-grade-admission.json",
+      "bytes": 13162,
+      "sha256": "806013d6c6caa8a8d229e2a338021620e794e0be7ad7cfac883d1fc6a2dabb43"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-unseen-gains-20261013/analysis/independent-private-grade-admission.md",
+      "bytes": 2747,
+      "sha256": "972da5c431e4367b18c40c42adf4b8df59f59042ef976eac938387df54813d82"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-unseen-gains-20261013/analysis/native-identity-gate-not-ready.json",
+      "bytes": 179,
+      "sha256": "087f82ada289a5cf8fca3e023795ec9256cbc7511e2f9548f186d70c0c45b9f2"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-unseen-gains-20261013/analysis/current-identity-api-search.json",
+      "bytes": 1055,
+      "sha256": "e47d5484714d5ea5181bcfdd258b10efb87e766f16a1fb44d0a393c90f458245"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-unseen-gains-20261013/grades/minus-half.drx",
+      "bytes": 19776,
+      "sha256": "5dbafdbd9b0b27f3f59f2e1ba45ea385df1e497a67dc8aea5de1a939846da431"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-unseen-gains-20261013/grades/plus-half.drx",
+      "bytes": 19776,
+      "sha256": "75f3606c405cd03902732e1d2719b0beefdf68d2a88a61046c8bae6f5fc3f4de"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-unseen-gains-20261013/grades/plus-two.drx",
+      "bytes": 19774,
+      "sha256": "53ce675158d1069c349c03389a13bea2c55a03865b52d02ac146f4d3aa631aba"
+    }
+  ],
+  "limits": [
+    "Novelty is three stored exposure settings, not colors or physical EV calibration.",
+    "Identity getters currently return null; no native grade apply, project import or render began.",
+    "Actual matrix/resource/backend remain conditional; own texture height0 differs from static height1.",
+    "Keep predictions immutable and preserve EXR values above 1; error gate is finite-sample only."
+  ]
+}

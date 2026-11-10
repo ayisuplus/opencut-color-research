@@ -1,0 +1,96 @@
+{
+  "scope": "read_only_static_candidate_not_runtime_identification",
+  "target_sha256_before_after": "1a109e719f2d5e20167ecd9e0f1a37407cf62702fcea366e5e7f6dbbdb826f83",
+  "tool": "NVIDIA cuobjdump 12.8.55",
+  "requested_arch": "sm_120",
+  "requested_function": "_ZN4DVIP35c1_5ddc069d79e95fa1d4ec5800375c9389IfEEviiibPNS_24HDRCorrectorKernelParamsEPNS_23HDRMasteringGamutParamsEPNS_7SamplerEyyyyyyPT_S8_S8_S8_S8_S8_S8_",
+  "actual_dump_scope": "all sm_120 modules; --function did not restrict this PTX output",
+  "entry": {
+    "symbol": "_ZN4DVIP35c1_5ddc069d79e95fa1d4ec5800375c9389IfEEviiibPNS_24HDRCorrectorKernelParamsEPNS_23HDRMasteringGamutParamsEPNS_7SamplerEyyyyyyPT_S8_S8_S8_S8_S8_S8_",
+    "entry_lines": 1521,
+    "module_lines": 48946,
+    "source_line": 1345788,
+    "raw_dump_sha256": "da5827ba7f56d8906da35804e5d22b282d1beab223be31315f08a2599be8ed42",
+    "entry_sha256_utf8_lf": "e81add602ce84fafcc24994fa83cbc001e5ca763cae662b1570f7ca9acc40165",
+    "module_sha256_utf8_lf": "48492124b638d0ee50d84edc78a81ba7b2e0de754a0512693a859b43727cca0c",
+    "entry_sha256_raw": "420770bb7452b14eedb4336c5b30a85c88d5d95c325771ff005ce8aca9d3bf03",
+    "module_sha256_raw": "5f146df6de261248fc8903cd82da03910dc4edb7efc6f980241da3534d70abf3",
+    "extraction_note": "cuobjdump --function did not restrict PTX output: raw file holds all sm_120 modules; candidate entry and containing module sliced after output."
+  },
+  "seed_scan": {
+    "literal_hits": 55,
+    "sha256": "3b6f825ee89581c505c29af7ff42d42d6210e1a67e19de76da61dd978efc380b"
+  },
+  "host_xref_candidate_count": 4,
+  "host_xref_candidates": [
+    {
+      "rva": "0x3d97615",
+      "file_offset": 64580629,
+      "target_rva": "0x859f3e0",
+      "label": "HDR float symbol",
+      "bytes": "4c8d0dc47d8004",
+      "unwind_ranges": [
+        [
+          "0x3d96f70",
+          "0x3d97fd3"
+        ]
+      ]
+    },
+    {
+      "rva": "0x3d97621",
+      "file_offset": 64580641,
+      "target_rva": "0x859f3e0",
+      "label": "HDR float symbol",
+      "bytes": "4c8d05b87d8004",
+      "unwind_ranges": [
+        [
+          "0x3d96f70",
+          "0x3d97fd3"
+        ]
+      ]
+    },
+    {
+      "rva": "0x3d97ca2",
+      "file_offset": 64582306,
+      "target_rva": "0x859f978",
+      "label": "HDR constant registration",
+      "bytes": "4c8d0dcf7c8004",
+      "unwind_ranges": [
+        [
+          "0x3d96f70",
+          "0x3d97fd3"
+        ]
+      ]
+    },
+    {
+      "rva": "0x3d97cb1",
+      "file_offset": 64582321,
+      "target_rva": "0x859f978",
+      "label": "HDR constant registration",
+      "bytes": "4c8d05c07c8004",
+      "unwind_ranges": [
+        [
+          "0x3d96f70",
+          "0x3d97fd3"
+        ]
+      ]
+    }
+  ],
+  "independent_static_review_sha256": "50f4c3d85e84130ce73b969aa0e7e58d1b6e8c77c762072180c96ad14d7d735b",
+  "new_native_frames": 0,
+  "limits": [
+    "No running-kernel trace, texture contents or sampler descriptor obtained.",
+    "Raw proprietary dump and machine-specific receipts remain in ignored local evidence.",
+    "RIP-relative byte matches and unwind ranges are candidates, not complete disassembly."
+  ],
+  "host_analysis": {
+    "provider": "REA 6.4.0 / Ghidra 12.1.4",
+    "requested_preferred_VA": "0x143d96f70",
+    "timeout_ms": 600000,
+    "exit_code": 1,
+    "error_code": "provider_timeout",
+    "usable_host_decompilation": false,
+    "result_sha256": "a2bfaefb73e5d8d24ed7e25c5c4fb2620efcad88e3382e9ab08a4802a4aedc26",
+    "owned_java_process_terminal_verified": true
+  }
+}

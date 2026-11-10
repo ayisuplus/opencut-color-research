@@ -1,0 +1,145 @@
+{
+  "scope": "bounded_static_HDR_host_registration_upload_sampler_and_table_generation",
+  "new_native_frames": 0,
+  "formal_native_frame_count": 42,
+  "target_sha256": "1a109e719f2d5e20167ecd9e0f1a37407cf62702fcea366e5e7f6dbbdb826f83",
+  "analysis_mode": "Ghidra 12.1.4 persistent private database, -process Resolve.exe -noanalysis; no target execution",
+  "imports": {
+    "0x143df61d7": "__cudaRegisterFunction",
+    "0x143df61d1": "__cudaRegisterVar",
+    "0x143df61a1": "cudaMemcpyToSymbolAsync",
+    "0x143df619b": "cudaLaunchKernel",
+    "0x143df61fb": "cudaCreateTextureObject"
+  },
+  "registration": {
+    "float_host_stub_va": "0x143d8d030",
+    "constant_host_symbol_va": "0x15b4d4a30",
+    "constant_size_bytes": 92,
+    "device_pointer_recovered": false
+  },
+  "static_call_chain": [
+    "0x143bd6d90",
+    "0x143d93df0",
+    "0x143d8d030",
+    "cudaLaunchKernel"
+  ],
+  "parameter_pack": {
+    "builder_va": "0x14275a9a0",
+    "gain_flag_source_offset": 117,
+    "gain_flag_constant_offset": 16,
+    "gain_flag_label": "HDR_USE_GAIN",
+    "black_offset_source_offset": 112,
+    "black_offset_constant_offset": 12
+  },
+  "table": {
+    "resource_builder_va": "0x14275a430",
+    "generator_va": "0x14271dce0",
+    "tables": 6,
+    "entries": 1024,
+    "step_float32_hex": "0x3c802008",
+    "step_float32": 0.015640273690223694,
+    "step_interpretation": "float32(16/1023)",
+    "coordinate_offset": -8,
+    "global_additive_source_offset": 48,
+    "zone_terms_present": true,
+    "postprocess_va": "0x142720100",
+    "smoothing_fraction_float32": 0.10000000149011612,
+    "smoothing_window_for_1024": 103,
+    "smoothing_radius": 51,
+    "smoothing_accumulator": "float64; float32 output; raw SSE overrides decompiler float inference",
+    "final_native_table_captured": false
+  },
+  "sampler": {
+    "constructor_va": "0x143195b50",
+    "filter": "linear",
+    "normalized_coordinates": true,
+    "address_first_two_dimensions": "clamp",
+    "scope": "static route selected by observed caller arguments, not a runtime descriptor capture"
+  },
+  "conditional_model": "Before smoothing, first table is float32 endpoint log coordinate + source global scalar + zone terms. UI gainjz mapping to source scalar and zero-control activation still unproved.",
+  "numeric_probe": {
+    "scope": "posthoc on the same 48 sample channels using frozen BT709 and linear Y assumptions; not blind validation",
+    "new_native_frames": 0,
+    "unsmoothed_float32_plus1_max_abs": 1.0059313647836632e-05,
+    "sliding_sum_float32_ideal_alpha_plus1_max_abs": 2.1592472708276134e-05,
+    "sliding_sum_float32_quantized_alpha_plus1_max_abs": 2.1673926613452466e-05,
+    "sliding_sum_float64_ideal_alpha_plus1_max_abs": 9.889709237542732e-06,
+    "sliding_sum_float64_quantized_alpha_plus1_max_abs": 1.383666187382282e-05,
+    "rejected_precision_candidate": "float32 running accumulator does not match static SSE; retained as negative control",
+    "outcome": "Corrected float64 accumulation leaves roughly 1e-5 residual; no complete numerical explanation."
+  },
+  "method_corrections": [
+    "Raw xref byte patterns are candidates until disassembly verification.",
+    "UNWIND_INFO CHAININFO continuation is not a separate function. Float caller full range follows chained records through 0x143d942b5 exclusive.",
+    "First neighbor attempt erroneously crossed into another function and raised OverlappingFunctionException despite batch exit 0. Corrected result has two completed slices.",
+    "Ghidra inferred types and decompiler flow are incomplete; raw instruction and import records govern claims. The smoothing accumulator is float64 in SSE despite float-looking pseudocode.",
+    "Broad whole-binary printable-string regex was stopped without result; bounded literal/section searches replaced it."
+  ],
+  "unresolved": [
+    "UI gainjz to host global scalar and branch enabling across zero",
+    "Native runtime path and actual resource snapshot",
+    "Working color transforms including exact Y and transfer pair",
+    "Zone contributions and endpoint behavior",
+    "Blind mixed-color and boundary validation",
+    "Numerical precision of native table creation and GPU sampling"
+  ],
+  "private_artifacts": [
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-host-slice.txt",
+      "sha256_raw": "7fb28285780115e0b39c27501600ae20462ba98824b7de5363e9f2bc192181e6"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-host-imports-refs.json",
+      "sha256_raw": "cdbc5f8241435b076b54fa2ad71d48eda8e4f58c716fc9ce11ab428d472e80e9"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-upload-callers.json",
+      "sha256_raw": "820b0e111cb76fed29c9805e652573fdb29bf134c70ee61a2e59da70ef4c9153"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-host-texture-caller.txt",
+      "sha256_raw": "84608a7e4b151871a0bf1baaf3af621f1a7b55aa04c272d63791ca3a30d7a6b9"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-parameter-sampler-builders.txt",
+      "sha256_raw": "2296746d5ff30c3b37fe9ea9494c02dc68e274f8cbe0197dbddc6538ad8bb15f"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-sampler-constructor.txt",
+      "sha256_raw": "8316ef5e86161ebfcbdf84738ae856a39281d8d867cc3b8b123f9f4422d4886d"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-neighbor-builders-corrected.txt",
+      "sha256_raw": "a8d0dd1cfe6fc7e6fa92b3e3c27f225841ad9fed828124a48c6834db0e181f19"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-lut-generator.txt",
+      "sha256_raw": "a3f78f4544e7ca36678f5edcbf2cdf413262424777fdb9aa54ef2cf20915ba49"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-lut-postprocess.txt",
+      "sha256_raw": "118316ec64845d19ab2a9f8e8625b5a1c44caee2a42144d1f31c9bbd9f1baed6"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-smoothed-table-probe.json",
+      "sha256_raw": "b7b6a06357559eeb1928e7883b0b1b2ba95f546c1e175420326ff84eba1d000c"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/probe-smoothed-table.py",
+      "sha256_raw": "b15a4118e43edb5c9c0a6e2aeb3337a36b0ea30b9951c17a6041530bda5e32e1"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/HdrBoundedSlices.java",
+      "sha256_raw": "ebf6b91c990c89549853ee27e2c4fef40c1db043b755c9ee4c41719422abefe5"
+    }
+  ],
+  "cuda_header": {
+    "path": "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/include/texture_types.h",
+    "sha256_raw": "1887d9c33528c4d841b509f0cd586e7602d201274959c53c87ca5917b7e7cfed"
+  },
+  "review_status": "independent static and arithmetic review complete; no open P1/P2 within bounded claims",
+  "review": {
+    "path": "docs/reviews/hdr-host-table-review.md",
+    "sha256_raw": "4a384674154da1557c2d74e43ecf68ea420979eed3804e0a1702b7bc178b9eaf"
+  }
+}

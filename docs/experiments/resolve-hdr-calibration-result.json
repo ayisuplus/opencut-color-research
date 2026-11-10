@@ -1,0 +1,149 @@
+{
+  "date": "2026-10-13",
+  "scope": "native_HDR_Global_storage_discrete_UI_calibration_and_fixed_single_frame_grid",
+  "runtime": {
+    "version": "21.1.1.10",
+    "library": "OC_COLOR_001_TEST",
+    "project": "EXPO_003_HDR_MAPPING",
+    "timeline": "PATCHES_1080P30",
+    "frame": 108000,
+    "official_MCP_tool": "run_script",
+    "transport": "installed_official_stdio_server",
+    "unsafe_script_used": false
+  },
+  "storage": {
+    "parameter_key": "0x86000305",
+    "value_field": 16,
+    "zone": "Global",
+    "field": "gainjz",
+    "field_number": 2,
+    "type": "float32"
+  },
+  "calibrations": [
+    {
+      "stored_candidate_input": -1.0,
+      "UI_display_user_confirmed": "−1.00",
+      "readback_file": "stored_global_minus1_readback_1.1.3.drx",
+      "readback_sha256": "12d8c54b1b29a04b2fd52c083e88c768c463604760ec44d3700bbbf17e38ea4f",
+      "readback_gainjz": -1.0,
+      "gainjz_wire_present": true,
+      "strict_descriptor_and_independent_dynamic_parse_passed": true,
+      "other_Parameter_state_equivalent": true,
+      "native_activity_tools": [
+        "HDR"
+      ]
+    },
+    {
+      "stored_candidate_input": 0.0,
+      "UI_display_user_confirmed": "0.00",
+      "readback_file": "stored_global_zero_readback_1.1.4.drx",
+      "readback_sha256": "1caf0969a80381985d2f30fe1bddecae3fe17556f93272d4448241a89feaf8b7",
+      "readback_gainjz": 0.0,
+      "gainjz_wire_present": false,
+      "strict_descriptor_and_independent_dynamic_parse_passed": true,
+      "other_Parameter_state_equivalent": true,
+      "native_activity_tools": null
+    },
+    {
+      "stored_candidate_input": 1.0,
+      "UI_display_user_confirmed": "1.00",
+      "readback_file": "stored_global_plus1_readback_1.1.5.drx",
+      "readback_sha256": "8faecee1ab3e75868193c3db115a7a1b85567088665c4a149564ec9d191fd082",
+      "readback_gainjz": 1.0,
+      "gainjz_wire_present": true,
+      "strict_descriptor_and_independent_dynamic_parse_passed": true,
+      "other_Parameter_state_equivalent": true,
+      "native_activity_tools": [
+        "HDR"
+      ]
+    }
+  ],
+  "context": {
+    "palette_ColorSpace": "Use Timeline",
+    "palette_Gamma": "Use Timeline",
+    "user_confirmed_both_menus": true,
+    "BlackOffset_UI": "0.000",
+    "Global_Sat_UI": "1.00",
+    "Global_X_UI": "0.00",
+    "Global_Y_UI": "0.00",
+    "project_settings": {
+      "colorScienceMode": "davinciYRGB",
+      "colorSpaceInput": "Rec.709 Gamma 2.4",
+      "colorSpaceInputGamma": "",
+      "colorSpaceTimeline": "Rec.709 (Scene)",
+      "colorSpaceTimelineGamma": "",
+      "colorSpaceOutput": "Rec.709 (Scene)",
+      "colorSpaceOutputGamma": "",
+      "rcmPresetMode": "Custom",
+      "separateColorSpaceAndGamma": "0",
+      "colorSpaceOutputToneMapping": "None",
+      "colorSpaceOutputGamutMapping": "None",
+      "useColorSpaceAwareGradingTools": "0",
+      "timelineWorkingLuminance": "1000",
+      "timelineWorkingLuminanceMode": "HDR 1000",
+      "nodeStackLayers": "1",
+      "timelineFrameRate": 30.0,
+      "timelineResolutionWidth": "1920",
+      "timelineResolutionHeight": "1080"
+    },
+    "input_properties": {
+      "File Name": "opaque-srgb16-patches.png",
+      "Clip Name": "opaque-srgb16-patches.png",
+      "Input Color Space": "项目",
+      "Input Gamma": "Gamma 2.4",
+      "Data Level": "Auto",
+      "Bit Depth": "16",
+      "Resolution": "1920x1080",
+      "Alpha mode": "None",
+      "FPS": 24.0,
+      "Video Codec": "PNG"
+    },
+    "input_sha256": "2daa68135e4ac8c0585fb33630ce5d69a735640799b82a8173caafbfc8d9f09f",
+    "single_video_track": true,
+    "single_item_single_node_single_layer": true
+  },
+  "formal_render": {
+    "completed_frames": 6,
+    "all_Complete_100": true,
+    "sequence": [
+      "neutral-before",
+      "hdr-minus1",
+      "hdr-zero",
+      "hdr-plus1",
+      "hdr-zero-repeat",
+      "neutral-restored"
+    ],
+    "failed_zero_attempt_before_AddRenderJob": true,
+    "failure_reason": "Harness incorrectly expected active tools HDR for exact zero; prior native zero receipts already returned None",
+    "corrected_resume": "Corrected expected zero tools to actual None and kept original error receipts; new continuation script/receipt suffix and output directory",
+    "all_EXR_whole_channel_reader_crosschecks_exact": true,
+    "reader_channels_per_frame": 6220800,
+    "zero_repeat_and_neutral_restoration_exact_RGB_bytes": true,
+    "final_project_saved_exported": true,
+    "rendering_at_final_state": false
+  },
+  "code_sha256": {
+    "experiments/call-resolve-mcp.py": "50b9ffe640367013907c9c473f1a5838560571a33a62734194ef01bdd290a265",
+    "experiments/prepare-hdr-stored-values.py": "11f855a01f8b76ba06aa43f9e860819b429c7265333ad543b25e1609517b8f98",
+    "experiments/measure-resolve-exr.py": "599a3dc1d2fcc3a2ce2f8fbe35331715aec21d81e3fbba5a5e05002dd8c9a144",
+    "experiments/compare-hdr-grid.py": "ff3ba1d9580a4665c876605686bb480a425f577738bfc6ff92d649d64543aced"
+  },
+  "private_artifact_sha256": {
+    "run-hdr-grid.py": "c7b281278ac9c39fbeb381153701c97d7a662dbdc424e659f3173dd6363fbcee",
+    "continue-hdr-grid.py": "81ce06b5cf62ef46cf7dfccf305f0bf0ce36198875b421e4d77894b05105483c",
+    "after-hdr-grid.drp": "d5ac9b706eb31885d00c014361f5d644b5c74104f39af6d762fda0f9112639cf"
+  },
+  "limits": [
+    "Three discrete UI observations do not prove the full UI input/display conversion.",
+    "HDR exact zero canonicalizes gainjz as absent proto3 scalar with default read 0; not explicit wire zero or absence of Global branch.",
+    "No full Jz/EV/pixel formula, cross-color-space generalization, negative-input or alpha verification.",
+    "Direct EXR channel scaling counterexample does not refute correctly defined linear-light exposure in another operation domain.",
+    "Each nonzero level rendered once; repeated stability proof applies to zero/neutral only."
+  ],
+  "figure": {
+    "path": "docs/figures/hdr-global-response.png",
+    "sha256": "a86f894e5a0726ff3b59ca61624a621045c1787a3fdd0b5dc2555a7c07773e23",
+    "gray_patch_centers": 10,
+    "curve_connections_are_not_fitted_algorithm": true
+  }
+}

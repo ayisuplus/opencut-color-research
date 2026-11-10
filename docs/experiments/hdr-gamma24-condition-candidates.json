@@ -1,0 +1,395 @@
+{
+  "scope": "fixed_48_native_EXR_code_samples_candidate_domain_comparison",
+  "source_sha256": "3b4a09525df53282de909e234a00120ee8ab024d4a6456a4461207a10e2c7419",
+  "source_hash_encoding": "UTF-8 text with LF newlines",
+  "prediction": "encode(decode(neutral_EXR_channel) * 2**stored_gainjz)",
+  "evaluation_dtype": "float64 predictions versus native float32 samples",
+  "fitted_parameters": 0,
+  "BT709_decode_threshold": 0.08124794403514046,
+  "models": {
+    "direct_EXR_channel": {
+      "levels": {
+        "-1": {
+          "errors": {
+            "all": {
+              "channels": 48,
+              "max_abs_error": 0.20612257719039917,
+              "RMSE": 0.09462118413857755
+            },
+            "gray": {
+              "channels": 30,
+              "max_abs_error": 0.20612257719039917,
+              "RMSE": 0.10696751086911552
+            },
+            "color": {
+              "channels": 18,
+              "max_abs_error": 0.09818893671035767,
+              "RMSE": 0.06931836215275398
+            }
+          },
+          "worst_sample": {
+            "id": 9,
+            "channel": "G",
+            "predicted": 0.5,
+            "native": 0.7061225771903992
+          },
+          "effective_level_in_assumed_decoded_domain": {
+            "channels": 36,
+            "min": -1.004251039902335,
+            "max": -0.5020094494154159,
+            "mean": -0.6354962619191473
+          }
+        },
+        "1": {
+          "errors": {
+            "all": {
+              "channels": 48,
+              "max_abs_error": 0.5965883731842041,
+              "RMSE": 0.2839508734941772
+            },
+            "gray": {
+              "channels": 30,
+              "max_abs_error": 0.5965883731842041,
+              "RMSE": 0.3181312605051059
+            },
+            "color": {
+              "channels": 18,
+              "max_abs_error": 0.30507826805114746,
+              "RMSE": 0.2152419521623763
+            }
+          },
+          "worst_sample": {
+            "id": 9,
+            "channel": "R",
+            "predicted": 2.0,
+            "native": 1.403411626815796
+          },
+          "effective_level_in_assumed_decoded_domain": {
+            "channels": 36,
+            "min": 0.48893821983994346,
+            "max": 0.9957497596171356,
+            "mean": 0.5875203654076822
+          }
+        }
+      },
+      "paired_nonzero_levels": {
+        "active_channels": 36,
+        "plus_over_minus_min": 1.9874904288249395,
+        "plus_over_minus_max": 4.000002216739282,
+        "max_abs_error_from_4": 2.0125095711750607,
+        "common_reference_max_abs_delta": 0.7105392217636108
+      }
+    },
+    "pure_gamma_2_4": {
+      "levels": {
+        "-1": {
+          "errors": {
+            "all": {
+              "channels": 48,
+              "max_abs_error": 0.04303108045723114,
+              "RMSE": 0.029595580538258916
+            },
+            "gray": {
+              "channels": 30,
+              "max_abs_error": 0.04303108045723114,
+              "RMSE": 0.03189277266923581
+            },
+            "color": {
+              "channels": 18,
+              "max_abs_error": 0.03615461089041838,
+              "RMSE": 0.025307721855294056
+            }
+          },
+          "worst_sample": {
+            "id": 9,
+            "channel": "R",
+            "predicted": 0.7491535384383408,
+            "native": 0.7061224579811096
+          },
+          "effective_level_in_assumed_decoded_domain": {
+            "channels": 36,
+            "min": -2.4102024957656045,
+            "max": -1.2048226785969982,
+            "mean": -1.5251910286059536
+          }
+        },
+        "1": {
+          "errors": {
+            "all": {
+              "channels": 48,
+              "max_abs_error": 0.06857224948291973,
+              "RMSE": 0.04504748829765525
+            },
+            "gray": {
+              "channels": 30,
+              "max_abs_error": 0.06857224948291973,
+              "RMSE": 0.04907669771621654
+            },
+            "color": {
+              "channels": 18,
+              "max_abs_error": 0.05315607500348285,
+              "RMSE": 0.037379131083955665
+            }
+          },
+          "worst_sample": {
+            "id": 9,
+            "channel": "G",
+            "predicted": 1.3348398541700344,
+            "native": 1.403412103652954
+          },
+          "effective_level_in_assumed_decoded_domain": {
+            "channels": 36,
+            "min": 1.1734517276158642,
+            "max": 2.3897994230811253,
+            "mean": 1.4100488769784372
+          }
+        }
+      },
+      "paired_nonzero_levels": {
+        "active_channels": 36,
+        "plus_over_minus_min": 5.199147159967312,
+        "plus_over_minus_max": 27.85765507733605,
+        "max_abs_error_from_4": 23.85765507733605,
+        "common_reference_max_abs_delta": 0.2601090688434594
+      }
+    },
+    "OCIO_video_1_83": {
+      "levels": {
+        "-1": {
+          "errors": {
+            "all": {
+              "channels": 48,
+              "max_abs_error": 0.021418782757719468,
+              "RMSE": 0.009897302198678503
+            },
+            "gray": {
+              "channels": 30,
+              "max_abs_error": 0.021418782757719468,
+              "RMSE": 0.012502331318655005
+            },
+            "color": {
+              "channels": 18,
+              "max_abs_error": 0.0015385063076153727,
+              "RMSE": 0.0008389049387189957
+            }
+          },
+          "worst_sample": {
+            "id": 9,
+            "channel": "G",
+            "predicted": 0.6847037944326797,
+            "native": 0.7061225771903992
+          },
+          "effective_level_in_assumed_decoded_domain": {
+            "channels": 36,
+            "min": -1.8377794030212733,
+            "max": -0.9186772924302111,
+            "mean": -1.1629581593120397
+          }
+        },
+        "1": {
+          "errors": {
+            "all": {
+              "channels": 48,
+              "max_abs_error": 0.05707392639858799,
+              "RMSE": 0.023415910142914834
+            },
+            "gray": {
+              "channels": 30,
+              "max_abs_error": 0.05707392639858799,
+              "RMSE": 0.028514967515634686
+            },
+            "color": {
+              "channels": 18,
+              "max_abs_error": 0.015303827485121713,
+              "RMSE": 0.01034282231759444
+            }
+          },
+          "worst_sample": {
+            "id": 9,
+            "channel": "R",
+            "predicted": 1.460485553214384,
+            "native": 1.403411626815796
+          },
+          "effective_level_in_assumed_decoded_domain": {
+            "channels": 36,
+            "min": 0.8947569423070966,
+            "max": 1.8222220600993582,
+            "mean": 1.0751622686960587
+          }
+        }
+      },
+      "paired_nonzero_levels": {
+        "active_channels": 36,
+        "plus_over_minus_min": 3.5147807081749924,
+        "plus_over_minus_max": 12.64067380944725,
+        "max_abs_error_from_4": 8.64067380944725,
+        "common_reference_max_abs_delta": 0.12833899571540885
+      }
+    },
+    "sRGB_piecewise": {
+      "levels": {
+        "-1": {
+          "errors": {
+            "all": {
+              "channels": 48,
+              "max_abs_error": 0.029234525071339834,
+              "RMSE": 0.01822005653122854
+            },
+            "gray": {
+              "channels": 30,
+              "max_abs_error": 0.029234525071339834,
+              "RMSE": 0.019647619877926317
+            },
+            "color": {
+              "channels": 18,
+              "max_abs_error": 0.02235805550452724,
+              "RMSE": 0.015552265061954628
+            }
+          },
+          "worst_sample": {
+            "id": 9,
+            "channel": "R",
+            "predicted": 0.7353569830524495,
+            "native": 0.7061224579811096
+          },
+          "effective_level_in_assumed_decoded_domain": {
+            "channels": 36,
+            "min": -1.3360921501544987,
+            "max": -1.0042525970923335,
+            "mean": -1.18070055093425
+          }
+        },
+        "1": {
+          "errors": {
+            "all": {
+              "channels": 48,
+              "max_abs_error": 0.050156057503567775,
+              "RMSE": 0.029633257696117146
+            },
+            "gray": {
+              "channels": 30,
+              "max_abs_error": 0.050156057503567775,
+              "RMSE": 0.03238891264986665
+            },
+            "color": {
+              "channels": 18,
+              "max_abs_error": 0.034739883024131,
+              "RMSE": 0.02435728077510862
+            }
+          },
+          "worst_sample": {
+            "id": 9,
+            "channel": "G",
+            "predicted": 1.3532560461493863,
+            "native": 1.403412103652954
+          },
+          "effective_level_in_assumed_decoded_domain": {
+            "channels": 36,
+            "min": 1.1211719258937187,
+            "max": 1.3302788148038185,
+            "mean": 1.173714713581453
+          }
+        }
+      },
+      "paired_nonzero_levels": {
+        "active_channels": 36,
+        "plus_over_minus_min": 4.663963010065789,
+        "plus_over_minus_max": 6.3482980437353485,
+        "max_abs_error_from_4": 2.3482980437353485,
+        "common_reference_max_abs_delta": 0.17410498230840332
+      }
+    },
+    "BT709_rounded_constants_Colour_inverse": {
+      "levels": {
+        "-1": {
+          "errors": {
+            "all": {
+              "channels": 48,
+              "max_abs_error": 0.0006074872682779731,
+              "RMSE": 0.00022492077687931924
+            },
+            "gray": {
+              "channels": 30,
+              "max_abs_error": 0.0006074872682779731,
+              "RMSE": 0.00026573292588906146
+            },
+            "color": {
+              "channels": 18,
+              "max_abs_error": 0.00043666194328717545,
+              "RMSE": 0.0001312058274470115
+            }
+          },
+          "worst_sample": {
+            "id": 9,
+            "channel": "G",
+            "predicted": 0.7055150899221212,
+            "native": 0.7061225771903992
+          },
+          "effective_level_in_assumed_decoded_domain": {
+            "channels": 36,
+            "min": -1.0042510399023352,
+            "max": -0.9975800795176439,
+            "mean": -1.0003027580024253
+          }
+        },
+        "1": {
+          "errors": {
+            "all": {
+              "channels": 48,
+              "max_abs_error": 0.001133861479873488,
+              "RMSE": 0.00042491845503367295
+            },
+            "gray": {
+              "channels": 30,
+              "max_abs_error": 0.001133861479873488,
+              "RMSE": 0.0005029068037075656
+            },
+            "color": {
+              "channels": 18,
+              "max_abs_error": 0.0008150286465158363,
+              "RMSE": 0.000244860015348109
+            }
+          },
+          "worst_sample": {
+            "id": 9,
+            "channel": "G",
+            "predicted": 1.4022782421730806,
+            "native": 1.403412103652954
+          },
+          "effective_level_in_assumed_decoded_domain": {
+            "channels": 36,
+            "min": 0.9957497596171354,
+            "max": 1.002420454283352,
+            "mean": 0.9996973272469094
+          }
+        }
+      },
+      "paired_nonzero_levels": {
+        "active_channels": 36,
+        "plus_over_minus_min": 3.9999980509720907,
+        "plus_over_minus_max": 4.000002216739282,
+        "max_abs_error_from_4": 2.216739281912794e-06,
+        "common_reference_max_abs_delta": 3.706238727030353e-07
+      }
+    }
+  },
+  "sources": [
+    "https://www.w3.org/TR/2026/CRD-css-color-4-20261009/",
+    "https://www.itu.int/dms_pubrec/itu-r/rec/bt/R-REC-BT.709-6-201506-I!!PDF-E.pdf",
+    "https://github.com/colour-science/colour/blob/b7abc030184bfa4940a0cc4d73b5059ca7d39fa2/colour/models/rgb/transfer_functions/itur_bt_601.py",
+    "https://github.com/AcademySoftwareFoundation/OpenColorIO/blob/592a122b37467c3376f2387fbbdbe7b571fad39f/src/OpenColorIO/ops/exposurecontrast/ExposureContrastOpData.h"
+  ],
+  "limits": [
+    "No candidate establishes the actual native input decoding or HDR operation domain.",
+    "BT709 positive formula is algebraically extended above linear 1 without clipping; that range is outside the cited ITU table's normative domain.",
+    "The BT709 inverse threshold follows the fixed Colour implementation; rounded standard constants have a small join gap.",
+    "Effective levels are arithmetic in each assumed decoding model, not measured physical EV.",
+    "No alpha, negative-input, temporal, or HDR/Log/RAW verification."
+  ],
+  "condition": "gamma24",
+  "observed_stored_levels": [
+    -1,
+    1
+  ],
+  "neutral_reference": "No-HDR grade; not a new native HDR-zero observation."
+}

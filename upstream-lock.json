@@ -1,0 +1,20 @@
+{
+  "recorded_on": "2026-10-12",
+  "timezone": "Asia/Shanghai",
+  "development_base": {
+    "repository": "https://github.com/OpenCut-app/OpenCut.git",
+    "upstream_ref": "main",
+    "local_branch": "research/color-foundation",
+    "commit": "e668010778568641babef2cc40be4703ae6916d6",
+    "local_directory": "opencut",
+    "role": "active_rewrite_base",
+    "license": "MIT",
+    "local_changes": false
+  },
+  "reference_only": {
+    "repository": "https://github.com/OpenCut-app/opencut-classic.git",
+    "commit": "cf5e79e919144200294fb9fed22a222592a0aeea",
+    "role": "existing_implementation_reference",
+    "local_checkout": false
+  }
+}

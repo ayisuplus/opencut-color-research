@@ -1,0 +1,544 @@
+{
+  "scope": "fixed_48_native_EXR_code_samples_candidate_domain_comparison",
+  "source_sha256": "3e4a3914667364ca96fcf225ac652cd0aa9342621d4b700f8cfd5e6a15b4e2c4",
+  "source_hash_encoding": "UTF-8 text with LF newlines",
+  "prediction": "encode(decode(neutral_EXR_channel) * 2**stored_gainjz)",
+  "evaluation_dtype": "float64 predictions versus native float32 samples",
+  "fitted_parameters": 0,
+  "BT709_decode_threshold": 0.08124794403514046,
+  "models": {
+    "direct_EXR_channel": {
+      "levels": {
+        "-1": {
+          "errors": {
+            "all": {
+              "channels": 48,
+              "max_abs_error": 0.20612257719039917,
+              "RMSE": 0.09462116013542198
+            },
+            "gray": {
+              "channels": 30,
+              "max_abs_error": 0.20612257719039917,
+              "RMSE": 0.10696748690032634
+            },
+            "color": {
+              "channels": 18,
+              "max_abs_error": 0.09818881750106812,
+              "RMSE": 0.06931833642485445
+            }
+          },
+          "worst_sample": {
+            "id": 9,
+            "channel": "G",
+            "predicted": 0.5,
+            "native": 0.7061225771903992
+          },
+          "effective_level_in_assumed_decoded_domain": {
+            "channels": 36,
+            "min": -1.0042511731556234,
+            "max": -0.5020094494154159,
+            "mean": -0.6354964248840435
+          }
+        },
+        "0": {
+          "errors": {
+            "all": {
+              "channels": 48,
+              "max_abs_error": 0.0,
+              "RMSE": 0.0
+            },
+            "gray": {
+              "channels": 30,
+              "max_abs_error": 0.0,
+              "RMSE": 0.0
+            },
+            "color": {
+              "channels": 18,
+              "max_abs_error": 0.0,
+              "RMSE": 0.0
+            }
+          },
+          "worst_sample": {
+            "id": 0,
+            "channel": "R",
+            "predicted": 0.0,
+            "native": 0.0
+          },
+          "effective_level_in_assumed_decoded_domain": {
+            "channels": 36,
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0
+          }
+        },
+        "1": {
+          "errors": {
+            "all": {
+              "channels": 48,
+              "max_abs_error": 0.5965884923934937,
+              "RMSE": 0.28395092420459866
+            },
+            "gray": {
+              "channels": 30,
+              "max_abs_error": 0.5965884923934937,
+              "RMSE": 0.31813132722700094
+            },
+            "color": {
+              "channels": 18,
+              "max_abs_error": 0.30507832765579224,
+              "RMSE": 0.21524196619703767
+            }
+          },
+          "worst_sample": {
+            "id": 9,
+            "channel": "R",
+            "predicted": 2.0,
+            "native": 1.4034115076065063
+          },
+          "effective_level_in_assumed_decoded_domain": {
+            "channels": 36,
+            "min": 0.4889380972938174,
+            "max": 0.9957493598574556,
+            "mean": 0.5875202354579189
+          }
+        }
+      },
+      "paired_nonzero_levels": {
+        "active_channels": 36,
+        "plus_over_minus_min": 1.9874902600025375,
+        "plus_over_minus_max": 4.000001477826324,
+        "max_abs_error_from_4": 2.0125097399974625,
+        "common_reference_max_abs_delta": 0.7105392217636108
+      }
+    },
+    "pure_gamma_2_4": {
+      "levels": {
+        "-1": {
+          "errors": {
+            "all": {
+              "channels": 48,
+              "max_abs_error": 0.04303108045723114,
+              "RMSE": 0.02959560607779718
+            },
+            "gray": {
+              "channels": 30,
+              "max_abs_error": 0.04303108045723114,
+              "RMSE": 0.031892798289170535
+            },
+            "color": {
+              "channels": 18,
+              "max_abs_error": 0.03615475990203032,
+              "RMSE": 0.025307747689384024
+            }
+          },
+          "worst_sample": {
+            "id": 9,
+            "channel": "R",
+            "predicted": 0.7491535384383408,
+            "native": 0.7061224579811096
+          },
+          "effective_level_in_assumed_decoded_domain": {
+            "channels": 36,
+            "min": -2.410202815573496,
+            "max": -1.2048226785969982,
+            "mean": -1.525191419721704
+          }
+        },
+        "0": {
+          "errors": {
+            "all": {
+              "channels": 48,
+              "max_abs_error": 0.0,
+              "RMSE": 0.0
+            },
+            "gray": {
+              "channels": 30,
+              "max_abs_error": 0.0,
+              "RMSE": 0.0
+            },
+            "color": {
+              "channels": 18,
+              "max_abs_error": 0.0,
+              "RMSE": 0.0
+            }
+          },
+          "worst_sample": {
+            "id": 0,
+            "channel": "R",
+            "predicted": 0.0,
+            "native": 0.0
+          },
+          "effective_level_in_assumed_decoded_domain": {
+            "channels": 36,
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0
+          }
+        },
+        "1": {
+          "errors": {
+            "all": {
+              "channels": 48,
+              "max_abs_error": 0.06857213027363018,
+              "RMSE": 0.045047441411535986
+            },
+            "gray": {
+              "channels": 30,
+              "max_abs_error": 0.06857213027363018,
+              "RMSE": 0.049076635315068534
+            },
+            "color": {
+              "channels": 18,
+              "max_abs_error": 0.053156015398838075,
+              "RMSE": 0.0373791169530304
+            }
+          },
+          "worst_sample": {
+            "id": 9,
+            "channel": "G",
+            "predicted": 1.3348398541700344,
+            "native": 1.4034119844436646
+          },
+          "effective_level_in_assumed_decoded_domain": {
+            "channels": 36,
+            "min": 1.1734514335051616,
+            "max": 2.3897984636578933,
+            "mean": 1.4100485650990051
+          }
+        }
+      },
+      "paired_nonzero_levels": {
+        "active_channels": 36,
+        "plus_over_minus_min": 5.19914610005886,
+        "plus_over_minus_max": 27.857642726715106,
+        "max_abs_error_from_4": 23.857642726715106,
+        "common_reference_max_abs_delta": 0.2601088389372902
+      }
+    },
+    "OCIO_video_1_83": {
+      "levels": {
+        "-1": {
+          "errors": {
+            "all": {
+              "channels": 48,
+              "max_abs_error": 0.021418782757719468,
+              "RMSE": 0.00989729945373364
+            },
+            "gray": {
+              "channels": 30,
+              "max_abs_error": 0.021418782757719468,
+              "RMSE": 0.012502326721004674
+            },
+            "color": {
+              "channels": 18,
+              "max_abs_error": 0.0015386553192273111,
+              "RMSE": 0.0008389327786484113
+            }
+          },
+          "worst_sample": {
+            "id": 9,
+            "channel": "G",
+            "predicted": 0.6847037944326797,
+            "native": 0.7061225771903992
+          },
+          "effective_level_in_assumed_decoded_domain": {
+            "channels": 36,
+            "min": -1.8377796468747907,
+            "max": -0.9186772924302111,
+            "mean": -1.1629584575377991
+          }
+        },
+        "0": {
+          "errors": {
+            "all": {
+              "channels": 48,
+              "max_abs_error": 5.551115123125783e-17,
+              "RMSE": 2.1174998587429782e-17
+            },
+            "gray": {
+              "channels": 30,
+              "max_abs_error": 5.551115123125783e-17,
+              "RMSE": 2.678448999485048e-17
+            },
+            "color": {
+              "channels": 18,
+              "max_abs_error": 0.0,
+              "RMSE": 0.0
+            }
+          },
+          "worst_sample": {
+            "id": 4,
+            "channel": "R",
+            "predicted": 0.33182269334793096,
+            "native": 0.3318226933479309
+          },
+          "effective_level_in_assumed_decoded_domain": {
+            "channels": 36,
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0
+          }
+        },
+        "1": {
+          "errors": {
+            "all": {
+              "channels": 48,
+              "max_abs_error": 0.057074045607877544,
+              "RMSE": 0.02341595314019259
+            },
+            "gray": {
+              "channels": 30,
+              "max_abs_error": 0.057074045607877544,
+              "RMSE": 0.028515021017155518
+            },
+            "color": {
+              "channels": 18,
+              "max_abs_error": 0.015303887089766488,
+              "RMSE": 0.0103428360660162
+            }
+          },
+          "worst_sample": {
+            "id": 9,
+            "channel": "R",
+            "predicted": 1.460485553214384,
+            "native": 1.4034115076065063
+          },
+          "effective_level_in_assumed_decoded_domain": {
+            "channels": 36,
+            "min": 0.8947567180476859,
+            "max": 1.822221328539144,
+            "mean": 1.0751620308879914
+          }
+        }
+      },
+      "paired_nonzero_levels": {
+        "active_channels": 36,
+        "plus_over_minus_min": 3.514780161820727,
+        "plus_over_minus_max": 12.640669536236315,
+        "max_abs_error_from_4": 8.640669536236315,
+        "common_reference_max_abs_delta": 0.1283391023824363
+      }
+    },
+    "sRGB_piecewise": {
+      "levels": {
+        "-1": {
+          "errors": {
+            "all": {
+              "channels": 48,
+              "max_abs_error": 0.029234525071339834,
+              "RMSE": 0.018220082169237106
+            },
+            "gray": {
+              "channels": 30,
+              "max_abs_error": 0.029234525071339834,
+              "RMSE": 0.019647645625700053
+            },
+            "color": {
+              "channels": 18,
+              "max_abs_error": 0.02235820451613918,
+              "RMSE": 0.0155522909444725
+            }
+          },
+          "worst_sample": {
+            "id": 9,
+            "channel": "R",
+            "predicted": 0.7353569830524495,
+            "native": 0.7061224579811096
+          },
+          "effective_level_in_assumed_decoded_domain": {
+            "channels": 36,
+            "min": -1.3360922726740787,
+            "max": -1.004253130105363,
+            "mean": -1.1807008288357688
+          }
+        },
+        "0": {
+          "errors": {
+            "all": {
+              "channels": 48,
+              "max_abs_error": 1.1102230246251565e-16,
+              "RMSE": 3.1080126089379415e-17
+            },
+            "gray": {
+              "channels": 30,
+              "max_abs_error": 1.1102230246251565e-16,
+              "RMSE": 3.931359536306438e-17
+            },
+            "color": {
+              "channels": 18,
+              "max_abs_error": 0.0,
+              "RMSE": 0.0
+            }
+          },
+          "worst_sample": {
+            "id": 9,
+            "channel": "R",
+            "predicted": 0.9999999999999999,
+            "native": 1.0
+          },
+          "effective_level_in_assumed_decoded_domain": {
+            "channels": 36,
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0
+          }
+        },
+        "1": {
+          "errors": {
+            "all": {
+              "channels": 48,
+              "max_abs_error": 0.050155938294278224,
+              "RMSE": 0.02963320938004886
+            },
+            "gray": {
+              "channels": 30,
+              "max_abs_error": 0.050155938294278224,
+              "RMSE": 0.03238884831710188
+            },
+            "color": {
+              "channels": 18,
+              "max_abs_error": 0.03473982341948623,
+              "RMSE": 0.024357266600567484
+            }
+          },
+          "worst_sample": {
+            "id": 9,
+            "channel": "G",
+            "predicted": 1.3532560461493863,
+            "native": 1.4034119844436646
+          },
+          "effective_level_in_assumed_decoded_domain": {
+            "channels": 36,
+            "min": 1.1211716428745961,
+            "max": 1.330278134118948,
+            "mean": 1.173714465044171
+          }
+        }
+      },
+      "paired_nonzero_levels": {
+        "active_channels": 36,
+        "plus_over_minus_min": 4.663961475573118,
+        "plus_over_minus_max": 6.348295587638194,
+        "max_abs_error_from_4": 2.3482955876381943,
+        "common_reference_max_abs_delta": 0.17410476894605553
+      }
+    },
+    "BT709_rounded_constants_Colour_inverse": {
+      "levels": {
+        "-1": {
+          "errors": {
+            "all": {
+              "channels": 48,
+              "max_abs_error": 0.0006074872682779731,
+              "RMSE": 0.000224913920732946
+            },
+            "gray": {
+              "channels": 30,
+              "max_abs_error": 0.0006074872682779731,
+              "RMSE": 0.0002657162163061336
+            },
+            "color": {
+              "channels": 18,
+              "max_abs_error": 0.0004368109548991139,
+              "RMSE": 0.0001312308854341428
+            }
+          },
+          "worst_sample": {
+            "id": 9,
+            "channel": "G",
+            "predicted": 0.7055150899221212,
+            "native": 0.7061225771903992
+          },
+          "effective_level_in_assumed_decoded_domain": {
+            "channels": 36,
+            "min": -1.0042511731556234,
+            "max": -0.9975800795176439,
+            "mean": -1.0003029958057497
+          }
+        },
+        "0": {
+          "errors": {
+            "all": {
+              "channels": 48,
+              "max_abs_error": 1.1102230246251565e-16,
+              "RMSE": 4.4969172124985776e-17
+            },
+            "gray": {
+              "channels": 30,
+              "max_abs_error": 1.1102230246251565e-16,
+              "RMSE": 5.688200336284365e-17
+            },
+            "color": {
+              "channels": 18,
+              "max_abs_error": 0.0,
+              "RMSE": 0.0
+            }
+          },
+          "worst_sample": {
+            "id": 4,
+            "channel": "R",
+            "predicted": 0.3318226933479308,
+            "native": 0.3318226933479309
+          },
+          "effective_level_in_assumed_decoded_domain": {
+            "channels": 36,
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0
+          }
+        },
+        "1": {
+          "errors": {
+            "all": {
+              "channels": 48,
+              "max_abs_error": 0.0011337422705839373,
+              "RMSE": 0.0004248746335736117
+            },
+            "gray": {
+              "channels": 30,
+              "max_abs_error": 0.0011337422705839373,
+              "RMSE": 0.0005028496329771186
+            },
+            "color": {
+              "channels": 18,
+              "max_abs_error": 0.0008150882511606117,
+              "RMSE": 0.0002448529266780176
+            }
+          },
+          "worst_sample": {
+            "id": 9,
+            "channel": "G",
+            "predicted": 1.4022782421730806,
+            "native": 1.4034119844436646
+          },
+          "effective_level_in_assumed_decoded_domain": {
+            "channels": 36,
+            "min": 0.9957489600976648,
+            "max": 1.0024201999032898,
+            "mean": 0.9996971226886355
+          }
+        }
+      },
+      "paired_nonzero_levels": {
+        "active_channels": 36,
+        "plus_over_minus_min": 3.999999042042889,
+        "plus_over_minus_max": 4.00000213919231,
+        "max_abs_error_from_4": 2.1391923104019384e-06,
+        "common_reference_max_abs_delta": 2.411073297681199e-07
+      }
+    }
+  },
+  "sources": [
+    "https://www.w3.org/TR/2026/CRD-css-color-4-20261009/",
+    "https://www.itu.int/dms_pubrec/itu-r/rec/bt/R-REC-BT.709-6-201506-I!!PDF-E.pdf",
+    "https://github.com/colour-science/colour/blob/b7abc030184bfa4940a0cc4d73b5059ca7d39fa2/colour/models/rgb/transfer_functions/itur_bt_601.py",
+    "https://github.com/AcademySoftwareFoundation/OpenColorIO/blob/592a122b37467c3376f2387fbbdbe7b571fad39f/src/OpenColorIO/ops/exposurecontrast/ExposureContrastOpData.h"
+  ],
+  "limits": [
+    "No candidate establishes the actual native input decoding or HDR operation domain.",
+    "BT709 positive formula is algebraically extended above linear 1 without clipping; that range is outside the cited ITU table's normative domain.",
+    "The BT709 inverse threshold follows the fixed Colour implementation; rounded standard constants have a small join gap.",
+    "Effective levels are arithmetic in each assumed decoding model, not measured physical EV.",
+    "No alpha, negative-input, temporal, or HDR/Log/RAW verification."
+  ]
+}

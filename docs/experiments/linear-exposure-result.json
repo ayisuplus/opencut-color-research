@@ -1,0 +1,24 @@
+{
+  "experiment": "one_stop_exposure_domain_comparison",
+  "input": {
+    "linear": 0.18,
+    "srgb": 0.46135612950044164
+  },
+  "correct": {
+    "linear": 0.36,
+    "srgb": 0.6342527406021728,
+    "exposure_ev": 1
+  },
+  "deliberately_wrong": {
+    "linear": 0.833106729079802,
+    "srgb": 0.9227122590008833,
+    "equivalent_linear_exposure_ev": 2.2105044241507814
+  },
+  "checks_passed": 6,
+  "evidence_scope": "scalar_srgb_math_only",
+  "resolve_verified": false,
+  "opencut_integrated": false,
+  "observed_on": "2026-10-12",
+  "node_version": "v24.15.0",
+  "script_sha256": "73efe2ebe12f212a09899746e891dd52c4216eb535ce906da4369d686e71c8a8"
+}

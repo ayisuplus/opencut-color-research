@@ -1,0 +1,201 @@
+{
+  "date": "2026-10-13",
+  "scope": "source-owned conditional full-float32 GPU model and posthoc observation comparison",
+  "new_resolve_frames": 0,
+  "formal_resolve_frames_total": 48,
+  "fitted_parameters": 0,
+  "own_GPU_executions": 1,
+  "actual_Resolve_backend_capture": false,
+  "input_v1_v2_bytes_equal": true,
+  "numeric_review": {
+    "input_checks": 2463,
+    "output_checks": 8579,
+    "final_addendum_checks": 1242,
+    "all_pass": true,
+    "RGB_values": 1152,
+    "statistics": 48,
+    "max_RGB_difference": 0.0,
+    "max_statistic_difference": 2.117582368135751e-22,
+    "max_new_statistic_difference": 0.0,
+    "not_native_formula_tolerance": true
+  },
+  "bindings": [
+    {
+      "path": "experiments/hdr-transfer-gpu-probe.cu",
+      "bytes": 6747,
+      "sha256": "09c80ad8263309dd0f63853e42fe3a0ecadbda83645c19cecebb1b33e5a0ddec"
+    },
+    {
+      "path": "experiments/prepare-hdr-transfer-gpu.py",
+      "bytes": 4669,
+      "sha256": "4c3dd4a19fc1e86cd3d1ae2ce1ddbaf0db3d19b531d10fddf10dc7ed21b467a6"
+    },
+    {
+      "path": "experiments/analyze-hdr-transfer-gpu.py",
+      "bytes": 4336,
+      "sha256": "5ab132f25ba768905f1e7a8fc8a419683a2557bae4430e76e6dcf5f0c4f72cec"
+    },
+    {
+      "path": "docs/experiments/hdr-transfer-gpu-result.json",
+      "bytes": 57978,
+      "sha256": "4a1d103c3a3afdb97fe42c4a1603dfebdfb060ce1310f8c018c0f82af6690360"
+    },
+    {
+      "path": "docs/research/hdr-full-float32-gpu.md",
+      "bytes": 4777,
+      "sha256": "ad13c92b95c430fb3c0bf528b7de4fc678ea8f187428195c23a72e3c655a0e44"
+    },
+    {
+      "path": "docs/reviews/hdr-full-float32-gpu-review.md",
+      "bytes": 2250,
+      "sha256": "583db9447b165546082db79e25ba17fa8ce49fd4b046fd98d4f4fc410c730c22"
+    },
+    {
+      "path": "docs/experiments/hdr-color-transfer-evidence.json",
+      "bytes": 9960,
+      "sha256": "38110da462339433a32dad3640363ade64aa9169351ee684c6b09324becfcb01"
+    },
+    {
+      "path": "docs/experiments/hdr-transfer-chain-posthoc-result.json",
+      "bytes": 36237,
+      "sha256": "375aee6a8f78710762177c97ef548c474d370d1f4e180c3c9b3817ff07c8c1e7"
+    },
+    {
+      "path": "docs/experiments/hdr-mixed-input-freeze.json",
+      "bytes": 27543,
+      "sha256": "9cb32be3c50b6e0f5342259fa18669f6dcc745439eb8cccb5b9dabc490b892aa"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-transfer-gpu-input.bin",
+      "bytes": 9052,
+      "sha256": "b3bffc9fd3b7c92bc3d5cfd26c5f4424c94dfc9dd6e9b5a50c50750df83e7cf7"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-transfer-gpu-input.json",
+      "bytes": 3772,
+      "sha256": "3368503d3be7158784478fb4cbae8ae6fe068a64a3d9e66f6b3451205e5148b4"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-transfer-gpu-input-v2.bin",
+      "bytes": 9052,
+      "sha256": "b3bffc9fd3b7c92bc3d5cfd26c5f4424c94dfc9dd6e9b5a50c50750df83e7cf7"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-transfer-gpu-input-v2.json",
+      "bytes": 3772,
+      "sha256": "b724f17619aad5e40e8689b85407aa870e0cd46f6d671040b4010b4ba2036e57"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-transfer-gpu-preflight-v1.cu",
+      "bytes": 6580,
+      "sha256": "22fccf6f3a52c123041067ec3bb229805795e28a19b69663b098dfe8a7a514bc"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/prepare-hdr-transfer-gpu-preflight-v1.py",
+      "bytes": 4660,
+      "sha256": "6fc26abaca75e086a284185310a6aa5f14d925f576eab119c84f7c900fc3fcd6"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/build-hdr-transfer-gpu-preflight-v1.cmd",
+      "bytes": 338,
+      "sha256": "364688813478902f673a0737fcea26fe7a3875e3ae36c520031021c0626c6b34"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-transfer-gpu-build-history.json",
+      "bytes": 493,
+      "sha256": "6e54ad55d1013bd269a9b3fc963b552245f1780fcd2c4d487f109f9625185d1f"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/build-hdr-transfer-gpu.cmd",
+      "bytes": 338,
+      "sha256": "364688813478902f673a0737fcea26fe7a3875e3ae36c520031021c0626c6b34"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-transfer-gpu-build-v2.log",
+      "bytes": 472,
+      "sha256": "6cae56cfea6fd1a95f20f7c6ae098a0823307fee37db4fc81eee0f2a878a14a0"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-transfer-gpu-probe.cu",
+      "bytes": 6747,
+      "sha256": "09c80ad8263309dd0f63853e42fe3a0ecadbda83645c19cecebb1b33e5a0ddec"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-transfer-gpu-probe.exe",
+      "bytes": 366080,
+      "sha256": "4534207287f355203465a52697b175c5f9303745e12572aacf56834e6cf1dce0"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-transfer-gpu-run-v2.json",
+      "bytes": 127,
+      "sha256": "c8791472bcced85f9911fefa603c5c47d7366a3ba14569924241c03a0aa8973f"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-transfer-gpu-output-v2.bin",
+      "bytes": 15380,
+      "sha256": "7af9e74fb026343de4d9f319d6b0b71c2229aa2baa97aee5bfb7d18d3ea0f3f0"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/independent-transfer-gpu-preflight-review.md",
+      "bytes": 8329,
+      "sha256": "1c8cce5f9638976caff5c5bb33c1f99f238c494becb4512cb1dd93603a1d0d4d"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/independent-transfer-gpu-validation.json",
+      "bytes": 187871,
+      "sha256": "d91154a4a34487957964a8eb17bc11ba986690d33b8b05c2f0b899e62b9222c2"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/independent-transfer-gpu-validation.md",
+      "bytes": 5727,
+      "sha256": "5b3e4f1f13a5344924c2a3086b757f822e16f7ef16dd0c41c1709259f70179c7"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/independent-transfer-gpu-v2-addendum.md",
+      "bytes": 2184,
+      "sha256": "bcde8f46a88ac4bc5ced003a68c8a762324fc2697fc3fc4c14b87954b86a5076"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/independent-transfer-gpu-input-check.py",
+      "bytes": 7048,
+      "sha256": "d4a41ac0fd46411cca1b8210ff1d6bd2b57fcba8f8050018a003f51da0a87b1c"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/independent-transfer-gpu-output-check.py",
+      "bytes": 8095,
+      "sha256": "3ad96f3107d9ed035b9b438d91541935502702c634a38280bd0e2d1f9ca00ed9"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/independent-transfer-gpu-output-review.json",
+      "bytes": 733920,
+      "sha256": "b9690b34c9c2c82d690790ddbf832d4d3b1a3bdeccff33a0e5ac72bee006ca19"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/independent-transfer-gpu-output-review.md",
+      "bytes": 5681,
+      "sha256": "be218399ac55b823be723b392062ab1b968436d52b122c985d6661b76cc0b9fb"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/independent-transfer-gpu-output-addendum-check.py",
+      "bytes": 3951,
+      "sha256": "9ae3b92b669309d671cf458e68b5450a43fe61393dc1be87303843086ff61f27"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/independent-transfer-gpu-output-addendum.json",
+      "bytes": 122987,
+      "sha256": "1f494dff0619f77819957df8ae846069b2f1c10d11a8241bc6461d1498b75180"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/independent-transfer-gpu-output-addendum.md",
+      "bytes": 2410,
+      "sha256": "4c94223474ac1a4c7c1a4528ba313b4461015acbde469ff21cab0d496ff6d536"
+    }
+  ],
+  "limits": [
+    "No target code, target PTX or target process was executed by this own probe.",
+    "Fixed Gamma/scale/matrix/table assumptions and one own kernel remain conditional.",
+    "Source/result acceptance does not establish the actual Resolve runtime or complete formula.",
+    "Reviewers parsed output and recomputed host statistics; they did not independently rebuild or rerun GPU.",
+    "Historical inputs, predictions and freezes remain unchanged."
+  ]
+}

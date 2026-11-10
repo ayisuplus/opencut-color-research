@@ -1,0 +1,468 @@
+{
+  "scope": "post_hoc_constraints_on_inferred_B_table_not_native_algorithm_identification",
+  "new_native_frames": 0,
+  "new_fitted_coefficients": 0,
+  "sources": [
+    {
+      "path": "docs/experiments/resolve-hdr-near-zero-result.json",
+      "sha256_utf8_lf": "bd4bf5b3415b68ade48f64adcf4aed8dbc61edcf8d54c822a6a6b91808068f21"
+    },
+    {
+      "path": "docs/experiments/hdr-nonzero-reference-result.json",
+      "sha256_utf8_lf": "d3aec82e59231026ad7f442765e38a4270260cce2e8b4b4f147afd04fe169437"
+    },
+    {
+      "path": "docs/experiments/resolve-hdr-global-grid-result.json",
+      "sha256_utf8_lf": "3e4a3914667364ca96fcf225ac652cd0aa9342621d4b700f8cfd5e6a15b4e2c4"
+    },
+    {
+      "path": "docs/experiments/exposure-input-manifest.json",
+      "sha256_utf8_lf": "d668176f1c0807caae6cdd4378cbaeb4a131774168da0a78cbead66c45c89e88"
+    },
+    {
+      "path": "experiments/evaluate-hdr-domain-candidates.py",
+      "sha256_utf8_lf": "1c824137901be048cda536abf9f620fb7f577cec55ed71971f221f224f9bc479"
+    }
+  ],
+  "same_channel_equal_input_groups": [
+    {
+      "channel": "R",
+      "input_code": 0.5371022820472717,
+      "source_u16": 35199,
+      "members": [
+        {
+          "patch_id": 6,
+          "input_RGB": [
+            0.5371022820472717,
+            0.5371022820472717,
+            0.5371022820472717
+          ],
+          "B": 0.296818842637834,
+          "B_small_plus": 0.2968187984261759,
+          "B_small_minus": 0.2968188868494921,
+          "B_old_pair": 0.2968188942646651
+        },
+        {
+          "patch_id": 10,
+          "input_RGB": [
+            0.5371022820472717,
+            0.0,
+            0.0
+          ],
+          "B": 0.29637102837531554,
+          "B_small_plus": 0.2963709927222401,
+          "B_small_minus": 0.296371064028391,
+          "B_old_pair": 0.29637102509961344
+        },
+        {
+          "patch_id": 14,
+          "input_RGB": [
+            0.5371022820472717,
+            0.0,
+            0.5371022820472717
+          ],
+          "B": 0.2964565476058996,
+          "B_small_plus": 0.29645657207057097,
+          "B_small_minus": 0.2964565231412283,
+          "B_old_pair": 0.29645659237141586
+        },
+        {
+          "patch_id": 15,
+          "input_RGB": [
+            0.5371022820472717,
+            0.5371022820472717,
+            0.0
+          ],
+          "B": 0.29680089203107407,
+          "B_small_plus": 0.29680087905816,
+          "B_small_minus": 0.29680090500398815,
+          "B_old_pair": 0.29680085916702414
+        }
+      ],
+      "B_range": 0.00044781426251844225,
+      "scalar_minimax_error_lower_bound": 0.00022390713125922113,
+      "pairs": [
+        {
+          "patch_ids": [
+            6,
+            10
+          ],
+          "B_difference": -0.00044781426251844225,
+          "small_plus_difference": -0.00044780570393582186,
+          "small_minus_difference": -0.00044782282110111815,
+          "old_pair_difference": -0.00044786916505168417,
+          "two_estimate_spans_disjoint": true
+        },
+        {
+          "patch_ids": [
+            6,
+            14
+          ],
+          "B_difference": -0.0003622950319343565,
+          "small_plus_difference": -0.0003622263556049554,
+          "small_minus_difference": -0.00036236370826381314,
+          "old_pair_difference": -0.00036230189324926165,
+          "two_estimate_spans_disjoint": true
+        },
+        {
+          "patch_ids": [
+            6,
+            15
+          ],
+          "B_difference": -1.7950606759908894e-05,
+          "small_plus_difference": -1.7919368015928416e-05,
+          "small_minus_difference": -1.7981845503944882e-05,
+          "old_pair_difference": -1.8035097640978215e-05,
+          "two_estimate_spans_disjoint": true
+        },
+        {
+          "patch_ids": [
+            10,
+            14
+          ],
+          "B_difference": 8.551923058408573e-05,
+          "small_plus_difference": 8.557934833086644e-05,
+          "small_minus_difference": 8.545911283730501e-05,
+          "old_pair_difference": 8.556727180242252e-05,
+          "two_estimate_spans_disjoint": true
+        },
+        {
+          "patch_ids": [
+            10,
+            15
+          ],
+          "B_difference": 0.00042986365575853336,
+          "small_plus_difference": 0.00042988633591989345,
+          "small_minus_difference": 0.00042984097559717327,
+          "old_pair_difference": 0.00042983406741070596,
+          "two_estimate_spans_disjoint": true
+        },
+        {
+          "patch_ids": [
+            14,
+            15
+          ],
+          "B_difference": 0.00034434442517444763,
+          "small_plus_difference": 0.000344306987589027,
+          "small_minus_difference": 0.00034438186275986826,
+          "old_pair_difference": 0.00034426679560828344,
+          "two_estimate_spans_disjoint": true
+        }
+      ]
+    },
+    {
+      "channel": "G",
+      "input_code": 0.5371022820472717,
+      "source_u16": 35199,
+      "members": [
+        {
+          "patch_id": 6,
+          "input_RGB": [
+            0.5371022820472717,
+            0.5371022820472717,
+            0.5371022820472717
+          ],
+          "B": 0.29681881174067926,
+          "B_small_plus": 0.2968187984261759,
+          "B_small_minus": 0.2968188250551826,
+          "B_old_pair": 0.29681878269124984
+        },
+        {
+          "patch_id": 11,
+          "input_RGB": [
+            0.0,
+            0.5371022820472717,
+            0.0
+          ],
+          "B": 0.29673311147777837,
+          "B_small_plus": 0.2967330997968093,
+          "B_small_minus": 0.2967331231587475,
+          "B_old_pair": 0.29673311422074
+        },
+        {
+          "patch_id": 13,
+          "input_RGB": [
+            0.0,
+            0.5371022820472717,
+            0.5371022820472717
+          ],
+          "B": 0.2967570221503405,
+          "B_small_plus": 0.2967570100136356,
+          "B_small_minus": 0.29675703428704536,
+          "B_old_pair": 0.2967570395384652
+        },
+        {
+          "patch_id": 15,
+          "input_RGB": [
+            0.5371022820472717,
+            0.5371022820472717,
+            0.0
+          ],
+          "B": 0.2968008611361267,
+          "B_small_plus": 0.2968008172682653,
+          "B_small_minus": 0.29680090500398815,
+          "B_old_pair": 0.29680085916702414
+        }
+      ],
+      "B_range": 8.570026290088961e-05,
+      "scalar_minimax_error_lower_bound": 4.2850131450444806e-05,
+      "pairs": [
+        {
+          "patch_ids": [
+            6,
+            11
+          ],
+          "B_difference": -8.570026290088961e-05,
+          "small_plus_difference": -8.56986293666373e-05,
+          "small_minus_difference": -8.570189643508641e-05,
+          "old_pair_difference": -8.56684705098365e-05,
+          "two_estimate_spans_disjoint": true
+        },
+        {
+          "patch_ids": [
+            6,
+            13
+          ],
+          "B_difference": -6.178959033875664e-05,
+          "small_plus_difference": -6.178841254034229e-05,
+          "small_minus_difference": -6.17907681372265e-05,
+          "old_pair_difference": -6.174315278462128e-05,
+          "two_estimate_spans_disjoint": true
+        },
+        {
+          "patch_ids": [
+            6,
+            15
+          ],
+          "B_difference": -1.7950604552563476e-05,
+          "small_plus_difference": -1.7981157910629264e-05,
+          "small_minus_difference": -1.7920051194442177e-05,
+          "old_pair_difference": -1.7923524225693654e-05,
+          "two_estimate_spans_disjoint": true
+        },
+        {
+          "patch_ids": [
+            11,
+            13
+          ],
+          "B_difference": 2.3910672562132973e-05,
+          "small_plus_difference": 2.3910216826295017e-05,
+          "small_minus_difference": 2.3911128297859907e-05,
+          "old_pair_difference": 2.3925317725215223e-05,
+          "two_estimate_spans_disjoint": true
+        },
+        {
+          "patch_ids": [
+            11,
+            15
+          ],
+          "B_difference": 6.774965834832614e-05,
+          "small_plus_difference": 6.771747145600804e-05,
+          "small_minus_difference": 6.778184524064423e-05,
+          "old_pair_difference": 6.774494628414285e-05,
+          "two_estimate_spans_disjoint": true
+        },
+        {
+          "patch_ids": [
+            13,
+            15
+          ],
+          "B_difference": 4.383898578619316e-05,
+          "small_plus_difference": 4.380725462971302e-05,
+          "small_minus_difference": 4.387071694278433e-05,
+          "old_pair_difference": 4.3819628558927626e-05,
+          "two_estimate_spans_disjoint": true
+        }
+      ]
+    },
+    {
+      "channel": "B",
+      "input_code": 0.5371022820472717,
+      "source_u16": 35199,
+      "members": [
+        {
+          "patch_id": 6,
+          "input_RGB": [
+            0.5371022820472717,
+            0.5371022820472717,
+            0.5371022820472717
+          ],
+          "B": 0.29681887353381087,
+          "B_small_plus": 0.29681886021812964,
+          "B_small_minus": 0.2968188868494921,
+          "B_old_pair": 0.2968188716470525
+        },
+        {
+          "patch_id": 12,
+          "input_RGB": [
+            0.0,
+            0.0,
+            0.5371022820472717
+          ],
+          "B": 0.29606123518637006,
+          "B_small_plus": 0.29606120544989856,
+          "B_small_minus": 0.2960612649228415,
+          "B_old_pair": 0.29606121652506123
+        },
+        {
+          "patch_id": 13,
+          "input_RGB": [
+            0.0,
+            0.5371022820472717,
+            0.5371022820472717
+          ],
+          "B": 0.2967570530427798,
+          "B_small_plus": 0.2967570717985142,
+          "B_small_minus": 0.29675703428704536,
+          "B_old_pair": 0.2967570395384652
+        },
+        {
+          "patch_id": 14,
+          "input_RGB": [
+            0.5371022820472717,
+            0.0,
+            0.5371022820472717
+          ],
+          "B": 0.2964565476058996,
+          "B_small_plus": 0.29645657207057097,
+          "B_small_minus": 0.2964565231412283,
+          "B_old_pair": 0.29645661346022256
+        }
+      ],
+      "B_range": 0.0007576383474408033,
+      "scalar_minimax_error_lower_bound": 0.00037881917372040164,
+      "pairs": [
+        {
+          "patch_ids": [
+            6,
+            12
+          ],
+          "B_difference": -0.0007576383474408033,
+          "small_plus_difference": -0.0007576547682310864,
+          "small_minus_difference": -0.0007576219266505757,
+          "old_pair_difference": -0.0007576551219912742,
+          "two_estimate_spans_disjoint": true
+        },
+        {
+          "patch_ids": [
+            6,
+            13
+          ],
+          "B_difference": -6.182049103109488e-05,
+          "small_plus_difference": -6.178841961546055e-05,
+          "small_minus_difference": -6.185256244672921e-05,
+          "old_pair_difference": -6.183210858728971e-05,
+          "two_estimate_spans_disjoint": true
+        },
+        {
+          "patch_ids": [
+            6,
+            14
+          ],
+          "B_difference": -0.0003623259279112445,
+          "small_plus_difference": -0.0003622881475586759,
+          "small_minus_difference": -0.00036236370826381314,
+          "old_pair_difference": -0.0003622581868299446,
+          "two_estimate_spans_disjoint": true
+        },
+        {
+          "patch_ids": [
+            12,
+            13
+          ],
+          "B_difference": 0.0006958178564097084,
+          "small_plus_difference": 0.0006958663486156258,
+          "small_minus_difference": 0.0006957693642038465,
+          "old_pair_difference": 0.0006958230134039844,
+          "two_estimate_spans_disjoint": true
+        },
+        {
+          "patch_ids": [
+            12,
+            14
+          ],
+          "B_difference": 0.00039531241952955876,
+          "small_plus_difference": 0.00039536662067241046,
+          "small_minus_difference": 0.00039525821838676256,
+          "old_pair_difference": 0.00039539693516132957,
+          "two_estimate_spans_disjoint": true
+        },
+        {
+          "patch_ids": [
+            13,
+            14
+          ],
+          "B_difference": -0.00030050543688014963,
+          "small_plus_difference": -0.00030049972794321533,
+          "small_minus_difference": -0.00030051114581708394,
+          "old_pair_difference": -0.0003004260782426549,
+          "two_estimate_spans_disjoint": true
+        }
+      ]
+    }
+  ],
+  "affine_superposition_checks": [
+    {
+      "target_patch": 13,
+      "primary_patches": [
+        11,
+        12
+      ],
+      "affine_superposition_residual": [
+        -1.3193288316111647e-08,
+        2.3909861446957947e-05,
+        0.0006958192686497
+      ],
+      "max_abs": 0.0006958192686497
+    },
+    {
+      "target_patch": 14,
+      "primary_patches": [
+        10,
+        12
+      ],
+      "affine_superposition_residual": [
+        8.552694899949254e-05,
+        -1.3567902286180247e-08,
+        0.00039531370486106665
+      ],
+      "max_abs": 0.00039531370486106665
+    },
+    {
+      "target_patch": 15,
+      "primary_patches": [
+        10,
+        11
+      ],
+      "affine_superposition_residual": [
+        0.00042985591404093304,
+        6.774545196208681e-05,
+        9.239050362254915e-10
+      ],
+      "max_abs": 0.00042985591404093304
+    },
+    {
+      "target_patch": 6,
+      "primary_patches": [
+        10,
+        11,
+        12
+      ],
+      "affine_superposition_residual": [
+        0.00044781423921619323,
+        8.569524539947526e-05,
+        0.0007576410450123028
+      ],
+      "max_abs": 0.0007576410450123028
+    }
+  ],
+  "old_pair_B_max_change": 3.4735721055056956e-07,
+  "limits": [
+    "B already contains 48 sample-dependent estimates under the frozen BT709 candidate.",
+    "Only exact scalar/affine explanations of this finite B table are tested.",
+    "Two-estimate spans are not confidence intervals or measurement noise bounds.",
+    "Color and patch position co-vary; color context is not isolated from spatial context.",
+    "All active colored-patch inputs share one amplitude; arbitrary mixed colors remain untested.",
+    "No proof of a native matrix, color space, luminance rule, or general pixel transform."
+  ]
+}

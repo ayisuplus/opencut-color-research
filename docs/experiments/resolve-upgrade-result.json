@@ -1,0 +1,75 @@
+{
+  "scope": "local_upgrade_startup_native_mcp_and_owned_test_project",
+  "installation": {
+    "started_at": "2026-10-12T23:30:33.5727407+08:00",
+    "stage": "finished",
+    "installed": true,
+    "msi_exit_code": 0,
+    "restart_required": false,
+    "finished_at": "2026-10-12T23:31:21.7304517+08:00"
+  },
+  "activation_helper": {
+    "executed": true,
+    "sha256": "a15cb68755749178733dcd6dd03b5856617364d461c0c0a2a7d53df5f9a2c78d",
+    "exit_code_captured": false,
+    "not_running_at_followup": true,
+    "system_realtime_protection_enabled": true
+  },
+  "native_mcp": {
+    "server": {
+      "name": "davinci_resolve",
+      "version": "21.1.1"
+    },
+    "tool_count": 14,
+    "initialize_passed": true,
+    "status": {
+      "running": true,
+      "version": "21.1.1"
+    },
+    "sandboxed_script_passed": true,
+    "unsafe_script_used": false,
+    "loaded_only_named_test_project": true,
+    "project_read": {
+      "version": "21.1.1.10",
+      "library_matches": true,
+      "project_matches": true,
+      "loaded_by_probe": true,
+      "timeline_count": 1,
+      "project_settings": {
+        "colorScienceMode": "davinciYRGB",
+        "colorSpaceInput": "Rec.709 Gamma 2.4",
+        "colorSpaceTimeline": "Rec.709 (Scene)",
+        "colorSpaceOutput": "Rec.709 (Scene)",
+        "timelineFrameRate": 30.0,
+        "timelineResolutionWidth": "1920",
+        "timelineResolutionHeight": "1080"
+      },
+      "timeline_name": "PATCHES_1080P30",
+      "video_tracks": 1,
+      "video_items": 1
+    },
+    "runtime_client_sha256": "a6e9812d9e2953abbb6a7aff14a29905896913cc1645860481128094542405b4",
+    "runtime_response_sha256": "55e8f9e6e45e7873af7325d363715cbd402a2b9882ffa69d0f23510ce97178e4",
+    "initial_unsupported_method_probe_preserved": true
+  },
+  "codex_registration": {
+    "server_name": "davinci_resolve",
+    "command": "G:\\Davinci Studio\\ResolveMCP.exe",
+    "registered": true,
+    "unrelated_settings_preserved": true,
+    "existing_empty_args_restored_after_cli_normalization": true,
+    "current_chat_tool_catalog_loaded": false
+  },
+  "files": {
+    "Resolve.exe": "1a109e719f2d5e20167ecd9e0f1a37407cf62702fcea366e5e7f6dbbdb826f83",
+    "ResolveMCP.exe": "edd5dee719f815b928b445c32fec4dbd6ef5d09210f50a1c72a57583af87fad8",
+    "OpenColorIO_2_5.dll": "9123ffb192738b385f8884c973ab3e0f38f8fb26d1b4cdca21c07b065ebb0155"
+  },
+  "bounds": {
+    "measurement_frames_exported": 0,
+    "native_hdr_exposure_control_verified": false,
+    "color_management_protocol_confirmed": false,
+    "rollback_tested": false,
+    "activation_program_full_behavior_audited": false
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "scope": "saved_reloaded_gamma_context_probe_no_grade_setter_or_render",
+  "native_version": "21.1.1.10",
+  "copy_project": "EXPO_005_HDR_CONTEXT",
+  "source_project": "EXPO_003_HDR_MAPPING",
+  "fixture_sha256": "2daa68135e4ac8c0585fb33630ce5d69a735640799b82a8173caafbfc8d9f09f",
+  "source_DRP_sha256": "c531b19a0782ecb765e97e15a930d586ee4503bacaa20fc37509d669502e5567",
+  "probe_script_sha256": "1b9219f88d2142299a246babe6606b01b3fd072720efc50d8973c76d0e83444a",
+  "probe_receipt_sha256": "cf25db0938204c9dc128a63d5333c15b32a6a81619ff78d9ca81e6eb87be8982",
+  "initial_color_settings": {
+    "colorScienceMode": "davinciYRGB",
+    "separateColorSpaceAndGamma": "1",
+    "colorSpaceInput": "Rec.709 Gamma 2.4",
+    "colorSpaceInputGamma": "Gamma 2.4",
+    "colorSpaceTimeline": "Rec.709",
+    "colorSpaceTimelineGamma": "Rec.709",
+    "colorSpaceOutput": "Rec.709",
+    "colorSpaceOutputGamma": "Gamma 2.4",
+    "useColorSpaceAwareGradingTools": "0",
+    "perfRenderCacheMode": "none"
+  },
+  "initial_path_setter_return": true,
+  "initial_path_scope_clean": true,
+  "conditions": [
+    {
+      "name": "rec709",
+      "requested_timeline_gamma": "Rec.709",
+      "setter_return": true,
+      "setter_diffs": {
+        "project_settings": {},
+        "timeline_settings": {},
+        "clip_properties": {}
+      },
+      "accepted_before_reload": true,
+      "saved_closed_reopened": true,
+      "cache_getter_before_path_reapply": "CacheClip",
+      "paths_getters_match_after_reapply": true,
+      "persistent_condition_ready_after_path_reapply": true,
+      "full_snapshot_diffs_after_path_reapply": {
+        "project_settings": {},
+        "timeline_settings": {},
+        "clip_properties": {}
+      },
+      "color_settings_after_reopen": {
+        "colorScienceMode": "davinciYRGB",
+        "separateColorSpaceAndGamma": "1",
+        "colorSpaceInput": "Rec.709 Gamma 2.4",
+        "colorSpaceInputGamma": "Gamma 2.4",
+        "colorSpaceTimeline": "Rec.709",
+        "colorSpaceTimelineGamma": "Rec.709",
+        "colorSpaceOutput": "Rec.709",
+        "colorSpaceOutputGamma": "Gamma 2.4",
+        "useColorSpaceAwareGradingTools": "0",
+        "perfRenderCacheMode": "none"
+      }
+    },
+    {
+      "name": "srgb",
+      "requested_timeline_gamma": "sRGB",
+      "setter_return": true,
+      "setter_diffs": {
+        "project_settings": {
+          "colorSpaceTimelineGamma": {
+            "before": "Rec.709",
+            "after": "sRGB"
+          }
+        },
+        "timeline_settings": {
+          "colorSpaceTimelineGamma": {
+            "before": "Rec.709",
+            "after": "sRGB"
+          }
+        },
+        "clip_properties": {}
+      },
+      "accepted_before_reload": true,
+      "saved_closed_reopened": true,
+      "cache_getter_before_path_reapply": "CacheClip",
+      "paths_getters_match_after_reapply": true,
+      "persistent_condition_ready_after_path_reapply": true,
+      "full_snapshot_diffs_after_path_reapply": {
+        "project_settings": {},
+        "timeline_settings": {},
+        "clip_properties": {}
+      },
+      "color_settings_after_reopen": {
+        "colorScienceMode": "davinciYRGB",
+        "separateColorSpaceAndGamma": "1",
+        "colorSpaceInput": "Rec.709 Gamma 2.4",
+        "colorSpaceInputGamma": "Gamma 2.4",
+        "colorSpaceTimeline": "Rec.709",
+        "colorSpaceTimelineGamma": "sRGB",
+        "colorSpaceOutput": "Rec.709",
+        "colorSpaceOutputGamma": "Gamma 2.4",
+        "useColorSpaceAwareGradingTools": "0",
+        "perfRenderCacheMode": "none"
+      }
+    }
+  ],
+  "rendered": false,
+  "failure": null,
+  "ready_for_render_design": true,
+  "restoration": {
+    "source_full_snapshot_match": true,
+    "source_project_setting_count": 158,
+    "source_timeline_setting_count": 158,
+    "source_full_clip_properties_and_two_IDs_timecode_jobs_compared": true,
+    "restore_error": null,
+    "active_project": "EXPO_003_HDR_MAPPING"
+  },
+  "next_frozen_plan": {
+    "frames": 8,
+    "nonzero_HDR_readbacks": 5,
+    "render_execution_pending": true,
+    "question": "Does saved/reopened Timeline Gamma or replay order change the existing native stored+1 response?"
+  },
+  "limits": [
+    "This probe has no grade setter or Gallery capture and creates/starts no measurement render job or exports a measured frame; internal preview rendering is not audited.",
+    "Paths are reapplied after each reopen; this is not proof that the paths persist unchanged.",
+    "Matching Timeline getters may reflect the same inherited Project settings.",
+    "Getter labels do not establish HDR working transfer functions or new palette menu UI values.",
+    "Full snapshot comparison is not an application/cache/grade-byte audit."
+  ]
+}

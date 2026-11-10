@@ -1,0 +1,10 @@
+{
+  "scope": "independent_decimal50_numeric_and_png_readback_not_resolve_validation",
+  "verifier_sha256": "5cd1f60711a00244a4c4070610e8f24167db9451f363e705685919c20cbacafc",
+  "input_full_grid_pixels_verified": true,
+  "scalar_channels_checked": 144,
+  "preview_centers_checked": 48,
+  "max_float64_vs_decimal50_error": 4.440892098500626e-16,
+  "superwhite_retained_in_work_table": true,
+  "negative_control_distinguished": true
+}

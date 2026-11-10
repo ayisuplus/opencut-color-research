@@ -1,0 +1,121 @@
+{
+  "date": "2026-10-14",
+  "scope": "Pre-native input/GPU prediction/paired diagnostic review only",
+  "input_review_checks": 2164,
+  "output_review_checks": 2069,
+  "paired_CPU_review_checks": 279,
+  "new_resolve_frames": 0,
+  "formal_resolve_frames_total": 54,
+  "GPU_invocations_reported_by_parent": 1,
+  "primary_RGB_channels": 96,
+  "total_predicted_RGB_channels": 384,
+  "old_controls_trace_bits_equal": 240,
+  "prediction_or_gate_retuned": false,
+  "bindings": [
+    {
+      "path": "experiments/prepare-hdr-near-black.py",
+      "bytes": 4914,
+      "sha256": "76d6100e19f3c9486c4471993ad29ad17c89b5979a3f10ca080de8c38942d2fd"
+    },
+    {
+      "path": "experiments/freeze-hdr-near-black-predictions.py",
+      "bytes": 4662,
+      "sha256": "1afb4f04143c3547d72f700b0d7aecb5ab8eb59490627ab7063567d7fffd6789"
+    },
+    {
+      "path": "experiments/compare-hdr-near-black-clamp.py",
+      "bytes": 3162,
+      "sha256": "186e26b64fb4574b5707031abb6c348097b25fba52f4a8faf976efae69abdd06"
+    },
+    {
+      "path": "docs/experiments/hdr-near-black-input-freeze.json",
+      "bytes": 7133,
+      "sha256": "0f573da34d419b9d106bf2ae5df5a9799f4ab45c65c4bd2d61016cfe965a0fc5"
+    },
+    {
+      "path": "docs/experiments/hdr-near-black-prediction-freeze.json",
+      "bytes": 24247,
+      "sha256": "24298e00d3b8b25d3d11c85a7105b3817e33aeea7634a09da1b71d27d628e61c"
+    },
+    {
+      "path": "docs/experiments/hdr-near-black-clamp-diagnostic.json",
+      "bytes": 10020,
+      "sha256": "ebbfaa48f9549b1083617c7c256d80ae4b3959195165c4bb955ae51196a43289"
+    },
+    {
+      "path": "docs/research/hdr-near-black-preflight.md",
+      "bytes": 4991,
+      "sha256": "4c266689dc82f392e1393ef099e5120ac3370e5a7f2f8b4df2532d1ef59d3473"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/input-freeze.json",
+      "bytes": 1043,
+      "sha256": "945be20fc1f637bb530c2c4c0666aa144419caa2f3ec6bc6824c1c6ca13f0709"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/near-black-input.bin",
+      "bytes": 8540,
+      "sha256": "c413ffc7f57b30f14225b9980b8a9ffbb0f99a617fb6dff7d6718d97fda89026"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/near-black-output.bin",
+      "bytes": 5140,
+      "sha256": "3a7511463f383ddaf5f7c0e6b11858adbfd476d6e1df6b26a2f480bd40f97203"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/near-black-run.json",
+      "bytes": 126,
+      "sha256": "c5b5326425e8648dc4729c2b1d5c850d0d766b97e0186440651abba659338a5c"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/GPU-execution-record.json",
+      "bytes": 396,
+      "sha256": "d073ea966d3f3c8f30e4ff56cd31d2d1603404319c8ce4cc666afe7f3026c085"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/independent-near-black-input-check.py",
+      "bytes": 5827,
+      "sha256": "e5f41eebe83105e989103e040c94bb2adff43012440ec76c983bf55915f957f9"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/independent-near-black-input-review.json",
+      "bytes": 149150,
+      "sha256": "e945b7f4440eabfcde6ee8f8d782e75337473df1ee1c1ab6e0ee6be6a21e4a01"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/independent-near-black-input-review.md",
+      "bytes": 3115,
+      "sha256": "002f2f3c82fa84314ad37f9e005b39e0d3fb0b5946e2efbac5db93fa2100f154"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/independent-near-black-output-check.py",
+      "bytes": 6325,
+      "sha256": "dd05f653b756a2a6e3712db3090b4ec551e74adfb619b9fe3e5b2d0eba8fc07f"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/independent-near-black-output-review.json",
+      "bytes": 150989,
+      "sha256": "e0d73f71eb1d384ee8c68be4c04f7fed0b32695324871b1f0d19b4fd48016184"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/independent-near-black-output-review.md",
+      "bytes": 2953,
+      "sha256": "4ba9d8b6b30151b2ee8591847f18c9b6e88318b06eeaf805c8cc6681d49437cf"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/independent-paired-clamp-check.py",
+      "bytes": 4222,
+      "sha256": "018895ef5e1a0bc050bcb3f895c0d311bcfe8f73619050b18a53a318d54508ff"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/independent-paired-clamp-review.json",
+      "bytes": 24417,
+      "sha256": "1c2787a05d81f34ce0e873b4761f343368dfaa4a9688af4ab3409912847b517b"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-near-black-20261014/analysis/independent-paired-clamp-review.md",
+      "bytes": 2047,
+      "sha256": "f9171c056ee6401ce517a440b05ba4949b88d14c8ec874edd5d6617e098bd468"
+    }
+  ]
+}

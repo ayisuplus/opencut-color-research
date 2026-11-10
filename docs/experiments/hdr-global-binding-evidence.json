@@ -1,0 +1,239 @@
+{
+  "date": "2026-10-13",
+  "kind": "bounded_static_evidence_not_runtime_trace",
+  "target_sha256": "1a109e719f2d5e20167ecd9e0f1a37407cf62702fcea366e5e7f6dbbdb826f83",
+  "target_bytes": 614232536,
+  "native_frames_added": 0,
+  "formal_native_frames_total": 42,
+  "strings_read_from_fixed_pe": {
+    "global": {
+      "va": "0x147ae6da8",
+      "value": "Global"
+    },
+    "gainjz": {
+      "va": "0x148a19b5c",
+      "value": "GAINJZ"
+    },
+    "gradeable_rtti": {
+      "va": "0x15b1959f0",
+      "value": ".?AVHDRZoneGradeableKeyframeableParams@VaCommon@@"
+    }
+  },
+  "chain": {
+    "parameter_key": "0x86000305",
+    "assembly": "0x146469940",
+    "map_copy": [
+      "0x1413a80c0",
+      "0x1413a54b0",
+      "0x1413a56c0"
+    ],
+    "gradeable_vtable": "0x147b5b590",
+    "value_offset_in_node": 88,
+    "gainjz_offset_in_value": 8,
+    "gainjz_offset_in_node": 96,
+    "named_field_methods": [
+      "0x1461e5ed0",
+      "0x1461e3ff0"
+    ],
+    "zone_names": "0x1461e73f0",
+    "global_name_enum": 6,
+    "zone_defaults": "0x1461e5180",
+    "global_default_packet_type": 0,
+    "packet_list_builder": "0x1461e58a0",
+    "packet_initializer": "0x1427595f0",
+    "packet_aggregator": "0x14275a2b0",
+    "hdr_object_constructor": "0x142759d40",
+    "gainjz_offset_in_packet": 0,
+    "global_scalar_offset_in_hdr_object": 48,
+    "gain_enable_offset_in_hdr_object": 117,
+    "near_equality": "0x1428104a0"
+  },
+  "scope": [
+    "Default Global type route; explicit node settings may alter type/enabled status.",
+    "Unknown zone names may fall back to type 0; final G depends on last type-0 writer.",
+    "Raw field transfer does not prove complete UI mapping or protobuf deserialization.",
+    "Gain flags OR across all included packets, before type dispatch.",
+    "Zero comparison conclusion covers signed zeros and finite normal float32 only.",
+    "No runtime table, backend selection, or complete working-color transform captured."
+  ],
+  "artifacts": [
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-global-packet-source.txt",
+      "bytes": 10703,
+      "sha256": "9f973be3599cf32ac359d027b84cb55ea2683eae8ced2f1e400ee1990d6d09fd",
+      "slices": [
+        {
+          "start": "142759d40",
+          "end_inclusive": "14275a08a",
+          "instructions": 186
+        }
+      ]
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-zone-packet-initializer.txt",
+      "bytes": 7077,
+      "sha256": "f07811cbc6f2fde594f511ccc14a267720e69f949ccdc0f4fb7aa323196b1f9f",
+      "slices": [
+        {
+          "start": "1427595f0",
+          "end_inclusive": "142759843",
+          "instructions": 133
+        }
+      ]
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-parameter-constructors.txt",
+      "bytes": 19801,
+      "sha256": "fa384af95d68dd16862b5fc7c857479b2662c7f1f5d3b7ac722c40e94d596956",
+      "slices": [
+        {
+          "start": "14275a1c0",
+          "end_inclusive": "14275a214",
+          "instructions": 20
+        },
+        {
+          "start": "14275a220",
+          "end_inclusive": "14275a27b",
+          "instructions": 25
+        },
+        {
+          "start": "14275a2b0",
+          "end_inclusive": "14275a422",
+          "instructions": 108
+        }
+      ]
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-near-equality.txt",
+      "bytes": 3407,
+      "sha256": "d1c3ecf01eda01744265869600b342cbf4f74a4be3295d027feeb76c52e6bc49",
+      "slices": [
+        {
+          "start": "1428104a0",
+          "end_inclusive": "14281059c",
+          "instructions": 69
+        }
+      ]
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-upstream-zone-factory.txt",
+      "bytes": 37075,
+      "sha256": "ae34afe1fac33995631e42d9fb6ac639ac67141967f2de88ee9ba1fc7744df43",
+      "slices": [
+        {
+          "start": "1461e5180",
+          "end_inclusive": "1461e56c6",
+          "instructions": 287
+        },
+        {
+          "start": "1461e58a0",
+          "end_inclusive": "1461e5d08",
+          "instructions": 317
+        }
+      ]
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-process-parameter-assembly.txt",
+      "bytes": 124462,
+      "sha256": "e774d6f5295241cd7e3503b0ae3952a1a48e3ebc791b3bebe8d000bcaa70bbf7",
+      "slices": [
+        {
+          "start": "146469940",
+          "end_inclusive": "14646c507",
+          "instructions": 2461
+        }
+      ]
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-gradeable-methods.txt",
+      "bytes": 46310,
+      "sha256": "34de5bca7f98a3315536281b65e6e1116f37e85a94389652abe4f5977c7b50bb",
+      "slices": [
+        {
+          "start": "1461e5ed0",
+          "end_inclusive": "1461e665e",
+          "instructions": 543
+        },
+        {
+          "start": "1461e3ff0",
+          "end_inclusive": "1461e43ec",
+          "instructions": 274
+        },
+        {
+          "start": "1461e4f80",
+          "end_inclusive": "1461e5043",
+          "instructions": 59
+        }
+      ]
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-zone-names.txt",
+      "bytes": 8240,
+      "sha256": "2257929932f30071d608b1d1be5fa2a9772e5efda85ec5ac65a25578d739ca20",
+      "slices": [
+        {
+          "start": "1461e73f0",
+          "end_inclusive": "1461e76ac",
+          "instructions": 148
+        }
+      ]
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-gradeable-map-copy.txt",
+      "bytes": 2251,
+      "sha256": "68e4a344bbcd604c947e9dd6585cec66435d4c58677fa2291c1d23f5b8d4bda5",
+      "slices": [
+        {
+          "start": "1413a80c0",
+          "end_inclusive": "1413a812b",
+          "instructions": 29
+        },
+        {
+          "start": "1413a8570",
+          "end_inclusive": "1413a85a3",
+          "instructions": 16
+        }
+      ]
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-gradeable-tree-copy.txt",
+      "bytes": 2886,
+      "sha256": "2ccd81682b886af6a6e77f992ca229125e33a49b34680dccdd5254b72a57e429",
+      "slices": [
+        {
+          "start": "1413a54b0",
+          "end_inclusive": "1413a5553",
+          "instructions": 49
+        }
+      ]
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-gradeable-node-copy.txt",
+      "bytes": 4044,
+      "sha256": "f43a31a3ba3f49844d3540fc49d775149053c01285c4ac0c758ff2df03be1090",
+      "slices": [
+        {
+          "start": "1413a56c0",
+          "end_inclusive": "1413a57da",
+          "instructions": 72
+        }
+      ]
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-gradeable-rtti.json",
+      "bytes": 568,
+      "sha256": "f925b78985570931438e5aca8fe0f0456d493f00c66394aa3435c1378505ad60"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/independent-hdr-packet-zero-review.md",
+      "bytes": 4704,
+      "sha256": "6603ab440773b70b37d07b9e57b93e725f3be9dddbfa1280c5f3c40905afc3a5"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/independent-hdr-global-binding-review.md",
+      "bytes": 6839,
+      "sha256": "827ce87be88432977d50d0117a8636effc0cd32f9cea9196397d19ce2db9ba8a"
+    }
+  ],
+  "review_status": "independent_packet_zero_and_upstream_binding_reviews_complete; no_open_P1_P2_for_bounded_claims"
+}

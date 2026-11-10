@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-13",
+  "scope": "installed_official_MCP_documented_HDR_context_query_surface",
+  "official_MCP_status": {
+    "running": true,
+    "version": "21.1.1"
+  },
+  "official_MCP_tool_names": [
+    "launch_resolve",
+    "get_resolve_status",
+    "get_whats_new",
+    "get_scripting_api",
+    "search_scripting_api",
+    "run_script",
+    "run_script_unsafe",
+    "get_scripting_docs",
+    "list_dctls",
+    "list_luts",
+    "update_dctl",
+    "delete_dctl",
+    "delete_lut",
+    "generate_lut"
+  ],
+  "Graph_declared_methods": [
+    "GetNumNodes",
+    "SetLUT",
+    "GetLUT",
+    "SetNodeCacheMode",
+    "GetNodeCacheMode",
+    "GetNodeLabel",
+    "GetToolsInNode",
+    "SetNodeEnabled",
+    "ApplyArriCdlLut",
+    "ApplyGradeFromDRX",
+    "ResetAllGrades"
+  ],
+  "SDK_sha256": "b91b53b86a946e1902789ea898eedf00cb7dd6107aba6f1276ca77fe508816ea",
+  "query_patterns": {
+    "Resolve_API": "HDR|gamma|palette",
+    "UI_API": "GetMainWindow|GetWindows|FindWindow|palette|HDR|gamma"
+  },
+  "registered_script_window_query": {
+    "method": "resolve.Fusion().UIManager.FindWindows()",
+    "count": 0,
+    "active_project": "EXPO_003_HDR_MAPPING",
+    "rendering": false,
+    "project_settings_and_jobs_equal_before_after": true,
+    "window_mutation_calls": 0
+  },
+  "raw_receipt_sha256": {
+    "installed-mcp-catalog-result.json": "d64dd35d92341e8f70428a395d0a9d7a79a5626f1056dff5e2c5bebab93d0cf6",
+    "hdr-api-surface-result.json": "4bd8bdef354f31ffb7e6066c22321dc8ac1a4bb41338af400ca3bf2dcb2a3f2e",
+    "ui-manager-api-result.json": "d3c61d2a9a088a024912621ce7c7fd9d54bd049d05a023b8d929959ae7b1f87d",
+    "registered-script-windows-result.json": "f5d836c284d5d77a7b4b2f96c70c7f55dfc218644aa0aedf15f6f2fe6fc1b586"
+  },
+  "conclusion": "No documented direct HDR palette Color Space/Gamma getter was found in this installed query surface; current script-window enumeration yielded no menu state.",
+  "required_observation": "EXPO_005_HDR_CONTEXT HDR palette Color Space and Gamma selected entries; 003 witness does not establish 005 state.",
+  "limits": [
+    "FindWindows count is an observation with 003 active, not proof about every native window or undocumented API.",
+    "No native widget IDs were guessed, no window events were sent, and no HDR menu state was inferred.",
+    "The unchanged query check covers project settings and render-job list, not full application state.",
+    "32 native experiment frames remain valid observations; the unresolved menu context limits further interpretation."
+  ]
+}

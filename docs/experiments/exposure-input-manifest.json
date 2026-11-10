@@ -1,0 +1,383 @@
+{
+  "scope": "generated_stimulus_only_no_resolve_import_or_render",
+  "source_owned": true,
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "alpha": "absent_opaque",
+  "encoding": "PNG RGB unsigned 16-bit, full range, sRGB chunk intent 0",
+  "linear_convention": "sRGB primaries, D65 white, normalized [0,1]",
+  "limitations": [
+    "Quantized input; use realized values, not intended values, for comparisons.",
+    "No negative or superwhite samples; no HDR or alpha validation.",
+    "Resolve decoder and color interpretation remain unverified.",
+    "The 8-bit preview is for viewing, not measurement."
+  ],
+  "files": [
+    {
+      "name": "opaque-srgb16-patches.png",
+      "sha256": "2daa68135e4ac8c0585fb33630ce5d69a735640799b82a8173caafbfc8d9f09f",
+      "bytes": 30755
+    },
+    {
+      "name": "preview-srgb8.png",
+      "sha256": "1112a5a60fdc91c81d88fb7bebf6a4fd66434f2c6a063d055efce18493fec7a7",
+      "bytes": 8685
+    }
+  ],
+  "samples": [
+    {
+      "id": 0,
+      "sample_xy": [
+        240,
+        135
+      ],
+      "intended_linear_rgb": [
+        0,
+        0,
+        0
+      ],
+      "encoded_rgb_u16": [
+        0,
+        0,
+        0
+      ],
+      "realized_linear_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": 1,
+      "sample_xy": [
+        720,
+        135
+      ],
+      "intended_linear_rgb": [
+        0.0031308,
+        0.0031308,
+        0.0031308
+      ],
+      "encoded_rgb_u16": [
+        2651,
+        2651,
+        2651
+      ],
+      "realized_linear_rgb": [
+        0.0031309385166837663,
+        0.0031309385166837663,
+        0.0031309385166837663
+      ]
+    },
+    {
+      "id": 2,
+      "sample_xy": [
+        1200,
+        135
+      ],
+      "intended_linear_rgb": [
+        0.01,
+        0.01,
+        0.01
+      ],
+      "encoded_rgb_u16": [
+        6544,
+        6544,
+        6544
+      ],
+      "realized_linear_rgb": [
+        0.01000034353859724,
+        0.01000034353859724,
+        0.01000034353859724
+      ]
+    },
+    {
+      "id": 3,
+      "sample_xy": [
+        1680,
+        135
+      ],
+      "intended_linear_rgb": [
+        0.04,
+        0.04,
+        0.04
+      ],
+      "encoded_rgb_u16": [
+        14478,
+        14478,
+        14478
+      ],
+      "realized_linear_rgb": [
+        0.040001307007433026,
+        0.040001307007433026,
+        0.040001307007433026
+      ]
+    },
+    {
+      "id": 4,
+      "sample_xy": [
+        240,
+        405
+      ],
+      "intended_linear_rgb": [
+        0.09,
+        0.09,
+        0.09
+      ],
+      "encoded_rgb_u16": [
+        21746,
+        21746,
+        21746
+      ],
+      "realized_linear_rgb": [
+        0.08999590634332401,
+        0.08999590634332401,
+        0.08999590634332401
+      ]
+    },
+    {
+      "id": 5,
+      "sample_xy": [
+        720,
+        405
+      ],
+      "intended_linear_rgb": [
+        0.18,
+        0.18,
+        0.18
+      ],
+      "encoded_rgb_u16": [
+        30235,
+        30235,
+        30235
+      ],
+      "realized_linear_rgb": [
+        0.18000033259998335,
+        0.18000033259998335,
+        0.18000033259998335
+      ]
+    },
+    {
+      "id": 6,
+      "sample_xy": [
+        1200,
+        405
+      ],
+      "intended_linear_rgb": [
+        0.25,
+        0.25,
+        0.25
+      ],
+      "encoded_rgb_u16": [
+        35199,
+        35199,
+        35199
+      ],
+      "realized_linear_rgb": [
+        0.2500036290641423,
+        0.2500036290641423,
+        0.2500036290641423
+      ]
+    },
+    {
+      "id": 7,
+      "sample_xy": [
+        1680,
+        405
+      ],
+      "intended_linear_rgb": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "encoded_rgb_u16": [
+        48192,
+        48192,
+        48192
+      ],
+      "realized_linear_rgb": [
+        0.5000088064857756,
+        0.5000088064857756,
+        0.5000088064857756
+      ]
+    },
+    {
+      "id": 8,
+      "sample_xy": [
+        240,
+        675
+      ],
+      "intended_linear_rgb": [
+        0.75,
+        0.75,
+        0.75
+      ],
+      "encoded_rgb_u16": [
+        57725,
+        57725,
+        57725
+      ],
+      "realized_linear_rgb": [
+        0.7500038813016353,
+        0.7500038813016353,
+        0.7500038813016353
+      ]
+    },
+    {
+      "id": 9,
+      "sample_xy": [
+        720,
+        675
+      ],
+      "intended_linear_rgb": [
+        1,
+        1,
+        1
+      ],
+      "encoded_rgb_u16": [
+        65535,
+        65535,
+        65535
+      ],
+      "realized_linear_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": 10,
+      "sample_xy": [
+        1200,
+        675
+      ],
+      "intended_linear_rgb": [
+        0.25,
+        0,
+        0
+      ],
+      "encoded_rgb_u16": [
+        35199,
+        0,
+        0
+      ],
+      "realized_linear_rgb": [
+        0.2500036290641423,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": 11,
+      "sample_xy": [
+        1680,
+        675
+      ],
+      "intended_linear_rgb": [
+        0,
+        0.25,
+        0
+      ],
+      "encoded_rgb_u16": [
+        0,
+        35199,
+        0
+      ],
+      "realized_linear_rgb": [
+        0.0,
+        0.2500036290641423,
+        0.0
+      ]
+    },
+    {
+      "id": 12,
+      "sample_xy": [
+        240,
+        945
+      ],
+      "intended_linear_rgb": [
+        0,
+        0,
+        0.25
+      ],
+      "encoded_rgb_u16": [
+        0,
+        0,
+        35199
+      ],
+      "realized_linear_rgb": [
+        0.0,
+        0.0,
+        0.2500036290641423
+      ]
+    },
+    {
+      "id": 13,
+      "sample_xy": [
+        720,
+        945
+      ],
+      "intended_linear_rgb": [
+        0,
+        0.25,
+        0.25
+      ],
+      "encoded_rgb_u16": [
+        0,
+        35199,
+        35199
+      ],
+      "realized_linear_rgb": [
+        0.0,
+        0.2500036290641423,
+        0.2500036290641423
+      ]
+    },
+    {
+      "id": 14,
+      "sample_xy": [
+        1200,
+        945
+      ],
+      "intended_linear_rgb": [
+        0.25,
+        0,
+        0.25
+      ],
+      "encoded_rgb_u16": [
+        35199,
+        0,
+        35199
+      ],
+      "realized_linear_rgb": [
+        0.2500036290641423,
+        0.0,
+        0.2500036290641423
+      ]
+    },
+    {
+      "id": 15,
+      "sample_xy": [
+        1680,
+        945
+      ],
+      "intended_linear_rgb": [
+        0.25,
+        0.25,
+        0
+      ],
+      "encoded_rgb_u16": [
+        35199,
+        35199,
+        0
+      ],
+      "realized_linear_rgb": [
+        0.2500036290641423,
+        0.2500036290641423,
+        0.0
+      ]
+    }
+  ]
+}

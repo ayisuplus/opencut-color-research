@@ -1,0 +1,158 @@
+{
+  "date": "2026-10-13",
+  "scope": "Global-only first-table static condition plus own CUDA texture test; no Resolve runtime capture",
+  "target_sha256": "1a109e719f2d5e20167ecd9e0f1a37407cf62702fcea366e5e7f6dbbdb826f83",
+  "formal_resolve_frames_total": 48,
+  "new_resolve_frames": 0,
+  "static_growth_checks": {
+    "count": 2046,
+    "model_triggers": 0,
+    "target_CRT_executed": false
+  },
+  "numeric_review": {
+    "all_pass": true,
+    "checks": 6261,
+    "maximum_scalar_statistic_delta": 3.3306690738754696e-16,
+    "arithmetic_verification_tolerance": "2e-15 independent floating arithmetic, not a measured GPU-error tolerance or model pass threshold"
+  },
+  "device_run": {
+    "device": "NVIDIA GeForce RTX 5090",
+    "compute": [
+      12,
+      0
+    ],
+    "runtime": 12080,
+    "driver": 13040,
+    "tables": 8,
+    "coordinates": 2344
+  },
+  "build_recipe": {
+    "architecture": "sm_120",
+    "optimization": "O2",
+    "fmad": false,
+    "compiler": "CUDA nvcc12.8.61; MSVC14.44.35207",
+    "scope": "existing local compiler; no independent reproducible rebuild"
+  },
+  "static_private_bindings": [
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-lut-generator.txt",
+      "bytes": 76742,
+      "sha256": "a3f78f4544e7ca36678f5edcbf2cdf413262424777fdb9aa54ef2cf20915ba49"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-lut-postprocess.txt",
+      "bytes": 16578,
+      "sha256": "118316ec64845d19ab2a9f8e8625b5a1c44caee2a42144d1f31c9bbd9f1baed6"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-global-packet-source.txt",
+      "bytes": 10703,
+      "sha256": "9f973be3599cf32ac359d027b84cb55ea2683eae8ced2f1e400ee1990d6d09fd"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-parameter-constructors.txt",
+      "bytes": 19801,
+      "sha256": "fa384af95d68dd16862b5fc7c857479b2662c7f1f5d3b7ac722c40e94d596956"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/independent-global-only-table-review.md",
+      "bytes": 6093,
+      "sha256": "215b12cabbc90a7d576ea8283ce17de1e74451ba9e5d1dfe3cf5b8b20f7d1302"
+    }
+  ],
+  "CUDA_private_bindings": [
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/cuda-texture-input.bin",
+      "bytes": 42160,
+      "sha256": "217f12ac4a3dac08869daab1045a88f8841203bfffb8d7b256d2c9115a308343"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/cuda-texture-input.json",
+      "bytes": 376330,
+      "sha256": "0cf6921828451f6de4b7ead6865285742a47dbae3a7fa9be3850ef37929e3baf"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/cuda-texture-output.bin",
+      "bytes": 75024,
+      "sha256": "f164994f42df46a11496a884f7eedc0501843e7865cf8748c6081261b0178dce"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/cuda-texture-run.json",
+      "bytes": 116,
+      "sha256": "3835493d32252eccfad76d0b6e55125067f707c09cd78e330e00edd748ad7b6e"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/cuda-texture-probe.cu",
+      "bytes": 3648,
+      "sha256": "00a63f5ac3aad2fdbddfe378d21c44329efeec67b9b7a04cc54a7a5a81d5f446"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/cuda-texture-probe.exe",
+      "bytes": 357376,
+      "sha256": "47c3f87480f16a2d2c35b28ec04f66e8b11f67ba7a931aa697817146ef5dcdb0"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/build-cuda-texture-probe.cmd",
+      "bytes": 320,
+      "sha256": "705e5e93381790e3cabf191d7ff5e84dc4be15c0f6eb1100cc0f723fc4c40b05"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/independent-cuda-texture-check.py",
+      "bytes": 10399,
+      "sha256": "2bb7aca23ae5a6b47d0900729f025dc45d9471198eae645bcfea9183ecd49b82"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/independent-cuda-texture-validation.json",
+      "bytes": 5832,
+      "sha256": "cb36ee4a2691bb49222588189cb882019f09f31d710b1a5f9c9826053636d418"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/independent-cuda-texture-review.md",
+      "bytes": 7510,
+      "sha256": "8d362f80bb8388436ab491d867154312355e9fc68bb71212a2ac92a51d1ec4e0"
+    }
+  ],
+  "public_bindings": [
+    {
+      "path": "experiments/cuda-texture-probe.cu",
+      "bytes": 3648,
+      "sha256": "00a63f5ac3aad2fdbddfe378d21c44329efeec67b9b7a04cc54a7a5a81d5f446"
+    },
+    {
+      "path": "experiments/prepare-cuda-texture-probe.py",
+      "bytes": 4702,
+      "sha256": "67c5a868e9bbdf2458ca4cc5814a9728b8f0d4460ab9511975c525c26e56e7c5"
+    },
+    {
+      "path": "experiments/analyze-cuda-texture-probe.py",
+      "bytes": 6046,
+      "sha256": "b9bfb3d00ee0cb88b6b7f609491ace57ffed943be3abdd47382b3eaef55fb2cd"
+    },
+    {
+      "path": "docs/experiments/cuda-texture-probe-result.json",
+      "bytes": 26538,
+      "sha256": "8009d23b1fa86281984367d97b41a3bab162983e07007661e43f444c03db8489"
+    },
+    {
+      "path": "docs/experiments/hdr-mixed-input-freeze.json",
+      "bytes": 27543,
+      "sha256": "9cb32be3c50b6e0f5342259fa18669f6dcc745439eb8cccb5b9dabc490b892aa"
+    },
+    {
+      "path": "experiments/make-hdr-mixed-input.py",
+      "bytes": 6430,
+      "sha256": "b9038e5ce2e2ab83e3fc34de723903469d1fecda1de8da0b4b7cce932cfb1d91"
+    }
+  ],
+  "limits": [
+    "These generated tables are not read from Resolve.",
+    "Coordinates use frozen BT709 decode and rounded Y weights with float32 conversion.",
+    "GPU probe excludes actual input/output color transforms and log2/exp2 kernel arithmetic.",
+    "The zero table is sampled for diagnostics; an actual gain-disabled branch would bypass it.",
+    "Mixed input has already been observed; later comparisons are posthoc, not new blind predictions.",
+    "No CUDA backend/resource or table content has been captured from a Resolve render.",
+    "The ramp tie behavior is measured for this GPU/resource/configuration, not every hardware/API.",
+    "Probe returns texture values only; following exp2 and color encoding are CPU conditional calculations.",
+    "No pre-observation mixed predictions were changed."
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-13",
+  "scope": "existing_Rust_offline_compatibility_probe_not_pinned_toolchain_acceptance",
+  "upstream_revision": "e668010778568641babef2cc40be4703ae6916d6",
+  "toolchain": {
+    "observed_rustc": "rustc 1.96.0 (ac68faa20 2026-05-25)",
+    "observed_cargo": "cargo 1.96.0 (30a34c682 2026-05-25)",
+    "observed_bun": "1.3.14",
+    "observed_node": "v24.15.0",
+    "pins": {
+      "rust": "1.97.0",
+      "bun": "1.3.11",
+      "moon": "2.3.3"
+    },
+    "moon_and_proto_on_current_PATH": false,
+    "pinned_Rust_used": false
+  },
+  "metadata_no_deps": {
+    "exit_code": 0,
+    "workspace_package_names": [
+      "opencut-desktop"
+    ],
+    "dependency_resolve": null,
+    "proves": "manifest/workspace metadata only"
+  },
+  "desktop_check": {
+    "command": "cargo +stable-x86_64-pc-windows-msvc check --offline --locked -p opencut-desktop --target-dir <case-target>",
+    "exit_code": 101,
+    "failure_stage": "offline_registry_resolution",
+    "missing_package": "gpui",
+    "configured_replacement_index_name": "tuna",
+    "Rust_source_check_passed": false
+  },
+  "web_local_node_modules_present": false,
+  "web_build_or_test_executed": false,
+  "Cargo_lock_sha256_before_after": "9c512116dc592f1df0da4ca53102d22da7126d932f41e50c7bb78831dc3a9323",
+  "OpenCut_git_status_unchanged_and_clean": true,
+  "private_probe_result_sha256": "5cf357c1b5b174f2db01a0b4d1b306b19951915c73731060bff53d0ad339d7b1",
+  "raw_output_sha256": {
+    "cargo-version": {
+      "stdout": "b6ef6807dd96d18b833474ad68e7a23a29e562a29c67afa71a59fb9a73df0068",
+      "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "metadata-no-deps": {
+      "stdout": "95af938e8f90df993ed11632a309bdc2fbfa589d8749497a63b016433cfbfcb8",
+      "stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "desktop-check": {
+      "stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr": "9ea428109d1ac748db2ad609ef2351e707ded242211aed276caf564c57b41c62"
+    }
+  },
+  "limits": [
+    "Existing Rust 1.96 differs from upstream's pinned 1.97; this is not pinned-toolchain acceptance.",
+    "The active tuna index failed offline resolution; no claim about every other registry cache or installed tool location.",
+    "Cargo offline/locked flags were used; no dependency install or registry configuration change was requested.",
+    "No app UI, media decode, preview, export, performance or color integration was validated."
+  ]
+}

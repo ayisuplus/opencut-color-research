@@ -1,0 +1,943 @@
+{
+  "date": "2026-10-13",
+  "scope": "native_neutral_export_repeat_and_opaque_drx_replay_not_HDR_EV",
+  "native_mcp": {
+    "tool": "run_script",
+    "unsafe_script_used": false,
+    "transport": "installed_official_stdio_server",
+    "current_chat_tool_catalog_loaded": false,
+    "error_handling_integration_probe": {
+      "intentionally_failing_read_only_script": true,
+      "returned_nonzero": true,
+      "success_marker_absent": true,
+      "tool_content_error_saved_privately": true,
+      "raw_error_absent_from_console": true
+    }
+  },
+  "runtime": {
+    "version": "21.1.1.10",
+    "library": "OC_COLOR_001_TEST",
+    "project": "EXPO_002_NATIVE_HDR_211",
+    "timeline": "PATCHES_1080P30",
+    "start_frame": 108000,
+    "current_timecode": "01:00:00:00",
+    "color_settings": {
+      "colorScienceMode": "davinciYRGB",
+      "colorSpaceInput": "Rec.709 Gamma 2.4",
+      "colorSpaceInputGamma": "",
+      "colorSpaceTimeline": "Rec.709 (Scene)",
+      "colorSpaceTimelineGamma": "",
+      "colorSpaceOutput": "Rec.709 (Scene)",
+      "colorSpaceOutputGamma": "",
+      "rcmPresetMode": "Custom",
+      "separateColorSpaceAndGamma": "0",
+      "colorSpaceOutputToneMapping": "None",
+      "colorSpaceOutputGamutMapping": "None",
+      "useColorSpaceAwareGradingTools": "0",
+      "timelineWorkingLuminance": "1000",
+      "timelineWorkingLuminanceMode": "HDR 1000",
+      "nodeStackLayers": "1",
+      "timelineFrameRate": 30.0,
+      "timelineResolutionWidth": "1920",
+      "timelineResolutionHeight": "1080"
+    },
+    "clip_metadata": {
+      "File Name": "opaque-srgb16-patches.png",
+      "Resolution": "1920x1080",
+      "Bit Depth": "16",
+      "Format": "PNG",
+      "Video Codec": "PNG",
+      "Input Color Space": "项目",
+      "Input Gamma": "Gamma 2.4",
+      "Data Level": "Auto",
+      "Alpha mode": "None",
+      "Frames": "1",
+      "FPS": 24.0
+    },
+    "cache_locations_redirected": true,
+    "rendering": false
+  },
+  "project_is_experiment_copy": true,
+  "original_project_snapshot": {
+    "path": "evidence/local/resolve-exposure-20261013/runtime/before-experiment.drp",
+    "bytes": 24963,
+    "sha256": "71e3f31baa2ff88b8bcdbfe07f36b3a22bf03e344fc62c5def81ca59cdb20063"
+  },
+  "targets": [
+    {
+      "name": "Resolve.exe",
+      "source_sha256": "1a109e719f2d5e20167ecd9e0f1a37407cf62702fcea366e5e7f6dbbdb826f83",
+      "copy_sha256": "1a109e719f2d5e20167ecd9e0f1a37407cf62702fcea366e5e7f6dbbdb826f83",
+      "bytes": 614232536
+    },
+    {
+      "name": "OpenColorIO_2_5.dll",
+      "source_sha256": "9123ffb192738b385f8884c973ab3e0f38f8fb26d1b4cdca21c07b065ebb0155",
+      "copy_sha256": "9123ffb192738b385f8884c973ab3e0f38f8fb26d1b4cdca21c07b065ebb0155",
+      "bytes": 5199728
+    }
+  ],
+  "input": {
+    "path": "experiments/output/exposure-inputs/opaque-srgb16-patches.png",
+    "bytes": 30755,
+    "sha256": "2daa68135e4ac8c0585fb33630ce5d69a735640799b82a8173caafbfc8d9f09f"
+  },
+  "grade_snapshot": {
+    "path": "evidence/local/resolve-exposure-20261013/grades/neutral_retry_1.1.1.drx",
+    "bytes": 18750,
+    "sha256": "388c39fca8def009a6e143d6ca50de115494cc9448c4f61b27504c95fd286fbe"
+  },
+  "neutral_grade_has_correction": false,
+  "replay": {
+    "apply_succeeded": true,
+    "grade_mode": 0,
+    "apply_to_all_layers": false,
+    "layer_count": 1,
+    "graph_layer": 1,
+    "before": {
+      "version": {
+        "versionName": "版本 1",
+        "versionType": 0
+      },
+      "node_count": 1,
+      "tools": null,
+      "lut": ""
+    },
+    "after": {
+      "version": {
+        "versionName": "版本 1",
+        "versionType": 0
+      },
+      "node_count": 1,
+      "tools": null,
+      "lut": ""
+    },
+    "project_saved_and_exported": true
+  },
+  "render": {
+    "format": "exr",
+    "codec": "RGBFloat",
+    "mark_in": 108000,
+    "mark_out": 108000,
+    "width": 1920,
+    "height": 1080,
+    "frame_rate": 30,
+    "export_alpha": false,
+    "data_level_explicitly_set": false,
+    "completed_owned_jobs": 3,
+    "job_statuses": [
+      {
+        "JobStatus": "Complete",
+        "CompletionPercentage": 100
+      },
+      {
+        "JobStatus": "Complete",
+        "CompletionPercentage": 100
+      },
+      {
+        "JobStatus": "Complete",
+        "CompletionPercentage": 100
+      }
+    ]
+  },
+  "measurements": {
+    "baseline-a": {
+      "scope": "fixed_PNG16_to_EXR_RGBFloat_measurements",
+      "image_sha256": "d18674c28197f09580b23db613ad9f4b67e623a9e3c70030d30a1c1c917eeb9b",
+      "rgb_pixels_sha256": "e91cb12d71527cf24e2efc3e3180fde844a5e7e3cfec950e784aab2ecaed5afb",
+      "rgb_pixel_bytes": 24883200,
+      "channels": [
+        "B",
+        "G",
+        "R"
+      ],
+      "sample_channels": 48,
+      "opencv_crosscheck_exact": true,
+      "crosscheck_channels": 6220800,
+      "opencv_version": "4.13.0",
+      "max_error_encoded": 2.9694545600200684e-08,
+      "max_error_linear": 0.2870986529831294,
+      "samples": [
+        {
+          "id": 0,
+          "rgb": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_error_encoded": 0.0,
+          "max_error_linear": 0.0
+        },
+        {
+          "id": 1,
+          "rgb": [
+            0.040451668202877045,
+            0.040451668202877045,
+            0.040451668202877045
+          ],
+          "max_error_encoded": 1.154734828590076e-09,
+          "max_error_linear": 0.03732072968619328
+        },
+        {
+          "id": 2,
+          "rgb": [
+            0.09985503554344177,
+            0.09985503554344177,
+            0.09985503554344177
+          ],
+          "max_error_encoded": 3.7485396175984675e-09,
+          "max_error_linear": 0.08985469200484453
+        },
+        {
+          "id": 3,
+          "rgb": [
+            0.2209201157093048,
+            0.2209201157093048,
+            0.2209201157093048
+          ],
+          "max_error_encoded": 3.3110659769519657e-09,
+          "max_error_linear": 0.18091880870187177
+        },
+        {
+          "id": 4,
+          "rgb": [
+            0.3318226933479309,
+            0.3318226933479309,
+            0.3318226933479309
+          ],
+          "max_error_encoded": 3.1823705337608033e-09,
+          "max_error_linear": 0.2418267870046069
+        },
+        {
+          "id": 5,
+          "rgb": [
+            0.461356520652771,
+            0.461356520652771,
+            0.461356520652771
+          ],
+          "max_error_encoded": 6.39384534206755e-09,
+          "max_error_linear": 0.2813561880527876
+        },
+        {
+          "id": 6,
+          "rgb": [
+            0.5371022820472717,
+            0.5371022820472717,
+            0.5371022820472717
+          ],
+          "max_error_encoded": 2.9694545600200684e-08,
+          "max_error_linear": 0.2870986529831294
+        },
+        {
+          "id": 7,
+          "rgb": [
+            0.7353627681732178,
+            0.7353627681732178,
+            0.7353627681732178
+          ],
+          "max_error_encoded": 1.507237623599167e-08,
+          "max_error_linear": 0.23535396168744216
+        },
+        {
+          "id": 8,
+          "rgb": [
+            0.880827009677887,
+            0.880827009677887,
+            0.880827009677887
+          ],
+          "max_error_encoded": 2.930891396246693e-08,
+          "max_error_linear": 0.13082312837625165
+        },
+        {
+          "id": 9,
+          "rgb": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "max_error_encoded": 0.0,
+          "max_error_linear": 0.0
+        },
+        {
+          "id": 10,
+          "rgb": [
+            0.5371022820472717,
+            0.0,
+            0.0
+          ],
+          "max_error_encoded": 2.9694545600200684e-08,
+          "max_error_linear": 0.2870986529831294
+        },
+        {
+          "id": 11,
+          "rgb": [
+            0.0,
+            0.5371022820472717,
+            0.0
+          ],
+          "max_error_encoded": 2.9694545600200684e-08,
+          "max_error_linear": 0.2870986529831294
+        },
+        {
+          "id": 12,
+          "rgb": [
+            0.0,
+            0.0,
+            0.5371022820472717
+          ],
+          "max_error_encoded": 2.9694545600200684e-08,
+          "max_error_linear": 0.2870986529831294
+        },
+        {
+          "id": 13,
+          "rgb": [
+            0.0,
+            0.5371022820472717,
+            0.5371022820472717
+          ],
+          "max_error_encoded": 2.9694545600200684e-08,
+          "max_error_linear": 0.2870986529831294
+        },
+        {
+          "id": 14,
+          "rgb": [
+            0.5371022820472717,
+            0.0,
+            0.5371022820472717
+          ],
+          "max_error_encoded": 2.9694545600200684e-08,
+          "max_error_linear": 0.2870986529831294
+        },
+        {
+          "id": 15,
+          "rgb": [
+            0.5371022820472717,
+            0.5371022820472717,
+            0.0
+          ],
+          "max_error_encoded": 2.9694545600200684e-08,
+          "max_error_linear": 0.2870986529831294
+        }
+      ]
+    },
+    "baseline-b": {
+      "scope": "fixed_PNG16_to_EXR_RGBFloat_measurements",
+      "image_sha256": "d18674c28197f09580b23db613ad9f4b67e623a9e3c70030d30a1c1c917eeb9b",
+      "rgb_pixels_sha256": "e91cb12d71527cf24e2efc3e3180fde844a5e7e3cfec950e784aab2ecaed5afb",
+      "rgb_pixel_bytes": 24883200,
+      "channels": [
+        "B",
+        "G",
+        "R"
+      ],
+      "sample_channels": 48,
+      "opencv_crosscheck_exact": true,
+      "crosscheck_channels": 6220800,
+      "opencv_version": "4.13.0",
+      "max_error_encoded": 2.9694545600200684e-08,
+      "max_error_linear": 0.2870986529831294,
+      "samples": [
+        {
+          "id": 0,
+          "rgb": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_error_encoded": 0.0,
+          "max_error_linear": 0.0
+        },
+        {
+          "id": 1,
+          "rgb": [
+            0.040451668202877045,
+            0.040451668202877045,
+            0.040451668202877045
+          ],
+          "max_error_encoded": 1.154734828590076e-09,
+          "max_error_linear": 0.03732072968619328
+        },
+        {
+          "id": 2,
+          "rgb": [
+            0.09985503554344177,
+            0.09985503554344177,
+            0.09985503554344177
+          ],
+          "max_error_encoded": 3.7485396175984675e-09,
+          "max_error_linear": 0.08985469200484453
+        },
+        {
+          "id": 3,
+          "rgb": [
+            0.2209201157093048,
+            0.2209201157093048,
+            0.2209201157093048
+          ],
+          "max_error_encoded": 3.3110659769519657e-09,
+          "max_error_linear": 0.18091880870187177
+        },
+        {
+          "id": 4,
+          "rgb": [
+            0.3318226933479309,
+            0.3318226933479309,
+            0.3318226933479309
+          ],
+          "max_error_encoded": 3.1823705337608033e-09,
+          "max_error_linear": 0.2418267870046069
+        },
+        {
+          "id": 5,
+          "rgb": [
+            0.461356520652771,
+            0.461356520652771,
+            0.461356520652771
+          ],
+          "max_error_encoded": 6.39384534206755e-09,
+          "max_error_linear": 0.2813561880527876
+        },
+        {
+          "id": 6,
+          "rgb": [
+            0.5371022820472717,
+            0.5371022820472717,
+            0.5371022820472717
+          ],
+          "max_error_encoded": 2.9694545600200684e-08,
+          "max_error_linear": 0.2870986529831294
+        },
+        {
+          "id": 7,
+          "rgb": [
+            0.7353627681732178,
+            0.7353627681732178,
+            0.7353627681732178
+          ],
+          "max_error_encoded": 1.507237623599167e-08,
+          "max_error_linear": 0.23535396168744216
+        },
+        {
+          "id": 8,
+          "rgb": [
+            0.880827009677887,
+            0.880827009677887,
+            0.880827009677887
+          ],
+          "max_error_encoded": 2.930891396246693e-08,
+          "max_error_linear": 0.13082312837625165
+        },
+        {
+          "id": 9,
+          "rgb": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "max_error_encoded": 0.0,
+          "max_error_linear": 0.0
+        },
+        {
+          "id": 10,
+          "rgb": [
+            0.5371022820472717,
+            0.0,
+            0.0
+          ],
+          "max_error_encoded": 2.9694545600200684e-08,
+          "max_error_linear": 0.2870986529831294
+        },
+        {
+          "id": 11,
+          "rgb": [
+            0.0,
+            0.5371022820472717,
+            0.0
+          ],
+          "max_error_encoded": 2.9694545600200684e-08,
+          "max_error_linear": 0.2870986529831294
+        },
+        {
+          "id": 12,
+          "rgb": [
+            0.0,
+            0.0,
+            0.5371022820472717
+          ],
+          "max_error_encoded": 2.9694545600200684e-08,
+          "max_error_linear": 0.2870986529831294
+        },
+        {
+          "id": 13,
+          "rgb": [
+            0.0,
+            0.5371022820472717,
+            0.5371022820472717
+          ],
+          "max_error_encoded": 2.9694545600200684e-08,
+          "max_error_linear": 0.2870986529831294
+        },
+        {
+          "id": 14,
+          "rgb": [
+            0.5371022820472717,
+            0.0,
+            0.5371022820472717
+          ],
+          "max_error_encoded": 2.9694545600200684e-08,
+          "max_error_linear": 0.2870986529831294
+        },
+        {
+          "id": 15,
+          "rgb": [
+            0.5371022820472717,
+            0.5371022820472717,
+            0.0
+          ],
+          "max_error_encoded": 2.9694545600200684e-08,
+          "max_error_linear": 0.2870986529831294
+        }
+      ]
+    },
+    "neutral-replayed": {
+      "scope": "fixed_PNG16_to_EXR_RGBFloat_measurements",
+      "image_sha256": "d18674c28197f09580b23db613ad9f4b67e623a9e3c70030d30a1c1c917eeb9b",
+      "rgb_pixels_sha256": "e91cb12d71527cf24e2efc3e3180fde844a5e7e3cfec950e784aab2ecaed5afb",
+      "rgb_pixel_bytes": 24883200,
+      "channels": [
+        "B",
+        "G",
+        "R"
+      ],
+      "sample_channels": 48,
+      "opencv_crosscheck_exact": true,
+      "crosscheck_channels": 6220800,
+      "opencv_version": "4.13.0",
+      "max_error_encoded": 2.9694545600200684e-08,
+      "max_error_linear": 0.2870986529831294,
+      "samples": [
+        {
+          "id": 0,
+          "rgb": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_error_encoded": 0.0,
+          "max_error_linear": 0.0
+        },
+        {
+          "id": 1,
+          "rgb": [
+            0.040451668202877045,
+            0.040451668202877045,
+            0.040451668202877045
+          ],
+          "max_error_encoded": 1.154734828590076e-09,
+          "max_error_linear": 0.03732072968619328
+        },
+        {
+          "id": 2,
+          "rgb": [
+            0.09985503554344177,
+            0.09985503554344177,
+            0.09985503554344177
+          ],
+          "max_error_encoded": 3.7485396175984675e-09,
+          "max_error_linear": 0.08985469200484453
+        },
+        {
+          "id": 3,
+          "rgb": [
+            0.2209201157093048,
+            0.2209201157093048,
+            0.2209201157093048
+          ],
+          "max_error_encoded": 3.3110659769519657e-09,
+          "max_error_linear": 0.18091880870187177
+        },
+        {
+          "id": 4,
+          "rgb": [
+            0.3318226933479309,
+            0.3318226933479309,
+            0.3318226933479309
+          ],
+          "max_error_encoded": 3.1823705337608033e-09,
+          "max_error_linear": 0.2418267870046069
+        },
+        {
+          "id": 5,
+          "rgb": [
+            0.461356520652771,
+            0.461356520652771,
+            0.461356520652771
+          ],
+          "max_error_encoded": 6.39384534206755e-09,
+          "max_error_linear": 0.2813561880527876
+        },
+        {
+          "id": 6,
+          "rgb": [
+            0.5371022820472717,
+            0.5371022820472717,
+            0.5371022820472717
+          ],
+          "max_error_encoded": 2.9694545600200684e-08,
+          "max_error_linear": 0.2870986529831294
+        },
+        {
+          "id": 7,
+          "rgb": [
+            0.7353627681732178,
+            0.7353627681732178,
+            0.7353627681732178
+          ],
+          "max_error_encoded": 1.507237623599167e-08,
+          "max_error_linear": 0.23535396168744216
+        },
+        {
+          "id": 8,
+          "rgb": [
+            0.880827009677887,
+            0.880827009677887,
+            0.880827009677887
+          ],
+          "max_error_encoded": 2.930891396246693e-08,
+          "max_error_linear": 0.13082312837625165
+        },
+        {
+          "id": 9,
+          "rgb": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "max_error_encoded": 0.0,
+          "max_error_linear": 0.0
+        },
+        {
+          "id": 10,
+          "rgb": [
+            0.5371022820472717,
+            0.0,
+            0.0
+          ],
+          "max_error_encoded": 2.9694545600200684e-08,
+          "max_error_linear": 0.2870986529831294
+        },
+        {
+          "id": 11,
+          "rgb": [
+            0.0,
+            0.5371022820472717,
+            0.0
+          ],
+          "max_error_encoded": 2.9694545600200684e-08,
+          "max_error_linear": 0.2870986529831294
+        },
+        {
+          "id": 12,
+          "rgb": [
+            0.0,
+            0.0,
+            0.5371022820472717
+          ],
+          "max_error_encoded": 2.9694545600200684e-08,
+          "max_error_linear": 0.2870986529831294
+        },
+        {
+          "id": 13,
+          "rgb": [
+            0.0,
+            0.5371022820472717,
+            0.5371022820472717
+          ],
+          "max_error_encoded": 2.9694545600200684e-08,
+          "max_error_linear": 0.2870986529831294
+        },
+        {
+          "id": 14,
+          "rgb": [
+            0.5371022820472717,
+            0.0,
+            0.5371022820472717
+          ],
+          "max_error_encoded": 2.9694545600200684e-08,
+          "max_error_linear": 0.2870986529831294
+        },
+        {
+          "id": 15,
+          "rgb": [
+            0.5371022820472717,
+            0.5371022820472717,
+            0.0
+          ],
+          "max_error_encoded": 2.9694545600200684e-08,
+          "max_error_linear": 0.2870986529831294
+        }
+      ]
+    }
+  },
+  "comparison": {
+    "whole_file_sha256_identical": true,
+    "whole_RGB_float32_pixels_sha256_identical": true,
+    "channels_per_frame": 6220800,
+    "sample_channels_for_encoding_comparison": 48,
+    "max_sample_error_vs_normalized_PNG_code": 2.9694545600200684e-08,
+    "max_sample_error_vs_sRGB_decoded_linear": 0.2870986529831294
+  },
+  "script_artifacts": [
+    {
+      "path": "experiments/call-resolve-mcp.py",
+      "bytes": 3088,
+      "sha256": "50b9ffe640367013907c9c473f1a5838560571a33a62734194ef01bdd290a265"
+    },
+    {
+      "path": "experiments/measure-resolve-exr.py",
+      "bytes": 3504,
+      "sha256": "599a3dc1d2fcc3a2ce2f8fbe35331715aec21d81e3fbba5a5e05002dd8c9a144"
+    },
+    {
+      "path": "evidence/local/resolve-exposure-20261013/runtime/clone-and-grab.py",
+      "bytes": 1412,
+      "sha256": "aaa73e349f6fc884034ecf569cef61d0dd0c6936a68f462d4bfe24ec737b80c0"
+    },
+    {
+      "path": "evidence/local/resolve-exposure-20261013/runtime/capture-neutral.py",
+      "bytes": 1584,
+      "sha256": "7cb0705a8ae53c8b8973a9363f1090e9dc379901aa810213db436a2206a00278"
+    },
+    {
+      "path": "evidence/local/resolve-exposure-20261013/runtime/retry-still-export.py",
+      "bytes": 659,
+      "sha256": "23d73aa26000dcd55e3de2da6fb7ce4b6cb3fe577d3000265b4ea38967e04372"
+    },
+    {
+      "path": "evidence/local/resolve-exposure-20261013/runtime/render-baseline.py",
+      "bytes": 1295,
+      "sha256": "1eab1db534fed00da0101a944b1571075068ee7233ecc31b8c24fd36c80e1ba6"
+    },
+    {
+      "path": "evidence/local/resolve-exposure-20261013/runtime/render-repeat.py",
+      "bytes": 1496,
+      "sha256": "aca69334b44b2bae36d658a6b2c7a0aedde54c2e67a46935afe99e8e7c04c052"
+    },
+    {
+      "path": "evidence/local/resolve-exposure-20261013/runtime/replay-neutral.py",
+      "bytes": 1503,
+      "sha256": "d0cb158353498cf6a5ed97905980f02b5ca875073866a1b7f860b61216cafd48"
+    },
+    {
+      "path": "evidence/local/resolve-exposure-20261013/runtime/render-replayed.py",
+      "bytes": 1531,
+      "sha256": "8389eb298a800d5a16c38c9d674affa27e745fdfcc5c1f699f74f387c074fa46"
+    },
+    {
+      "path": "evidence/local/resolve-exposure-20261013/runtime/final-state.py",
+      "bytes": 1775,
+      "sha256": "ce76d1c3072c9ef3488c21fd64471b00825e3bcddf71ebd7d21f311ee6317047"
+    },
+    {
+      "path": "evidence/local/resolve-exposure-20261013/runtime/intentional-read-only-error.py",
+      "bytes": 63,
+      "sha256": "a29f17649a0b105b6c6a5cb74cb617126a35cbb28451d6b49c23543e13f25f8e"
+    }
+  ],
+  "observed_export_failure": {
+    "first_still_export_returned_false": true,
+    "same_existing_still_retry_succeeded": true,
+    "unicode_and_ascii_paths_succeeded_on_retry": true,
+    "root_cause_verified": false
+  },
+  "bounds": {
+    "native_HDR_EV_set": false,
+    "native_HDR_0_minus1_plus1_measured": false,
+    "HDR_UI_parameter_mapping_verified": false,
+    "color_management_protocol_confirmed": false,
+    "color_operation_bypass_tested": false,
+    "phase_1A_complete": false,
+    "proprietary_binary_grade_bytes_committed": false,
+    "non_neutral_grade_replay_tested_in_this_neutral_series": false
+  },
+  "remaining": [
+    "Verify native HDR parameter or obtain one controlled native HDR change with UI-value evidence.",
+    "Confirm native HDR working-domain/color settings before exposure comparisons.",
+    "Render native bypass/0/-1/+1 and repeat to compare against independent hypotheses."
+  ],
+  "static_structure": {
+    "descriptor_count": 39,
+    "message_definition_count": 401,
+    "bodies": [
+      {
+        "bytes": 203,
+        "sha256": "a08760f430c05fb73f86745674596b32516982ad176ddc1cc271827dc4d23d12",
+        "structural_candidate": "ProtoVersion.VersionBody",
+        "metrics": {
+          "known": 60,
+          "unknown": 0,
+          "issues": 0,
+          "required_missing": 0,
+          "oneof_multiple_members": 0,
+          "unconsumed_bytes": 0,
+          "nested_messages": 16
+        }
+      },
+      {
+        "bytes": 142,
+        "sha256": "c9d1ef1b3d31c15da1c96d7e63e3c64b8661e7110d6dc2b2d11202f64051ed93",
+        "structural_candidate": "ProtoVersion.VersionBody",
+        "metrics": {
+          "known": 35,
+          "unknown": 0,
+          "issues": 0,
+          "required_missing": 0,
+          "oneof_multiple_members": 0,
+          "unconsumed_bytes": 0,
+          "nested_messages": 9
+        }
+      }
+    ],
+    "declared_path_to_HDR": [
+      "ProtoVersion.VersionBody",
+      "ProtoVersion.Graph",
+      "ProtoVersion.Node",
+      "ProtoVersion.NodeParams",
+      "ProtoVaCommonNamespace.Parameter",
+      "ProtoVaCommonNamespace.ParamValueType",
+      "ProtoVaCommonNamespace.HDRGradeableKeyframeableParamsList",
+      "ProtoVaCommonNamespace.HDRGradeableKeyframeableParams"
+    ],
+    "HDR_branch_present_in_neutral": false,
+    "runtime_deserializer_selection_verified": false,
+    "native_HDR_UI_EV_mapping_verified": false,
+    "analysis_artifact": {
+      "path": "evidence/local/resolve-exposure-20261013/analysis/drx-neutral-descriptor-match.json",
+      "bytes": 933849,
+      "sha256": "a3c082ca61fc7b2b655996e709b5f65be9ec1f8e4b166291dd6a3e3543fb59c5"
+    },
+    "parameter_identity": {
+      "files_checked": [
+        "SyManager/ListMgt/Schemas/VersionBody.proto",
+        "SyManager/ListMgt/Schemas/VersionTable.proto",
+        "IP/VaCommon/Schemas/Parameter.proto"
+      ],
+      "declared_id_and_type_fields": {
+        "ProtoVersion.Node": [
+          {
+            "name": "nodeid",
+            "number": 1,
+            "type": 13,
+            "type_name": ""
+          },
+          {
+            "name": "nodetype",
+            "number": 8,
+            "type": 13,
+            "type_name": ""
+          }
+        ],
+        "ProtoVaCommonNamespace.HDRNodeParams": [
+          {
+            "name": "defaultzonetype",
+            "number": 2,
+            "type": 13,
+            "type_name": ""
+          },
+          {
+            "name": "zonetype",
+            "number": 3,
+            "type": 13,
+            "type_name": ""
+          }
+        ],
+        "ProtoVaCommonNamespace.Parameter": [
+          {
+            "name": "key",
+            "number": 1,
+            "type": 13,
+            "type_name": ""
+          }
+        ]
+      },
+      "enum_definition_count": 0,
+      "enum_definitions": [],
+      "HDR_parameter_key_enum_found": false,
+      "UI_EV_mapping_verified": false,
+      "observation": "Parameter.key, Node.nodetype, HDR zone type fields use numeric scalar types without an HDR identity enum in these descriptors"
+    }
+  },
+  "execution_receipts": [
+    {
+      "path": "evidence/local/resolve-exposure-20261013/runtime/clone-result.json",
+      "bytes": 14909,
+      "sha256": "3c496886959275f5ad3ab7fe6c39f52b5fdd58176af38fc6692880870c04c896"
+    },
+    {
+      "path": "evidence/local/resolve-exposure-20261013/runtime/capture-neutral-result.json",
+      "bytes": 1250,
+      "sha256": "912101168ebec2e736e220303e4bc456f660c2e7fa727b91656a4b27e9f9aa56"
+    },
+    {
+      "path": "evidence/local/resolve-exposure-20261013/runtime/retry-still-export-result.json",
+      "bytes": 1032,
+      "sha256": "c0969a50ada608595b659001e82e2f39b40cece915e19b5a47d7df1d6a3bd62b"
+    },
+    {
+      "path": "evidence/local/resolve-exposure-20261013/runtime/render-baseline-result.json",
+      "bytes": 2368,
+      "sha256": "4fba8695c5d34b791ea38fd64b9e7ffa38cff14a2f74c5c7487f880ca17b6ef5"
+    },
+    {
+      "path": "evidence/local/resolve-exposure-20261013/runtime/poll-baseline-result.json",
+      "bytes": 1061,
+      "sha256": "dbf0d08693fa635555267362b9c74f2e0fb6a2cfc9eec11780f7861a891146d8"
+    },
+    {
+      "path": "evidence/local/resolve-exposure-20261013/runtime/render-repeat-result.json",
+      "bytes": 2368,
+      "sha256": "b99e5af1a17f7fba85b36b0dedb4da000d8e71faddb72945271eeb68f1ba5c81"
+    },
+    {
+      "path": "evidence/local/resolve-exposure-20261013/runtime/poll-repeat-result.json",
+      "bytes": 1061,
+      "sha256": "dbf0d08693fa635555267362b9c74f2e0fb6a2cfc9eec11780f7861a891146d8"
+    },
+    {
+      "path": "evidence/local/resolve-exposure-20261013/runtime/replay-neutral-result.json",
+      "bytes": 1398,
+      "sha256": "e326da822fcacf0ed8c0d7a55888c0811b1c9372ffd249c44ecc235bbc2e4471"
+    },
+    {
+      "path": "evidence/local/resolve-exposure-20261013/runtime/render-replayed-result.json",
+      "bytes": 2392,
+      "sha256": "c9810b0a39bfcd8c6e6f1f61198a22d62c11f4b7c809f534698f4c9c2750a130"
+    },
+    {
+      "path": "evidence/local/resolve-exposure-20261013/runtime/poll-replayed-result.json",
+      "bytes": 1061,
+      "sha256": "dbf0d08693fa635555267362b9c74f2e0fb6a2cfc9eec11780f7861a891146d8"
+    },
+    {
+      "path": "evidence/local/resolve-exposure-20261013/runtime/final-state-result.json",
+      "bytes": 2276,
+      "sha256": "c1579e6b446a94354a26846d49c537caf3d237c93bdee7ef632e899bbec13249"
+    },
+    {
+      "path": "evidence/local/resolve-exposure-20261013/runtime/intentional-read-only-error-result.json",
+      "bytes": 1209,
+      "sha256": "195bcee88f3e96c3d77a9d75fefd03b4b64082d23f4de4147578cc56d9eae92f"
+    }
+  ],
+  "supplemental_control_result": "docs/experiments/resolve-cdl-control-result.json",
+  "final_schema_guard_confirmation": {
+    "script_result_object_required": true,
+    "native_read_only_query_passed": true,
+    "final_state_equals_recorded": true,
+    "receipt": {
+      "path": "evidence/local/resolve-exposure-20261013/runtime/post-validation-final-state-result.json",
+      "bytes": 2276,
+      "sha256": "c1579e6b446a94354a26846d49c537caf3d237c93bdee7ef632e899bbec13249"
+    }
+  }
+}

@@ -1,0 +1,890 @@
+{
+  "scope": "own_srgb_linear_exposure_reference_no_resolve_or_ocio_execution",
+  "input_sha256": "2daa68135e4ac8c0585fb33630ce5d69a735640799b82a8173caafbfc8d9f09f",
+  "source_owned": true,
+  "work_convention": "opaque float64 linear RGB, sRGB primaries, D65; RGB_out = RGB_in * 2^EV",
+  "preview_convention": "RGB 8-bit sRGB; clamp to [0,1] only for preview, then encode and round half up",
+  "sources": [
+    "https://www.w3.org/TR/css-color-4/#color-conversion-code",
+    "https://github.com/AcademySoftwareFoundation/OpenColorIO/blob/2831d2547d133b326c6e9a09726ceeb7fe46f997/src/OpenColorIO/ops/exposurecontrast/ExposureContrastOpCPU.cpp"
+  ],
+  "limitations": [
+    "Reference samples only; no native Resolve frames or control mapping.",
+    "No alpha, negative-input, HDR, Log or video-encoding validation.",
+    "Preview pixels are not the float work values; values above 1 remain in the table."
+  ],
+  "cases": [
+    {
+      "ev": -1,
+      "work_range": [
+        0.0,
+        0.5
+      ],
+      "samples": [
+        {
+          "id": 0,
+          "sample_xy": [
+            240,
+            135
+          ],
+          "work_linear_rgb": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "preview_rgb_u8": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": 1,
+          "sample_xy": [
+            720,
+            135
+          ],
+          "work_linear_rgb": [
+            0.0015654692583418831,
+            0.0015654692583418831,
+            0.0015654692583418831
+          ],
+          "preview_rgb_u8": [
+            5,
+            5,
+            5
+          ]
+        },
+        {
+          "id": 2,
+          "sample_xy": [
+            1200,
+            135
+          ],
+          "work_linear_rgb": [
+            0.00500017176929862,
+            0.00500017176929862,
+            0.00500017176929862
+          ],
+          "preview_rgb_u8": [
+            16,
+            16,
+            16
+          ]
+        },
+        {
+          "id": 3,
+          "sample_xy": [
+            1680,
+            135
+          ],
+          "work_linear_rgb": [
+            0.020000653503716513,
+            0.020000653503716513,
+            0.020000653503716513
+          ],
+          "preview_rgb_u8": [
+            39,
+            39,
+            39
+          ]
+        },
+        {
+          "id": 4,
+          "sample_xy": [
+            240,
+            405
+          ],
+          "work_linear_rgb": [
+            0.044997953171662004,
+            0.044997953171662004,
+            0.044997953171662004
+          ],
+          "preview_rgb_u8": [
+            60,
+            60,
+            60
+          ]
+        },
+        {
+          "id": 5,
+          "sample_xy": [
+            720,
+            405
+          ],
+          "work_linear_rgb": [
+            0.09000016629999168,
+            0.09000016629999168,
+            0.09000016629999168
+          ],
+          "preview_rgb_u8": [
+            85,
+            85,
+            85
+          ]
+        },
+        {
+          "id": 6,
+          "sample_xy": [
+            1200,
+            405
+          ],
+          "work_linear_rgb": [
+            0.12500181453207115,
+            0.12500181453207115,
+            0.12500181453207115
+          ],
+          "preview_rgb_u8": [
+            99,
+            99,
+            99
+          ]
+        },
+        {
+          "id": 7,
+          "sample_xy": [
+            1680,
+            405
+          ],
+          "work_linear_rgb": [
+            0.2500044032428878,
+            0.2500044032428878,
+            0.2500044032428878
+          ],
+          "preview_rgb_u8": [
+            137,
+            137,
+            137
+          ]
+        },
+        {
+          "id": 8,
+          "sample_xy": [
+            240,
+            675
+          ],
+          "work_linear_rgb": [
+            0.37500194065081766,
+            0.37500194065081766,
+            0.37500194065081766
+          ],
+          "preview_rgb_u8": [
+            165,
+            165,
+            165
+          ]
+        },
+        {
+          "id": 9,
+          "sample_xy": [
+            720,
+            675
+          ],
+          "work_linear_rgb": [
+            0.5,
+            0.5,
+            0.5
+          ],
+          "preview_rgb_u8": [
+            188,
+            188,
+            188
+          ]
+        },
+        {
+          "id": 10,
+          "sample_xy": [
+            1200,
+            675
+          ],
+          "work_linear_rgb": [
+            0.12500181453207115,
+            0.0,
+            0.0
+          ],
+          "preview_rgb_u8": [
+            99,
+            0,
+            0
+          ]
+        },
+        {
+          "id": 11,
+          "sample_xy": [
+            1680,
+            675
+          ],
+          "work_linear_rgb": [
+            0.0,
+            0.12500181453207115,
+            0.0
+          ],
+          "preview_rgb_u8": [
+            0,
+            99,
+            0
+          ]
+        },
+        {
+          "id": 12,
+          "sample_xy": [
+            240,
+            945
+          ],
+          "work_linear_rgb": [
+            0.0,
+            0.0,
+            0.12500181453207115
+          ],
+          "preview_rgb_u8": [
+            0,
+            0,
+            99
+          ]
+        },
+        {
+          "id": 13,
+          "sample_xy": [
+            720,
+            945
+          ],
+          "work_linear_rgb": [
+            0.0,
+            0.12500181453207115,
+            0.12500181453207115
+          ],
+          "preview_rgb_u8": [
+            0,
+            99,
+            99
+          ]
+        },
+        {
+          "id": 14,
+          "sample_xy": [
+            1200,
+            945
+          ],
+          "work_linear_rgb": [
+            0.12500181453207115,
+            0.0,
+            0.12500181453207115
+          ],
+          "preview_rgb_u8": [
+            99,
+            0,
+            99
+          ]
+        },
+        {
+          "id": 15,
+          "sample_xy": [
+            1680,
+            945
+          ],
+          "work_linear_rgb": [
+            0.12500181453207115,
+            0.12500181453207115,
+            0.0
+          ],
+          "preview_rgb_u8": [
+            99,
+            99,
+            0
+          ]
+        }
+      ],
+      "preview": {
+        "name": "ev-minus1.png",
+        "sha256": "9844fe4b187ecd47be86996e42d43647a47fc1c30527d9fdc49776cc3b82d1e7",
+        "bytes": 8698
+      }
+    },
+    {
+      "ev": 0,
+      "work_range": [
+        0.0,
+        1.0
+      ],
+      "samples": [
+        {
+          "id": 0,
+          "sample_xy": [
+            240,
+            135
+          ],
+          "work_linear_rgb": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "preview_rgb_u8": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": 1,
+          "sample_xy": [
+            720,
+            135
+          ],
+          "work_linear_rgb": [
+            0.0031309385166837663,
+            0.0031309385166837663,
+            0.0031309385166837663
+          ],
+          "preview_rgb_u8": [
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "id": 2,
+          "sample_xy": [
+            1200,
+            135
+          ],
+          "work_linear_rgb": [
+            0.01000034353859724,
+            0.01000034353859724,
+            0.01000034353859724
+          ],
+          "preview_rgb_u8": [
+            25,
+            25,
+            25
+          ]
+        },
+        {
+          "id": 3,
+          "sample_xy": [
+            1680,
+            135
+          ],
+          "work_linear_rgb": [
+            0.040001307007433026,
+            0.040001307007433026,
+            0.040001307007433026
+          ],
+          "preview_rgb_u8": [
+            56,
+            56,
+            56
+          ]
+        },
+        {
+          "id": 4,
+          "sample_xy": [
+            240,
+            405
+          ],
+          "work_linear_rgb": [
+            0.08999590634332401,
+            0.08999590634332401,
+            0.08999590634332401
+          ],
+          "preview_rgb_u8": [
+            85,
+            85,
+            85
+          ]
+        },
+        {
+          "id": 5,
+          "sample_xy": [
+            720,
+            405
+          ],
+          "work_linear_rgb": [
+            0.18000033259998335,
+            0.18000033259998335,
+            0.18000033259998335
+          ],
+          "preview_rgb_u8": [
+            118,
+            118,
+            118
+          ]
+        },
+        {
+          "id": 6,
+          "sample_xy": [
+            1200,
+            405
+          ],
+          "work_linear_rgb": [
+            0.2500036290641423,
+            0.2500036290641423,
+            0.2500036290641423
+          ],
+          "preview_rgb_u8": [
+            137,
+            137,
+            137
+          ]
+        },
+        {
+          "id": 7,
+          "sample_xy": [
+            1680,
+            405
+          ],
+          "work_linear_rgb": [
+            0.5000088064857756,
+            0.5000088064857756,
+            0.5000088064857756
+          ],
+          "preview_rgb_u8": [
+            188,
+            188,
+            188
+          ]
+        },
+        {
+          "id": 8,
+          "sample_xy": [
+            240,
+            675
+          ],
+          "work_linear_rgb": [
+            0.7500038813016353,
+            0.7500038813016353,
+            0.7500038813016353
+          ],
+          "preview_rgb_u8": [
+            225,
+            225,
+            225
+          ]
+        },
+        {
+          "id": 9,
+          "sample_xy": [
+            720,
+            675
+          ],
+          "work_linear_rgb": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "preview_rgb_u8": [
+            255,
+            255,
+            255
+          ]
+        },
+        {
+          "id": 10,
+          "sample_xy": [
+            1200,
+            675
+          ],
+          "work_linear_rgb": [
+            0.2500036290641423,
+            0.0,
+            0.0
+          ],
+          "preview_rgb_u8": [
+            137,
+            0,
+            0
+          ]
+        },
+        {
+          "id": 11,
+          "sample_xy": [
+            1680,
+            675
+          ],
+          "work_linear_rgb": [
+            0.0,
+            0.2500036290641423,
+            0.0
+          ],
+          "preview_rgb_u8": [
+            0,
+            137,
+            0
+          ]
+        },
+        {
+          "id": 12,
+          "sample_xy": [
+            240,
+            945
+          ],
+          "work_linear_rgb": [
+            0.0,
+            0.0,
+            0.2500036290641423
+          ],
+          "preview_rgb_u8": [
+            0,
+            0,
+            137
+          ]
+        },
+        {
+          "id": 13,
+          "sample_xy": [
+            720,
+            945
+          ],
+          "work_linear_rgb": [
+            0.0,
+            0.2500036290641423,
+            0.2500036290641423
+          ],
+          "preview_rgb_u8": [
+            0,
+            137,
+            137
+          ]
+        },
+        {
+          "id": 14,
+          "sample_xy": [
+            1200,
+            945
+          ],
+          "work_linear_rgb": [
+            0.2500036290641423,
+            0.0,
+            0.2500036290641423
+          ],
+          "preview_rgb_u8": [
+            137,
+            0,
+            137
+          ]
+        },
+        {
+          "id": 15,
+          "sample_xy": [
+            1680,
+            945
+          ],
+          "work_linear_rgb": [
+            0.2500036290641423,
+            0.2500036290641423,
+            0.0
+          ],
+          "preview_rgb_u8": [
+            137,
+            137,
+            0
+          ]
+        }
+      ],
+      "preview": {
+        "name": "ev-zero.png",
+        "sha256": "9050caf1600a9c518ecf0a4ce26067b35ee72b4e32b03f4245ee9294a526e809",
+        "bytes": 8698
+      }
+    },
+    {
+      "ev": 1,
+      "work_range": [
+        0.0,
+        2.0
+      ],
+      "samples": [
+        {
+          "id": 0,
+          "sample_xy": [
+            240,
+            135
+          ],
+          "work_linear_rgb": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "preview_rgb_u8": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": 1,
+          "sample_xy": [
+            720,
+            135
+          ],
+          "work_linear_rgb": [
+            0.006261877033367533,
+            0.006261877033367533,
+            0.006261877033367533
+          ],
+          "preview_rgb_u8": [
+            18,
+            18,
+            18
+          ]
+        },
+        {
+          "id": 2,
+          "sample_xy": [
+            1200,
+            135
+          ],
+          "work_linear_rgb": [
+            0.02000068707719448,
+            0.02000068707719448,
+            0.02000068707719448
+          ],
+          "preview_rgb_u8": [
+            39,
+            39,
+            39
+          ]
+        },
+        {
+          "id": 3,
+          "sample_xy": [
+            1680,
+            135
+          ],
+          "work_linear_rgb": [
+            0.08000261401486605,
+            0.08000261401486605,
+            0.08000261401486605
+          ],
+          "preview_rgb_u8": [
+            80,
+            80,
+            80
+          ]
+        },
+        {
+          "id": 4,
+          "sample_xy": [
+            240,
+            405
+          ],
+          "work_linear_rgb": [
+            0.17999181268664802,
+            0.17999181268664802,
+            0.17999181268664802
+          ],
+          "preview_rgb_u8": [
+            118,
+            118,
+            118
+          ]
+        },
+        {
+          "id": 5,
+          "sample_xy": [
+            720,
+            405
+          ],
+          "work_linear_rgb": [
+            0.3600006651999667,
+            0.3600006651999667,
+            0.3600006651999667
+          ],
+          "preview_rgb_u8": [
+            162,
+            162,
+            162
+          ]
+        },
+        {
+          "id": 6,
+          "sample_xy": [
+            1200,
+            405
+          ],
+          "work_linear_rgb": [
+            0.5000072581282846,
+            0.5000072581282846,
+            0.5000072581282846
+          ],
+          "preview_rgb_u8": [
+            188,
+            188,
+            188
+          ]
+        },
+        {
+          "id": 7,
+          "sample_xy": [
+            1680,
+            405
+          ],
+          "work_linear_rgb": [
+            1.0000176129715512,
+            1.0000176129715512,
+            1.0000176129715512
+          ],
+          "preview_rgb_u8": [
+            255,
+            255,
+            255
+          ]
+        },
+        {
+          "id": 8,
+          "sample_xy": [
+            240,
+            675
+          ],
+          "work_linear_rgb": [
+            1.5000077626032706,
+            1.5000077626032706,
+            1.5000077626032706
+          ],
+          "preview_rgb_u8": [
+            255,
+            255,
+            255
+          ]
+        },
+        {
+          "id": 9,
+          "sample_xy": [
+            720,
+            675
+          ],
+          "work_linear_rgb": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "preview_rgb_u8": [
+            255,
+            255,
+            255
+          ]
+        },
+        {
+          "id": 10,
+          "sample_xy": [
+            1200,
+            675
+          ],
+          "work_linear_rgb": [
+            0.5000072581282846,
+            0.0,
+            0.0
+          ],
+          "preview_rgb_u8": [
+            188,
+            0,
+            0
+          ]
+        },
+        {
+          "id": 11,
+          "sample_xy": [
+            1680,
+            675
+          ],
+          "work_linear_rgb": [
+            0.0,
+            0.5000072581282846,
+            0.0
+          ],
+          "preview_rgb_u8": [
+            0,
+            188,
+            0
+          ]
+        },
+        {
+          "id": 12,
+          "sample_xy": [
+            240,
+            945
+          ],
+          "work_linear_rgb": [
+            0.0,
+            0.0,
+            0.5000072581282846
+          ],
+          "preview_rgb_u8": [
+            0,
+            0,
+            188
+          ]
+        },
+        {
+          "id": 13,
+          "sample_xy": [
+            720,
+            945
+          ],
+          "work_linear_rgb": [
+            0.0,
+            0.5000072581282846,
+            0.5000072581282846
+          ],
+          "preview_rgb_u8": [
+            0,
+            188,
+            188
+          ]
+        },
+        {
+          "id": 14,
+          "sample_xy": [
+            1200,
+            945
+          ],
+          "work_linear_rgb": [
+            0.5000072581282846,
+            0.0,
+            0.5000072581282846
+          ],
+          "preview_rgb_u8": [
+            188,
+            0,
+            188
+          ]
+        },
+        {
+          "id": 15,
+          "sample_xy": [
+            1680,
+            945
+          ],
+          "work_linear_rgb": [
+            0.5000072581282846,
+            0.5000072581282846,
+            0.0
+          ],
+          "preview_rgb_u8": [
+            188,
+            188,
+            0
+          ]
+        }
+      ],
+      "preview": {
+        "name": "ev-plus1.png",
+        "sha256": "9251ad00888ca91b1427f5d8ce5def8429dfe8db0028d2e3e1532a71f67bb99c",
+        "bytes": 8691
+      }
+    }
+  ],
+  "negative_control": {
+    "sample_id": 5,
+    "wrong_operation": "multiply sRGB encoded value by 2 and clamp, then decode",
+    "wrong_work_linear_rgb": [
+      0.8331083550727032,
+      0.8331083550727032,
+      0.8331083550727032
+    ],
+    "correct_plus1_work_linear_rgb": [
+      0.3600006651999667,
+      0.3600006651999667,
+      0.3600006651999667
+    ]
+  }
+}

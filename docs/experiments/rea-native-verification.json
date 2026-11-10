@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-12",
+  "scope": "read_only_native_static_analysis_not_target_execution",
+  "toolchain": {
+    "rea_package": "rea-agents@6.4.0",
+    "installation": "project_local_cli_no_global_path_or_codex_config_change",
+    "npm_registry": "https://registry.npmjs.org",
+    "install_scripts": "disabled",
+    "ghidra_version": "12.1.4",
+    "java_version": "21.0.11_existing_JDK",
+    "ghidra_archive": {
+      "url": "https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_12.1.4_build/ghidra_12.1.4_PUBLIC_20260921.zip",
+      "bytes": 569649598,
+      "sha256": "ddac49f903da9d5bac833e5cc79395098b9c33cfd3279be5f31bd00387d2d4db"
+    }
+  },
+  "doctor": {
+    "explicit_scope": "ghidra_and_fixture",
+    "healthy": true,
+    "checks_passed": 11,
+    "cli_exit_code": 0
+  },
+  "fixture": {
+    "source": "experiments/rea-exposure-fixture.rs",
+    "source_sha256": "4c729b320cf262ae6112bb58af2ecfff756e6d0309cdf721169a8483537665a4",
+    "binary_sha256": "d71274261d45595237ca5f3fb1ca0bf762cf684cf04a7993bc445dd85cf40407",
+    "evidence_id": "ev_bf3a3b986566ef9cc96bec9052c47f0e417bb86ad72826662ff787c68fc1a06c",
+    "entry_va": "0x180001000",
+    "entry_rva": "0x1000",
+    "complete_body_bytes": 5,
+    "assembly": [
+      "0x180001000: ADDSS XMM0, XMM0",
+      "0x180001004: RET"
+    ],
+    "known_source_equivalent": "f32 input * 2",
+    "independent_compiler_assembly_match": true,
+    "target_loaded_via_os_dll_loader": false,
+    "target_executed": false,
+    "cli_exit_code": 0
+  },
+  "ocio_factory": {
+    "binary_sha256": "a1658f7bbe6193ce34f9f6dd4beaf5820c19a2455758c91a9bdb6d2ba5444478",
+    "evidence_id": "ev_373f433d69415c47a7236bdd47b9fc1ea60f8278ac9778ef2b78c1380e04a9c6",
+    "symbol": "OpenColorIO_v2_4::ExposureContrastTransform::Create",
+    "entry_va": "0x1802b4380",
+    "entry_rva": "0x2b4380",
+    "address_basis": "preferred_static_image_base_not_runtime_address",
+    "complete_body_bytes": 211,
+    "assembly_instruction_count": 50,
+    "cli_exit_code": 0,
+    "observation": "Object and ownership structure initialization; no pixel-processing algorithm established.",
+    "type_recovery_limit": "Recovered signature and pseudocode disagree about C++ aggregate return; ABI/source types not certified.",
+    "resolve_native_exposure_call_chain_verified": false
+  },
+  "post_analysis_integrity": [
+    {
+      "name": "Resolve.exe",
+      "sha256": "4f3a637aadb6817d3cb5afa2ebcb97d646af8fd67e8b262acda26ff06acfa91e",
+      "original_and_snapshot_unchanged": true
+    },
+    {
+      "name": "OpenColorIO_2_4.dll",
+      "sha256": "a1658f7bbe6193ce34f9f6dd4beaf5820c19a2455758c91a9bdb6d2ba5444478",
+      "original_and_snapshot_unchanged": true
+    }
+  ],
+  "raw_evidence": [
+    {
+      "path": "evidence/local/resolve-exposure-20261012/analysis/rea-doctor-ghidra.json",
+      "sha256": "23430860f73378487804742930c7dbb64ce560be5a3a4a3eb163c7e340247828"
+    },
+    {
+      "path": "evidence/local/resolve-exposure-20261012/analysis/rea-function-fixture.json",
+      "sha256": "f9e8e419dbb21403191179f31ad91f171356ea136e0d6f98dc3e4748cee49639"
+    },
+    {
+      "path": "evidence/local/resolve-exposure-20261012/analysis/fixture-compiler-reference.s",
+      "sha256": "3bbc40e452e570e5b40d52af8e13808e809c2afdbd7bbe0d44dc08411e679f33"
+    },
+    {
+      "path": "evidence/local/resolve-exposure-20261012/analysis/rea-function-ocio-factory.json",
+      "sha256": "ff16447bc80a929cafcfbdb8e41458b6468f1195c45cbb3c745e459ca588089e"
+    }
+  ],
+  "remaining": [
+    "No Resolve execution, project library, native control settings or image exports validated.",
+    "No mapping of Resolve HDR Global Exposure to this OCIO factory or CPU exposure branch.",
+    "No OpenCut color implementation or preview/export integration.",
+    "Ghidra pseudocode is provider-derived evidence, not recovered original source."
+  ]
+}

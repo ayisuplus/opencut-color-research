@@ -1,0 +1,236 @@
+{
+  "date": "2026-10-13",
+  "scope": "conditional static color receiver/registration/transfer relationship plus posthoc own mathematics",
+  "target_sha256": "1a109e719f2d5e20167ecd9e0f1a37407cf62702fcea366e5e7f6dbbdb826f83",
+  "PTX_parent_sha256": "da5827ba7f56d8906da35804e5d22b282d1beab223be31315f08a2599be8ed42",
+  "new_resolve_frames": 0,
+  "formal_resolve_frames_total": 48,
+  "actual_runtime_capture": false,
+  "fitted_parameters": 0,
+  "receiver_condition": "successful allocation and construction, normal return, no later receiver replacement",
+  "HDR_host_vtable_byte_offset": "0x10",
+  "HDR_host_zero_based_slot": 2,
+  "registrations": [
+    {
+      "label": "matrix",
+      "stub_va": "0x142c26ea0",
+      "symbol_va": "0x147ddbea0",
+      "source_line_start": 35400,
+      "source_line_end": 45057,
+      "entry_sha256": "c6159ff452d0f763e6967d96e30dd890617329f9adf619fc74cc6c2a89739acc"
+    },
+    {
+      "label": "gamma-pair",
+      "stub_va": "0x142c24190",
+      "symbol_va": "0x147ddb810",
+      "source_line_start": 48369,
+      "source_line_end": 58012,
+      "entry_sha256": "9f104205bd4f6ea282e6a77088e1c614b0cb5054336387d15f8c051c5cbd4f65"
+    },
+    {
+      "label": "gamma-one",
+      "stub_va": "0x142c23070",
+      "symbol_va": "0x147ddb860",
+      "source_line_start": 48289,
+      "source_line_end": 48367,
+      "entry_sha256": "f59d8a4df4d60995f3837b4bc422871e6277e55fbadafb111a1a10e279669518"
+    },
+    {
+      "label": "gamma-direction",
+      "stub_va": "0x142c214b0",
+      "symbol_va": "0x147ddbbd0",
+      "source_line_start": 46624,
+      "source_line_end": 47124,
+      "entry_sha256": "6f09fe1ac7e07444db0f4039d487fb4198cfcdaa85d9b18a64bdc06fbc3bc8be"
+    }
+  ],
+  "native_default_literal_bits": {
+    "decode_join": "0x3DA5E354",
+    "encode_join": "0x3C9374BC",
+    "power": "0x4019999A",
+    "inverse_power": "0x3ED55555"
+  },
+  "numeric_review": {
+    "checks_count": 956,
+    "all_pass": true,
+    "prediction_channels": 864,
+    "rows": 18,
+    "statistics": 36,
+    "verification_absolute_tolerance": 2e-15,
+    "max_prediction_difference": 2.220446049250313e-16,
+    "max_statistic_difference": 1.3760261986382923e-17
+  },
+  "history_checks": [
+    {
+      "path": "docs/experiments/resolve-hdr-global-grid-result.json",
+      "sha256": "64e270cc23fc5722be95a013640c977ab2382dc27fe70b8305546f345c24e760",
+      "HEAD_sha256": "3e4a3914667364ca96fcf225ac652cd0aa9342621d4b700f8cfd5e6a15b4e2c4",
+      "raw_equal_HEAD": false,
+      "working_CRLF": 615,
+      "HEAD_CRLF": 0
+    },
+    {
+      "path": "docs/experiments/hdr-mixed-result.json",
+      "sha256": "e143acb972a90425f5a499e4478fb649e69fdf3482e58f796506278b8cbcf212",
+      "HEAD_sha256": "e143acb972a90425f5a499e4478fb649e69fdf3482e58f796506278b8cbcf212",
+      "raw_equal_HEAD": true,
+      "working_CRLF": 0,
+      "HEAD_CRLF": 0
+    },
+    {
+      "path": "docs/experiments/resolve-hdr-srgb-pair-result.json",
+      "sha256": "6d9b57d39e6e893eb3f298af5e01cc0104350c63f32e0443da5d7be4ec77f918",
+      "HEAD_sha256": "6d9b57d39e6e893eb3f298af5e01cc0104350c63f32e0443da5d7be4ec77f918",
+      "raw_equal_HEAD": true,
+      "working_CRLF": 0,
+      "HEAD_CRLF": 0
+    }
+  ],
+  "prospective_freeze_sha256": "9cb32be3c50b6e0f5342259fa18669f6dcc745439eb8cccb5b9dabc490b892aa",
+  "private_bindings": [
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-color-convert-full-fragments.txt",
+      "bytes": 23535,
+      "sha256": "4778eab5de5c56db6d9359208efed65b331a86c60992964481eefcaaffd8d301"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-color-convert-candidate-methods-complete.txt",
+      "bytes": 39339,
+      "sha256": "b8d373a225bc39213a2b990a495cd9528c81918681e393e91ff2b1047d334554"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-color-convert-candidate-methods.txt",
+      "bytes": 23342,
+      "sha256": "21aa21901abf2df6768cb48e24dc5c7d4aede3e11b744e96173d11997dfe4fd5"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/color-convert-rtti.json",
+      "bytes": 31358,
+      "sha256": "5d8c9b999fb88e1aa8fd67fbb55ab6a8b2a5d924a29d7074b9751197aac9de21"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-color-convert-registration.txt",
+      "bytes": 48216,
+      "sha256": "151f103045bb8e455f52566d3fcaff036fdf8369e7cd7a0c95f15a8e2ad112cd"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/hdr-color-receiver-constructor-candidate.txt",
+      "bytes": 7204,
+      "sha256": "9a43b5bfd0b2fc42dff88570126cbb53b7cef99b252eab1ae8d239a4ffddd87b"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/color-factory-candidates.json",
+      "bytes": 3805,
+      "sha256": "65d9f5d03aa92190ee1ca319ce02ab882220d3e064400fc8cae8d5776ce88e67"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/color-conversion-entries.json",
+      "bytes": 2181,
+      "sha256": "ffe9ec53e07a24c412d3a028619f270c1c80c423f5152625f8ef2242069543ef"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/independent-color-convert-methods-review.md",
+      "bytes": 8176,
+      "sha256": "09980b629c99abecc7562861da6467407c5eab5d9f853acaa59f6157548f27d9"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/receiver-registration-review.md",
+      "bytes": 7197,
+      "sha256": "bbb53dbfa06457cef3657734e05fca92207502aeea6266b4d796423c36d9031f"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/independent-color-transfer-review.md",
+      "bytes": 11274,
+      "sha256": "a05372272701805ab6cefcd476c19f8729bfd1bf0218e5752154dd0f6d9e7563"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/independent-hdr-transfer-chain-review.md",
+      "bytes": 6353,
+      "sha256": "c8941c6155b51619791a85298401d51db9c8fa9d0754d268a38da1c48dcc0fdc"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/independent-hdr-transfer-chain-validation.json",
+      "bytes": 95123,
+      "sha256": "75f3ef2c84a02ece0d47094ec40ae27351524a1fe947f2f4db23f0f5a3ce08fc"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/independent-hdr-transfer-chain-check.py",
+      "bytes": 7704,
+      "sha256": "22565094a1ecfa05cdf68093ba989df4970178e629fef1fdb431fa44e9430c91"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/color-matrix-entry.ptx",
+      "bytes": 338039,
+      "sha256": "c6159ff452d0f763e6967d96e30dd890617329f9adf619fc74cc6c2a89739acc"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/color-gamma-pair-entry.ptx",
+      "bytes": 335853,
+      "sha256": "9f104205bd4f6ea282e6a77088e1c614b0cb5054336387d15f8c051c5cbd4f65"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/color-gamma-one-entry.ptx",
+      "bytes": 3194,
+      "sha256": "f59d8a4df4d60995f3837b4bc422871e6277e55fbadafb111a1a10e279669518"
+    },
+    {
+      "path": "evidence/local/resolve-hdr-reference-origin-20261013/analysis/color-gamma-direction-entry.ptx",
+      "bytes": 17452,
+      "sha256": "6f09fe1ac7e07444db0f4039d487fb4198cfcdaa85d9b18a64bdc06fbc3bc8be"
+    }
+  ],
+  "public_bindings": [
+    {
+      "path": "experiments/evaluate-hdr-transfer-chain.py",
+      "bytes": 4654,
+      "sha256": "2800d34f7c1cecc7a1f0f7ee88af5f76103e1b69cdc87d221c00d494658b4b64"
+    },
+    {
+      "path": "docs/experiments/hdr-transfer-chain-posthoc-result.json",
+      "bytes": 36237,
+      "sha256": "375aee6a8f78710762177c97ef548c474d370d1f4e180c3c9b3817ff07c8c1e7"
+    },
+    {
+      "path": "docs/experiments/hdr-srgb-pair-candidates.json",
+      "bytes": 16848,
+      "sha256": "70fd5f6744151c63e2aef962b2ba05fcae21125e2405fc53befc464b8e45130f"
+    },
+    {
+      "path": "docs/experiments/hdr-mixed-input-freeze.json",
+      "bytes": 27543,
+      "sha256": "9cb32be3c50b6e0f5342259fa18669f6dcc745439eb8cccb5b9dabc490b892aa"
+    },
+    {
+      "path": "experiments/make-hdr-mixed-input.py",
+      "bytes": 6430,
+      "sha256": "b9038e5ce2e2ab83e3fc34de723903469d1fecda1de8da0b4b7cce932cfb1d91"
+    },
+    {
+      "path": "docs/experiments/resolve-hdr-global-grid-result.json",
+      "bytes": 13176,
+      "sha256": "64e270cc23fc5722be95a013640c977ab2382dc27fe70b8305546f345c24e760"
+    },
+    {
+      "path": "docs/experiments/hdr-mixed-result.json",
+      "bytes": 42129,
+      "sha256": "e143acb972a90425f5a499e4478fb649e69fdf3482e58f796506278b8cbcf212"
+    },
+    {
+      "path": "docs/experiments/resolve-hdr-srgb-pair-result.json",
+      "bytes": 19987,
+      "sha256": "6d9b57d39e6e893eb3f298af5e01cc0104350c63f32e0443da5d7be4ec77f918"
+    }
+  ],
+  "limits": [
+    "Gamma enum0/5 assignment to these observations is a conditional hypothesis, not a getter/runtime capture.",
+    "The default gamma-direction fallback and equal physical-class scaling are assumed.",
+    "Rounded Rec709 Y weights and endpoint-smoothed first table are conditional; actual matrix/table not read.",
+    "Exact inverse matrices cancel under a common XYZ multiplier in this real-arithmetic model.",
+    "No approximate GPU transcendental/FMA/FTZ or per-pass float32 rounding is emulated.",
+    "Nearest interpolation here is CPU arithmetic, not a new GPU sampler measurement.",
+    "Only existing finite nonnegative RGB samples are compared; negative/NaN/Inf/boundaries not validated.",
+    "Original prospective mixed predictions and all historical results are unchanged.",
+    "Static constructor and registration identities are not observed runtime dispatches.",
+    "Public program uses ideal decimal constants and native join, not bit-exact PTX arithmetic."
+  ]
+}

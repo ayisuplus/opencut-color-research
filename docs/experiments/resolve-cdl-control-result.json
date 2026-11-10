@@ -1,0 +1,832 @@
+{
+  "date": "2026-10-13",
+  "scope": "SDK_CDL_saturation_positive_control_and_non_neutral_drx_replay_not_HDR_EV",
+  "project": "EXPO_002_NATIVE_HDR_211",
+  "requested_CDL": {
+    "NodeIndex": 1,
+    "Slope": "1 1 1",
+    "Offset": "0 0 0",
+    "Power": "1 1 1",
+    "Saturation": 0.75
+  },
+  "setter": {
+    "cdl_set_returned_true": true,
+    "requested_cdl": {
+      "NodeIndex": 1,
+      "Slope": "1 1 1",
+      "Offset": "0 0 0",
+      "Power": "1 1 1",
+      "Saturation": 0.75
+    },
+    "still_grabbed": true,
+    "still_count": 2,
+    "node_count": 1,
+    "tools": [
+      "饱和度，色相与亮度 混合"
+    ],
+    "project_saved_and_exported": true
+  },
+  "grade_snapshot": {
+    "path": "evidence/local/resolve-exposure-20261013/grades/cdl_sat_075_1.1.2.drx",
+    "bytes": 18719,
+    "sha256": "e0c347b61be016d6b674c0718652161c4e1c751930848a4df1737d44884387fe"
+  },
+  "replay": {
+    "neutral_reset_returned_true": true,
+    "cdl_grade_applied": true,
+    "grade_mode": 0,
+    "apply_to_all_layers": false,
+    "graph_layer": 1,
+    "tools_after_replay": [
+      "饱和度，色相与亮度 混合"
+    ]
+  },
+  "restore": {
+    "neutral_restored": true,
+    "node_count": 1,
+    "tools": null,
+    "lut": "",
+    "project_saved_and_exported": true
+  },
+  "render_jobs": {
+    "completed_owned_jobs": 3,
+    "statuses": [
+      {
+        "JobStatus": "Complete",
+        "CompletionPercentage": 100
+      },
+      {
+        "JobStatus": "Complete",
+        "CompletionPercentage": 100
+      },
+      {
+        "JobStatus": "Complete",
+        "CompletionPercentage": 100
+      }
+    ],
+    "fixed_frame": 108000,
+    "format": "exr",
+    "codec": "RGBFloat"
+  },
+  "measurements": {
+    "cdl-control": {
+      "scope": "fixed_PNG16_to_EXR_RGBFloat_measurements",
+      "image_sha256": "326802ec3303d6c58b5f967a68e5bd3122c3619315ab64236988c876da0cad38",
+      "rgb_pixels_sha256": "41eef9eb38756c1be5b1c0ae3fd2476ae221cafca75e44f8086f07a65c76d7a6",
+      "rgb_pixel_bytes": 24883200,
+      "channels": [
+        "B",
+        "G",
+        "R"
+      ],
+      "sample_channels": 48,
+      "opencv_crosscheck_exact": true,
+      "crosscheck_channels": 6220800,
+      "opencv_version": "4.13.0",
+      "max_error_encoded": 0.12218957394361496,
+      "max_error_linear": 0.2870987125877742,
+      "samples": [
+        {
+          "id": 0,
+          "rgb": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_error_encoded": 0.0,
+          "max_error_linear": 0.0
+        },
+        {
+          "id": 1,
+          "rgb": [
+            0.04045168310403824,
+            0.04045167937874794,
+            0.04045168310403824
+          ],
+          "max_error_encoded": 1.6055896022437732e-08,
+          "max_error_linear": 0.037320744587354474
+        },
+        {
+          "id": 2,
+          "rgb": [
+            0.09985504299402237,
+            0.09985503554344177,
+            0.09985504299402237
+          ],
+          "max_error_encoded": 3.7485396175984675e-09,
+          "max_error_linear": 0.08985469945542512
+        },
+        {
+          "id": 3,
+          "rgb": [
+            0.220920130610466,
+            0.2209201157093048,
+            0.220920130610466
+          ],
+          "max_error_encoded": 1.159009521689569e-08,
+          "max_error_linear": 0.18091882360303296
+        },
+        {
+          "id": 4,
+          "rgb": [
+            0.3318227231502533,
+            0.3318226933479309,
+            0.3318226933479309
+          ],
+          "max_error_encoded": 3.2984692921456116e-08,
+          "max_error_linear": 0.2418268168069293
+        },
+        {
+          "id": 5,
+          "rgb": [
+            0.46135658025741577,
+            0.461356520652771,
+            0.4613565504550934
+          ],
+          "max_error_encoded": 5.3210799433323075e-08,
+          "max_error_linear": 0.2813562476574324
+        },
+        {
+          "id": 6,
+          "rgb": [
+            0.5371023416519165,
+            0.5371023416519165,
+            0.5371023416519165
+          ],
+          "max_error_encoded": 2.991009917518994e-08,
+          "max_error_linear": 0.2870987125877742
+        },
+        {
+          "id": 7,
+          "rgb": [
+            0.7353628277778625,
+            0.7353628277778625,
+            0.7353628277778625
+          ],
+          "max_error_encoded": 4.4532268539398956e-08,
+          "max_error_linear": 0.23535402129208693
+        },
+        {
+          "id": 8,
+          "rgb": [
+            0.8808270692825317,
+            0.880827009677887,
+            0.8808270692825317
+          ],
+          "max_error_encoded": 3.0295730812923694e-08,
+          "max_error_linear": 0.13082318798089643
+        },
+        {
+          "id": 9,
+          "rgb": [
+            1.0,
+            0.9999999403953552,
+            1.0
+          ],
+          "max_error_encoded": 5.960464477539063e-08,
+          "max_error_linear": 5.960464477539063e-08
+        },
+        {
+          "id": 10,
+          "rgb": [
+            0.4310246407985687,
+            0.028196165338158607,
+            0.02819758653640747
+          ],
+          "max_error_encoded": 0.1060776709432486,
+          "max_error_linear": 0.18102101173442642
+        },
+        {
+          "id": 11,
+          "rgb": [
+            0.0939929187297821,
+            0.4968198835849762,
+            0.09399198740720749
+          ],
+          "max_error_encoded": 0.0939929187297821,
+          "max_error_linear": 0.2468162545208339
+        },
+        {
+          "id": 12,
+          "rgb": [
+            0.01208480354398489,
+            0.012086257338523865,
+            0.41491276025772095
+          ],
+          "max_error_encoded": 0.12218955148409638,
+          "max_error_linear": 0.16490913119357864
+        },
+        {
+          "id": 13,
+          "rgb": [
+            0.10607772320508957,
+            0.5089061260223389,
+            0.508904755115509
+          ],
+          "max_error_encoded": 0.10607772320508957,
+          "max_error_linear": 0.25890249695819656
+        },
+        {
+          "id": 14,
+          "rgb": [
+            0.4431094527244568,
+            0.04028242453932762,
+            0.4431103467941284
+          ],
+          "max_error_encoded": 0.09399285901736054,
+          "max_error_linear": 0.1931067177299861
+        },
+        {
+          "id": 15,
+          "rgb": [
+            0.5250175595283508,
+            0.5250160694122314,
+            0.12218957394361496
+          ],
+          "max_error_encoded": 0.12218957394361496,
+          "max_error_linear": 0.2750139304642085
+        }
+      ]
+    },
+    "cdl-replayed": {
+      "scope": "fixed_PNG16_to_EXR_RGBFloat_measurements",
+      "image_sha256": "326802ec3303d6c58b5f967a68e5bd3122c3619315ab64236988c876da0cad38",
+      "rgb_pixels_sha256": "41eef9eb38756c1be5b1c0ae3fd2476ae221cafca75e44f8086f07a65c76d7a6",
+      "rgb_pixel_bytes": 24883200,
+      "channels": [
+        "B",
+        "G",
+        "R"
+      ],
+      "sample_channels": 48,
+      "opencv_crosscheck_exact": true,
+      "crosscheck_channels": 6220800,
+      "opencv_version": "4.13.0",
+      "max_error_encoded": 0.12218957394361496,
+      "max_error_linear": 0.2870987125877742,
+      "samples": [
+        {
+          "id": 0,
+          "rgb": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_error_encoded": 0.0,
+          "max_error_linear": 0.0
+        },
+        {
+          "id": 1,
+          "rgb": [
+            0.04045168310403824,
+            0.04045167937874794,
+            0.04045168310403824
+          ],
+          "max_error_encoded": 1.6055896022437732e-08,
+          "max_error_linear": 0.037320744587354474
+        },
+        {
+          "id": 2,
+          "rgb": [
+            0.09985504299402237,
+            0.09985503554344177,
+            0.09985504299402237
+          ],
+          "max_error_encoded": 3.7485396175984675e-09,
+          "max_error_linear": 0.08985469945542512
+        },
+        {
+          "id": 3,
+          "rgb": [
+            0.220920130610466,
+            0.2209201157093048,
+            0.220920130610466
+          ],
+          "max_error_encoded": 1.159009521689569e-08,
+          "max_error_linear": 0.18091882360303296
+        },
+        {
+          "id": 4,
+          "rgb": [
+            0.3318227231502533,
+            0.3318226933479309,
+            0.3318226933479309
+          ],
+          "max_error_encoded": 3.2984692921456116e-08,
+          "max_error_linear": 0.2418268168069293
+        },
+        {
+          "id": 5,
+          "rgb": [
+            0.46135658025741577,
+            0.461356520652771,
+            0.4613565504550934
+          ],
+          "max_error_encoded": 5.3210799433323075e-08,
+          "max_error_linear": 0.2813562476574324
+        },
+        {
+          "id": 6,
+          "rgb": [
+            0.5371023416519165,
+            0.5371023416519165,
+            0.5371023416519165
+          ],
+          "max_error_encoded": 2.991009917518994e-08,
+          "max_error_linear": 0.2870987125877742
+        },
+        {
+          "id": 7,
+          "rgb": [
+            0.7353628277778625,
+            0.7353628277778625,
+            0.7353628277778625
+          ],
+          "max_error_encoded": 4.4532268539398956e-08,
+          "max_error_linear": 0.23535402129208693
+        },
+        {
+          "id": 8,
+          "rgb": [
+            0.8808270692825317,
+            0.880827009677887,
+            0.8808270692825317
+          ],
+          "max_error_encoded": 3.0295730812923694e-08,
+          "max_error_linear": 0.13082318798089643
+        },
+        {
+          "id": 9,
+          "rgb": [
+            1.0,
+            0.9999999403953552,
+            1.0
+          ],
+          "max_error_encoded": 5.960464477539063e-08,
+          "max_error_linear": 5.960464477539063e-08
+        },
+        {
+          "id": 10,
+          "rgb": [
+            0.4310246407985687,
+            0.028196165338158607,
+            0.02819758653640747
+          ],
+          "max_error_encoded": 0.1060776709432486,
+          "max_error_linear": 0.18102101173442642
+        },
+        {
+          "id": 11,
+          "rgb": [
+            0.0939929187297821,
+            0.4968198835849762,
+            0.09399198740720749
+          ],
+          "max_error_encoded": 0.0939929187297821,
+          "max_error_linear": 0.2468162545208339
+        },
+        {
+          "id": 12,
+          "rgb": [
+            0.01208480354398489,
+            0.012086257338523865,
+            0.41491276025772095
+          ],
+          "max_error_encoded": 0.12218955148409638,
+          "max_error_linear": 0.16490913119357864
+        },
+        {
+          "id": 13,
+          "rgb": [
+            0.10607772320508957,
+            0.5089061260223389,
+            0.508904755115509
+          ],
+          "max_error_encoded": 0.10607772320508957,
+          "max_error_linear": 0.25890249695819656
+        },
+        {
+          "id": 14,
+          "rgb": [
+            0.4431094527244568,
+            0.04028242453932762,
+            0.4431103467941284
+          ],
+          "max_error_encoded": 0.09399285901736054,
+          "max_error_linear": 0.1931067177299861
+        },
+        {
+          "id": 15,
+          "rgb": [
+            0.5250175595283508,
+            0.5250160694122314,
+            0.12218957394361496
+          ],
+          "max_error_encoded": 0.12218957394361496,
+          "max_error_linear": 0.2750139304642085
+        }
+      ]
+    },
+    "neutral-restored": {
+      "scope": "fixed_PNG16_to_EXR_RGBFloat_measurements",
+      "image_sha256": "d18674c28197f09580b23db613ad9f4b67e623a9e3c70030d30a1c1c917eeb9b",
+      "rgb_pixels_sha256": "e91cb12d71527cf24e2efc3e3180fde844a5e7e3cfec950e784aab2ecaed5afb",
+      "rgb_pixel_bytes": 24883200,
+      "channels": [
+        "B",
+        "G",
+        "R"
+      ],
+      "sample_channels": 48,
+      "opencv_crosscheck_exact": true,
+      "crosscheck_channels": 6220800,
+      "opencv_version": "4.13.0",
+      "max_error_encoded": 2.9694545600200684e-08,
+      "max_error_linear": 0.2870986529831294,
+      "samples": [
+        {
+          "id": 0,
+          "rgb": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_error_encoded": 0.0,
+          "max_error_linear": 0.0
+        },
+        {
+          "id": 1,
+          "rgb": [
+            0.040451668202877045,
+            0.040451668202877045,
+            0.040451668202877045
+          ],
+          "max_error_encoded": 1.154734828590076e-09,
+          "max_error_linear": 0.03732072968619328
+        },
+        {
+          "id": 2,
+          "rgb": [
+            0.09985503554344177,
+            0.09985503554344177,
+            0.09985503554344177
+          ],
+          "max_error_encoded": 3.7485396175984675e-09,
+          "max_error_linear": 0.08985469200484453
+        },
+        {
+          "id": 3,
+          "rgb": [
+            0.2209201157093048,
+            0.2209201157093048,
+            0.2209201157093048
+          ],
+          "max_error_encoded": 3.3110659769519657e-09,
+          "max_error_linear": 0.18091880870187177
+        },
+        {
+          "id": 4,
+          "rgb": [
+            0.3318226933479309,
+            0.3318226933479309,
+            0.3318226933479309
+          ],
+          "max_error_encoded": 3.1823705337608033e-09,
+          "max_error_linear": 0.2418267870046069
+        },
+        {
+          "id": 5,
+          "rgb": [
+            0.461356520652771,
+            0.461356520652771,
+            0.461356520652771
+          ],
+          "max_error_encoded": 6.39384534206755e-09,
+          "max_error_linear": 0.2813561880527876
+        },
+        {
+          "id": 6,
+          "rgb": [
+            0.5371022820472717,
+            0.5371022820472717,
+            0.5371022820472717
+          ],
+          "max_error_encoded": 2.9694545600200684e-08,
+          "max_error_linear": 0.2870986529831294
+        },
+        {
+          "id": 7,
+          "rgb": [
+            0.7353627681732178,
+            0.7353627681732178,
+            0.7353627681732178
+          ],
+          "max_error_encoded": 1.507237623599167e-08,
+          "max_error_linear": 0.23535396168744216
+        },
+        {
+          "id": 8,
+          "rgb": [
+            0.880827009677887,
+            0.880827009677887,
+            0.880827009677887
+          ],
+          "max_error_encoded": 2.930891396246693e-08,
+          "max_error_linear": 0.13082312837625165
+        },
+        {
+          "id": 9,
+          "rgb": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "max_error_encoded": 0.0,
+          "max_error_linear": 0.0
+        },
+        {
+          "id": 10,
+          "rgb": [
+            0.5371022820472717,
+            0.0,
+            0.0
+          ],
+          "max_error_encoded": 2.9694545600200684e-08,
+          "max_error_linear": 0.2870986529831294
+        },
+        {
+          "id": 11,
+          "rgb": [
+            0.0,
+            0.5371022820472717,
+            0.0
+          ],
+          "max_error_encoded": 2.9694545600200684e-08,
+          "max_error_linear": 0.2870986529831294
+        },
+        {
+          "id": 12,
+          "rgb": [
+            0.0,
+            0.0,
+            0.5371022820472717
+          ],
+          "max_error_encoded": 2.9694545600200684e-08,
+          "max_error_linear": 0.2870986529831294
+        },
+        {
+          "id": 13,
+          "rgb": [
+            0.0,
+            0.5371022820472717,
+            0.5371022820472717
+          ],
+          "max_error_encoded": 2.9694545600200684e-08,
+          "max_error_linear": 0.2870986529831294
+        },
+        {
+          "id": 14,
+          "rgb": [
+            0.5371022820472717,
+            0.0,
+            0.5371022820472717
+          ],
+          "max_error_encoded": 2.9694545600200684e-08,
+          "max_error_linear": 0.2870986529831294
+        },
+        {
+          "id": 15,
+          "rgb": [
+            0.5371022820472717,
+            0.5371022820472717,
+            0.0
+          ],
+          "max_error_encoded": 2.9694545600200684e-08,
+          "max_error_linear": 0.2870986529831294
+        }
+      ]
+    }
+  },
+  "comparison": {
+    "changed_channels_exact_inequality": 4795200,
+    "total_channels": 6220800,
+    "max_whole_frame_absolute_delta": 0.12218957394361496,
+    "gray_sample_count": 10,
+    "max_gray_sample_absolute_delta": 5.960464477539063e-08,
+    "color_sample_count": 6,
+    "max_color_sample_absolute_delta": 0.12218957394361496,
+    "changed_and_replayed_whole_float32_bytes_equal": true,
+    "restored_and_initial_baseline_whole_float32_bytes_equal": true,
+    "CDL_mathematical_formula_verified": false
+  },
+  "final_state": {
+    "version": "21.1.1.10",
+    "library": "OC_COLOR_001_TEST",
+    "project": "EXPO_002_NATIVE_HDR_211",
+    "timeline": "PATCHES_1080P30",
+    "start_frame": 108000,
+    "current_timecode": "01:00:00:00",
+    "color_settings": {
+      "colorScienceMode": "davinciYRGB",
+      "colorSpaceInput": "Rec.709 Gamma 2.4",
+      "colorSpaceInputGamma": "",
+      "colorSpaceTimeline": "Rec.709 (Scene)",
+      "colorSpaceTimelineGamma": "",
+      "colorSpaceOutput": "Rec.709 (Scene)",
+      "colorSpaceOutputGamma": "",
+      "rcmPresetMode": "Custom",
+      "separateColorSpaceAndGamma": "0",
+      "colorSpaceOutputToneMapping": "None",
+      "colorSpaceOutputGamutMapping": "None",
+      "useColorSpaceAwareGradingTools": "0",
+      "timelineWorkingLuminance": "1000",
+      "timelineWorkingLuminanceMode": "HDR 1000",
+      "nodeStackLayers": "1",
+      "timelineFrameRate": 30.0,
+      "timelineResolutionWidth": "1920",
+      "timelineResolutionHeight": "1080"
+    },
+    "clip_metadata": {
+      "File Name": "opaque-srgb16-patches.png",
+      "Resolution": "1920x1080",
+      "Bit Depth": "16",
+      "Format": "PNG",
+      "Video Codec": "PNG",
+      "Input Color Space": "项目",
+      "Input Gamma": "Gamma 2.4",
+      "Data Level": "Auto",
+      "Alpha mode": "None",
+      "Frames": "1",
+      "FPS": 24.0
+    },
+    "cache_locations_redirected": true,
+    "rendering": false
+  },
+  "source_and_receipt_hashes": [
+    {
+      "path": "evidence/local/resolve-exposure-20261013/runtime/set-cdl-control.py",
+      "bytes": 1469,
+      "sha256": "ae142e0ea1ef2789ce64ec3069e90373a0f32586fe87f3bb8d22f549ba8d7c4f"
+    },
+    {
+      "path": "evidence/local/resolve-exposure-20261013/runtime/export-cdl-control.py",
+      "bytes": 551,
+      "sha256": "c8e7187848253b2076a1103b3df0300b85951a2b91d06e3d48b7242f08954398"
+    },
+    {
+      "path": "evidence/local/resolve-exposure-20261013/runtime/render-cdl-control.py",
+      "bytes": 1521,
+      "sha256": "b90818e8e856d05c783eee17c33b420a32e0c9ab3e6ca1d71ac1a5e717b569d7"
+    },
+    {
+      "path": "evidence/local/resolve-exposure-20261013/runtime/poll-cdl-control.py",
+      "bytes": 231,
+      "sha256": "5f86382f3bfbf1dd4345549172fb6db745d37e94185d5705c228aa97765ca5ca"
+    },
+    {
+      "path": "evidence/local/resolve-exposure-20261013/runtime/replay-cdl-control.py",
+      "bytes": 1303,
+      "sha256": "928b52f88c6bffa5017ce83951cfaa94b0fc9b7cf72d22dc5d0df1a4ee21a1d1"
+    },
+    {
+      "path": "evidence/local/resolve-exposure-20261013/runtime/render-cdl-replayed.py",
+      "bytes": 1523,
+      "sha256": "ad4f2fd27fb1bfb0c3e6fbfb828bdeed8472e6328aed43a90c595e196165be82"
+    },
+    {
+      "path": "evidence/local/resolve-exposure-20261013/runtime/poll-cdl-replayed.py",
+      "bytes": 231,
+      "sha256": "fc1f3a455e1a3774a722641fcc5cd85d9420f15dad577d046766ff7ba79daac9"
+    },
+    {
+      "path": "evidence/local/resolve-exposure-20261013/runtime/restore-after-control.py",
+      "bytes": 1224,
+      "sha256": "9b646243d704df72255241773de4f3735ceb190859ffbf0f9c1a370cac25e3e7"
+    },
+    {
+      "path": "evidence/local/resolve-exposure-20261013/runtime/render-neutral-restored.py",
+      "bytes": 1531,
+      "sha256": "6575aff11a4cdd694b0f286bd18ac8cb5d261072e5d572476f2bfd4e69283a67"
+    },
+    {
+      "path": "evidence/local/resolve-exposure-20261013/runtime/poll-neutral-restored.py",
+      "bytes": 231,
+      "sha256": "59e73c753cdfc1d6e856ea597bc3f8f05b2ce8c020930e929f6c1358cb3a02ee"
+    },
+    {
+      "path": "evidence/local/resolve-exposure-20261013/runtime/final-state.py",
+      "bytes": 1775,
+      "sha256": "ce76d1c3072c9ef3488c21fd64471b00825e3bcddf71ebd7d21f311ee6317047"
+    },
+    {
+      "path": "evidence/local/resolve-exposure-20261013/runtime/set-cdl-control-result.json",
+      "bytes": 1325,
+      "sha256": "50da662df4e004151bf54e262a7ca5f1a70e73d757f9792acaa96f5ecb1f6dcf"
+    },
+    {
+      "path": "evidence/local/resolve-exposure-20261013/runtime/export-cdl-control-result.json",
+      "bytes": 1024,
+      "sha256": "432faffa59548856351fc820e34a880fecae4e218492f8cd9798f9b2e6bd348f"
+    },
+    {
+      "path": "evidence/local/resolve-exposure-20261013/runtime/render-cdl-control-result.json",
+      "bytes": 2372,
+      "sha256": "a2896a5d481803b0808e31a88b2e626d5694bf07f483669bc49d5c8616a18da2"
+    },
+    {
+      "path": "evidence/local/resolve-exposure-20261013/runtime/poll-cdl-control-result.json",
+      "bytes": 1061,
+      "sha256": "dbf0d08693fa635555267362b9c74f2e0fb6a2cfc9eec11780f7861a891146d8"
+    },
+    {
+      "path": "evidence/local/resolve-exposure-20261013/runtime/replay-cdl-control-result.json",
+      "bytes": 1214,
+      "sha256": "f05c1c8731bcdc195f5bc6fe5d3269c04740b4ef02eccf997a9134d81cfd7b1b"
+    },
+    {
+      "path": "evidence/local/resolve-exposure-20261013/runtime/render-cdl-replayed-result.json",
+      "bytes": 2376,
+      "sha256": "641b18a21b392eb891ea5a0e345717eb301acbb2abc843d70676a3266b35635e"
+    },
+    {
+      "path": "evidence/local/resolve-exposure-20261013/runtime/poll-cdl-replayed-result.json",
+      "bytes": 1061,
+      "sha256": "dbf0d08693fa635555267362b9c74f2e0fb6a2cfc9eec11780f7861a891146d8"
+    },
+    {
+      "path": "evidence/local/resolve-exposure-20261013/runtime/restore-after-control-result.json",
+      "bytes": 1082,
+      "sha256": "3a9b92ed82f90efe8a20508d15dfb351f11c69cd3ecd251a4fa3039441d6eea5"
+    },
+    {
+      "path": "evidence/local/resolve-exposure-20261013/runtime/render-neutral-restored-result.json",
+      "bytes": 2392,
+      "sha256": "76b2416814039cb190752e534fb8e69f043710f60ec0d451c24a836b372b0d72"
+    },
+    {
+      "path": "evidence/local/resolve-exposure-20261013/runtime/poll-neutral-restored-result.json",
+      "bytes": 1061,
+      "sha256": "dbf0d08693fa635555267362b9c74f2e0fb6a2cfc9eec11780f7861a891146d8"
+    },
+    {
+      "path": "evidence/local/resolve-exposure-20261013/runtime/post-control-final-state-result.json",
+      "bytes": 2276,
+      "sha256": "c1579e6b446a94354a26846d49c537caf3d237c93bdee7ef632e899bbec13249"
+    },
+    {
+      "path": "experiments/call-resolve-mcp.py",
+      "bytes": 3088,
+      "sha256": "50b9ffe640367013907c9c473f1a5838560571a33a62734194ef01bdd290a265"
+    },
+    {
+      "path": "experiments/measure-resolve-exr.py",
+      "bytes": 3504,
+      "sha256": "599a3dc1d2fcc3a2ce2f8fbe35331715aec21d81e3fbba5a5e05002dd8c9a144"
+    }
+  ],
+  "bounds": {
+    "native_HDR_exposure_set": false,
+    "HDR_UI_EV_mapping_verified": false,
+    "native_HDR_minus1_plus1_measured": false,
+    "color_management_protocol_confirmed": false,
+    "whole_pipeline_bypass_tested": false,
+    "phase_1A_complete": false
+  },
+  "static_grade_diff": {
+    "analysis_artifact": {
+      "path": "evidence/local/resolve-exposure-20261013/analysis/drx-cdl-sat075-diff.json",
+      "bytes": 211120,
+      "sha256": "a0a08c473d547863b68d66a501eed9de622ecb9ae79bd3719f828f96dfad5d3b"
+    },
+    "summary": {
+      "body0_added_parameter_count": 15,
+      "value_075_observed_key": "0x06000005",
+      "value_075_observed_type": "ParamValueType.float_field (#1)",
+      "actual_hdr_field16_count": 0,
+      "actual_hdr_field17_count": 0,
+      "actual_hdr_field18_count": 0,
+      "observed_new_node": false,
+      "supported": "This supplied SetCDL sample serializes new parameters in the existing graph node markstore and marks HasCorrection true on Body occurrence 0. One added float equals the requested saturation 0.75.",
+      "not_established": [
+        "General Parameter.key to UI-control identity map",
+        "Native HDR exposure sample or UI EV mapping",
+        "Whether all 15 materialized keys were independently changed by SetCDL rather than defaults being serialized",
+        "Meaning/units of the lastmodtime values",
+        "Stable DRX editing contract",
+        "Rendered pixel equivalence or runtime replay correctness in this static subtask"
+      ]
+    },
+    "actual_added_parameter_container": "VersionBody.graph.nodes.markstore.marktimelines.marks.mark.params",
+    "full_UI_mapping_verified": false
+  },
+  "final_schema_guard_confirmation": {
+    "script_result_object_required": true,
+    "native_read_only_query_passed": true,
+    "final_state_equals_recorded": true,
+    "receipt": {
+      "path": "evidence/local/resolve-exposure-20261013/runtime/post-validation-final-state-result.json",
+      "bytes": 2276,
+      "sha256": "c1579e6b446a94354a26846d49c537caf3d237c93bdee7ef632e899bbec13249"
+    }
+  }
+}

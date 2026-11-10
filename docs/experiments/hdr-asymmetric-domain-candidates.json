@@ -1,0 +1,1037 @@
+{
+  "scope": "exploratory_fixed_asymmetric_transfer_grid_on_existing_samples",
+  "prediction": "output_encode(input_decode(neutral) * 2**stored_gainjz)",
+  "fitted_parameters": 0,
+  "new_native_frames": 0,
+  "model_source_sha256_utf8_lf": "1c824137901be048cda536abf9f620fb7f577cec55ed71971f221f224f9bc479",
+  "conditions": {
+    "original_rec709": {
+      "source": "docs/experiments/resolve-hdr-global-grid-result.json",
+      "source_sha256_utf8_lf": "3e4a3914667364ca96fcf225ac652cd0aa9342621d4b700f8cfd5e6a15b4e2c4",
+      "observed_levels": [
+        -1,
+        0,
+        1
+      ],
+      "models": [
+        {
+          "input": "BT709_rounded_constants_Colour_inverse",
+          "output": "BT709_rounded_constants_Colour_inverse",
+          "errors": {
+            "-1": {
+              "max_abs": 0.0006074872682779731,
+              "rmse": 0.000224913920732946
+            },
+            "0": {
+              "max_abs": 1.1102230246251565e-16,
+              "rmse": 4.4969172124985776e-17
+            },
+            "1": {
+              "max_abs": 0.0011337422705839373,
+              "rmse": 0.0004248746335736117
+            }
+          },
+          "identity_max_abs": 1.1102230246251565e-16,
+          "nonzero_worst_max_abs": 0.0011337422705839373
+        },
+        {
+          "input": "sRGB_piecewise",
+          "output": "sRGB_piecewise",
+          "errors": {
+            "-1": {
+              "max_abs": 0.029234525071339834,
+              "rmse": 0.018220082169237106
+            },
+            "0": {
+              "max_abs": 1.1102230246251565e-16,
+              "rmse": 3.1080126089379415e-17
+            },
+            "1": {
+              "max_abs": 0.050155938294278224,
+              "rmse": 0.02963320938004886
+            }
+          },
+          "identity_max_abs": 1.1102230246251565e-16,
+          "nonzero_worst_max_abs": 0.050155938294278224
+        },
+        {
+          "input": "OCIO_video_1_83",
+          "output": "BT709_rounded_constants_Colour_inverse",
+          "errors": {
+            "-1": {
+              "max_abs": 0.017086999432477136,
+              "rmse": 0.011542706865745956
+            },
+            "0": {
+              "max_abs": 0.033471625181501666,
+              "rmse": 0.017656327697252814
+            },
+            "1": {
+              "max_abs": 0.05525932634520135,
+              "rmse": 0.026143246224125838
+            }
+          },
+          "identity_max_abs": 0.033471625181501666,
+          "nonzero_worst_max_abs": 0.05525932634520135
+        },
+        {
+          "input": "OCIO_video_1_83",
+          "output": "OCIO_video_1_83",
+          "errors": {
+            "-1": {
+              "max_abs": 0.021418782757719468,
+              "rmse": 0.00989729945373364
+            },
+            "0": {
+              "max_abs": 5.551115123125783e-17,
+              "rmse": 2.1174998587429782e-17
+            },
+            "1": {
+              "max_abs": 0.057074045607877544,
+              "rmse": 0.02341595314019259
+            }
+          },
+          "identity_max_abs": 5.551115123125783e-17,
+          "nonzero_worst_max_abs": 0.057074045607877544
+        },
+        {
+          "input": "BT709_rounded_constants_Colour_inverse",
+          "output": "OCIO_video_1_83",
+          "errors": {
+            "-1": {
+              "max_abs": 0.03560500561331921,
+              "rmse": 0.01765030666624202
+            },
+            "0": {
+              "max_abs": 0.035724013796495674,
+              "rmse": 0.017604719164712603
+            },
+            "1": {
+              "max_abs": 0.057074045607877544,
+              "rmse": 0.02178211482639739
+            }
+          },
+          "identity_max_abs": 0.035724013796495674,
+          "nonzero_worst_max_abs": 0.057074045607877544
+        },
+        {
+          "input": "BT709_rounded_constants_Colour_inverse",
+          "output": "sRGB_piecewise",
+          "errors": {
+            "-1": {
+              "max_abs": 0.06200896157484381,
+              "rmse": 0.04445658697139533
+            },
+            "0": {
+              "max_abs": 0.06180982350473199,
+              "rmse": 0.03907236133599348
+            },
+            "1": {
+              "max_abs": 0.06206198225429388,
+              "rmse": 0.0352338964042499
+            }
+          },
+          "identity_max_abs": 0.06180982350473199,
+          "nonzero_worst_max_abs": 0.06206198225429388
+        },
+        {
+          "input": "pure_gamma_2_4",
+          "output": "pure_gamma_2_4",
+          "errors": {
+            "-1": {
+              "max_abs": 0.04303108045723114,
+              "rmse": 0.02959560607779718
+            },
+            "0": {
+              "max_abs": 0.0,
+              "rmse": 0.0
+            },
+            "1": {
+              "max_abs": 0.06857213027363018,
+              "rmse": 0.045047441411535986
+            }
+          },
+          "identity_max_abs": 0.0,
+          "nonzero_worst_max_abs": 0.06857213027363018
+        },
+        {
+          "input": "sRGB_piecewise",
+          "output": "pure_gamma_2_4",
+          "errors": {
+            "-1": {
+              "max_abs": 0.060842364425596845,
+              "rmse": 0.04607108678367753
+            },
+            "0": {
+              "max_abs": 0.0500238466813666,
+              "rmse": 0.02611807170121437
+            },
+            "1": {
+              "max_abs": 0.06857213027363018,
+              "rmse": 0.029326336375919762
+            }
+          },
+          "identity_max_abs": 0.0500238466813666,
+          "nonzero_worst_max_abs": 0.06857213027363018
+        },
+        {
+          "input": "OCIO_video_1_83",
+          "output": "sRGB_piecewise",
+          "errors": {
+            "-1": {
+              "max_abs": 0.0719323820683157,
+              "rmse": 0.05032971642549151
+            },
+            "0": {
+              "max_abs": 0.06854185503379973,
+              "rmse": 0.045129815308261254
+            },
+            "1": {
+              "max_abs": 0.06282681814632718,
+              "rmse": 0.039124877306875035
+            }
+          },
+          "identity_max_abs": 0.06854185503379973,
+          "nonzero_worst_max_abs": 0.0719323820683157
+        },
+        {
+          "input": "sRGB_piecewise",
+          "output": "BT709_rounded_constants_Colour_inverse",
+          "errors": {
+            "-1": {
+              "max_abs": 0.04508553195404863,
+              "rmse": 0.027012263718878285
+            },
+            "0": {
+              "max_abs": 0.06173507914472107,
+              "rmse": 0.0385034897835717
+            },
+            "1": {
+              "max_abs": 0.08413256514741263,
+              "rmse": 0.05414692705927672
+            }
+          },
+          "identity_max_abs": 0.06173507914472107,
+          "nonzero_worst_max_abs": 0.08413256514741263
+        },
+        {
+          "input": "pure_gamma_2_4",
+          "output": "sRGB_piecewise",
+          "errors": {
+            "-1": {
+              "max_abs": 0.029234525071339834,
+              "rmse": 0.013275275041533714
+            },
+            "0": {
+              "max_abs": 0.04950797304511071,
+              "rmse": 0.025689759709243927
+            },
+            "1": {
+              "max_abs": 0.08677359298315154,
+              "rmse": 0.060241918314063954
+            }
+          },
+          "identity_max_abs": 0.04950797304511071,
+          "nonzero_worst_max_abs": 0.08677359298315154
+        },
+        {
+          "input": "sRGB_piecewise",
+          "output": "OCIO_video_1_83",
+          "errors": {
+            "-1": {
+              "max_abs": 0.04574781482196694,
+              "rmse": 0.030724763926746425
+            },
+            "0": {
+              "max_abs": 0.06957358490129095,
+              "rmse": 0.04577737948978264
+            },
+            "1": {
+              "max_abs": 0.09765755514061397,
+              "rmse": 0.06286126794934774
+            }
+          },
+          "identity_max_abs": 0.06957358490129095,
+          "nonzero_worst_max_abs": 0.09765755514061397
+        },
+        {
+          "input": "OCIO_video_1_83",
+          "output": "pure_gamma_2_4",
+          "errors": {
+            "-1": {
+              "max_abs": 0.10671210458069375,
+              "rmse": 0.07613169635106923
+            },
+            "0": {
+              "max_abs": 0.09938935728528053,
+              "rmse": 0.06522561208874303
+            },
+            "1": {
+              "max_abs": 0.08616887145322938,
+              "rmse": 0.05314303976199831
+            }
+          },
+          "identity_max_abs": 0.09938935728528053,
+          "nonzero_worst_max_abs": 0.10671210458069375
+        },
+        {
+          "input": "BT709_rounded_constants_Colour_inverse",
+          "output": "pure_gamma_2_4",
+          "errors": {
+            "-1": {
+              "max_abs": 0.10386646611864844,
+              "rmse": 0.0728721579691966
+            },
+            "0": {
+              "max_abs": 0.10551449909937696,
+              "rmse": 0.06286436824202363
+            },
+            "1": {
+              "max_abs": 0.10675392499995207,
+              "rmse": 0.05485008270640882
+            }
+          },
+          "identity_max_abs": 0.10551449909937696,
+          "nonzero_worst_max_abs": 0.10675392499995207
+        },
+        {
+          "input": "pure_gamma_2_4",
+          "output": "BT709_rounded_constants_Colour_inverse",
+          "errors": {
+            "-1": {
+              "max_abs": 0.07506097120846439,
+              "rmse": 0.043147249947376336
+            },
+            "0": {
+              "max_abs": 0.1047550426080188,
+              "rmse": 0.06140616294889008
+            },
+            "1": {
+              "max_abs": 0.14289956708238058,
+              "rmse": 0.087265162104713
+            }
+          },
+          "identity_max_abs": 0.1047550426080188,
+          "nonzero_worst_max_abs": 0.14289956708238058
+        },
+        {
+          "input": "pure_gamma_2_4",
+          "output": "OCIO_video_1_83",
+          "errors": {
+            "-1": {
+              "max_abs": 0.06372722010219356,
+              "rmse": 0.04343254022466185
+            },
+            "0": {
+              "max_abs": 0.09878612113403368,
+              "rmse": 0.06644105026611064
+            },
+            "1": {
+              "max_abs": 0.1457320745597092,
+              "rmse": 0.09383312376467041
+            }
+          },
+          "identity_max_abs": 0.09878612113403368,
+          "nonzero_worst_max_abs": 0.1457320745597092
+        },
+        {
+          "input": "direct_EXR_channel",
+          "output": "OCIO_video_1_83",
+          "errors": {
+            "-1": {
+              "max_abs": 0.16493969983065065,
+              "rmse": 0.10168165967733768
+            },
+            "0": {
+              "max_abs": 0.21726600066896096,
+              "rmse": 0.14141104449093495
+            },
+            "1": {
+              "max_abs": 0.3098468323052933,
+              "rmse": 0.21025081638371657
+            }
+          },
+          "identity_max_abs": 0.21726600066896096,
+          "nonzero_worst_max_abs": 0.3098468323052933
+        },
+        {
+          "input": "direct_EXR_channel",
+          "output": "BT709_rounded_constants_Colour_inverse",
+          "errors": {
+            "-1": {
+              "max_abs": 0.17438140840618144,
+              "rmse": 0.1118290766905439
+            },
+            "0": {
+              "max_abs": 0.23814543977533464,
+              "rmse": 0.1541873043760386
+            },
+            "1": {
+              "max_abs": 0.32540724100184637,
+              "rmse": 0.21118077656726714
+            }
+          },
+          "identity_max_abs": 0.23814543977533464,
+          "nonzero_worst_max_abs": 0.32540724100184637
+        },
+        {
+          "input": "direct_EXR_channel",
+          "output": "sRGB_piecewise",
+          "errors": {
+            "-1": {
+              "max_abs": 0.23120863532736968,
+              "rmse": 0.15195913902763594
+            },
+            "0": {
+              "max_abs": 0.2864434191768249,
+              "rmse": 0.18325879720353513
+            },
+            "1": {
+              "max_abs": 0.35784156991402927,
+              "rmse": 0.22185931580401658
+            }
+          },
+          "identity_max_abs": 0.2864434191768249,
+          "nonzero_worst_max_abs": 0.35784156991402927
+        },
+        {
+          "input": "direct_EXR_channel",
+          "output": "pure_gamma_2_4",
+          "errors": {
+            "-1": {
+              "max_abs": 0.26424530379876776,
+              "rmse": 0.17455454552198113
+            },
+            "0": {
+              "max_abs": 0.3121258889220978,
+              "rmse": 0.19871727200265507
+            },
+            "1": {
+              "max_abs": 0.37370736210418376,
+              "rmse": 0.2287015274080218
+            }
+          },
+          "identity_max_abs": 0.3121258889220978,
+          "nonzero_worst_max_abs": 0.37370736210418376
+        },
+        {
+          "input": "direct_EXR_channel",
+          "output": "direct_EXR_channel",
+          "errors": {
+            "-1": {
+              "max_abs": 0.20612257719039917,
+              "rmse": 0.09462116013542198
+            },
+            "0": {
+              "max_abs": 0.0,
+              "rmse": 0.0
+            },
+            "1": {
+              "max_abs": 0.5965884923934937,
+              "rmse": 0.28395092420459866
+            }
+          },
+          "identity_max_abs": 0.0,
+          "nonzero_worst_max_abs": 0.5965884923934937
+        },
+        {
+          "input": "pure_gamma_2_4",
+          "output": "direct_EXR_channel",
+          "errors": {
+            "-1": {
+              "max_abs": 0.27298341780259694,
+              "rmse": 0.18413536393421298
+            },
+            "0": {
+              "max_abs": 0.3121259694795038,
+              "rmse": 0.20708464104452803
+            },
+            "1": {
+              "max_abs": 0.5965884923934937,
+              "rmse": 0.2725211956779068
+            }
+          },
+          "identity_max_abs": 0.3121259694795038,
+          "nonzero_worst_max_abs": 0.5965884923934937
+        },
+        {
+          "input": "OCIO_video_1_83",
+          "output": "direct_EXR_channel",
+          "errors": {
+            "-1": {
+              "max_abs": 0.22719634953181328,
+              "rmse": 0.15516871974264107
+            },
+            "0": {
+              "max_abs": 0.2185909505312878,
+              "rmse": 0.14653703657054273
+            },
+            "1": {
+              "max_abs": 0.5965884923934937,
+              "rmse": 0.20985120324730697
+            }
+          },
+          "identity_max_abs": 0.2185909505312878,
+          "nonzero_worst_max_abs": 0.5965884923934937
+        },
+        {
+          "input": "sRGB_piecewise",
+          "output": "direct_EXR_channel",
+          "errors": {
+            "-1": {
+              "max_abs": 0.262075919974641,
+              "rmse": 0.1764316258032639
+            },
+            "0": {
+              "max_abs": 0.287098683074188,
+              "rmse": 0.19073028060413716
+            },
+            "1": {
+              "max_abs": 0.5965884923934937,
+              "rmse": 0.2501676247541295
+            }
+          },
+          "identity_max_abs": 0.287098683074188,
+          "nonzero_worst_max_abs": 0.5965884923934937
+        },
+        {
+          "input": "BT709_rounded_constants_Colour_inverse",
+          "output": "direct_EXR_channel",
+          "errors": {
+            "-1": {
+              "max_abs": 0.2410005043144336,
+              "rmse": 0.16210473958002458
+            },
+            "0": {
+              "max_abs": 0.24042298103345383,
+              "rmse": 0.16018091020991185
+            },
+            "1": {
+              "max_abs": 0.5965884923934937,
+              "rmse": 0.21613813856582684
+            }
+          },
+          "identity_max_abs": 0.24042298103345383,
+          "nonzero_worst_max_abs": 0.5965884923934937
+        }
+      ]
+    },
+    "srgb": {
+      "source": "docs/experiments/resolve-hdr-srgb-pair-result.json",
+      "source_sha256_utf8_lf": "6d9b57d39e6e893eb3f298af5e01cc0104350c63f32e0443da5d7be4ec77f918",
+      "observed_levels": [
+        -1,
+        0,
+        1
+      ],
+      "models": [
+        {
+          "input": "BT709_rounded_constants_Colour_inverse",
+          "output": "BT709_rounded_constants_Colour_inverse",
+          "errors": {
+            "-1": {
+              "max_abs": 0.01977496819266441,
+              "rmse": 0.013986866604038863
+            },
+            "0": {
+              "max_abs": 1.1102230246251565e-16,
+              "rmse": 4.4969172124985776e-17
+            },
+            "1": {
+              "max_abs": 0.03245493024587631,
+              "rmse": 0.020220609663680028
+            }
+          },
+          "identity_max_abs": 1.1102230246251565e-16,
+          "nonzero_worst_max_abs": 0.03245493024587631
+        },
+        {
+          "input": "OCIO_video_1_83",
+          "output": "OCIO_video_1_83",
+          "errors": {
+            "-1": {
+              "max_abs": 0.03776483699221772,
+              "rmse": 0.018243768563326747
+            },
+            "0": {
+              "max_abs": 5.551115123125783e-17,
+              "rmse": 2.1174998587429782e-17
+            },
+            "1": {
+              "max_abs": 0.05427918963790681,
+              "rmse": 0.024734992655750215
+            }
+          },
+          "identity_max_abs": 5.551115123125783e-17,
+          "nonzero_worst_max_abs": 0.05427918963790681
+        },
+        {
+          "input": "BT709_rounded_constants_Colour_inverse",
+          "output": "OCIO_video_1_83",
+          "errors": {
+            "-1": {
+              "max_abs": 0.05527739196156674,
+              "rmse": 0.020549694619505336
+            },
+            "0": {
+              "max_abs": 0.035724013796495674,
+              "rmse": 0.017604719164712603
+            },
+            "1": {
+              "max_abs": 0.04415048487222639,
+              "rmse": 0.028673546951623698
+            }
+          },
+          "identity_max_abs": 0.035724013796495674,
+          "nonzero_worst_max_abs": 0.05527739196156674
+        },
+        {
+          "input": "sRGB_piecewise",
+          "output": "sRGB_piecewise",
+          "errors": {
+            "-1": {
+              "max_abs": 0.04539781461830639,
+              "rmse": 0.0317956130316417
+            },
+            "0": {
+              "max_abs": 1.1102230246251565e-16,
+              "rmse": 3.1080126089379415e-17
+            },
+            "1": {
+              "max_abs": 0.07234364810262783,
+              "rmse": 0.048712903995454734
+            }
+          },
+          "identity_max_abs": 1.1102230246251565e-16,
+          "nonzero_worst_max_abs": 0.07234364810262783
+        },
+        {
+          "input": "BT709_rounded_constants_Colour_inverse",
+          "output": "sRGB_piecewise",
+          "errors": {
+            "-1": {
+              "max_abs": 0.07819328411083548,
+              "rmse": 0.05833224941452625
+            },
+            "0": {
+              "max_abs": 0.06180982350473199,
+              "rmse": 0.03907236133599348
+            },
+            "1": {
+              "max_abs": 0.07234364810262783,
+              "rmse": 0.028485195588652798
+            }
+          },
+          "identity_max_abs": 0.06180982350473199,
+          "nonzero_worst_max_abs": 0.07819328411083548
+        },
+        {
+          "input": "OCIO_video_1_83",
+          "output": "BT709_rounded_constants_Colour_inverse",
+          "errors": {
+            "-1": {
+              "max_abs": 0.03321098939731215,
+              "rmse": 0.022049265037445122
+            },
+            "0": {
+              "max_abs": 0.033471625181501666,
+              "rmse": 0.017656327697252814
+            },
+            "1": {
+              "max_abs": 0.08795227283882699,
+              "rmse": 0.02969049160025432
+            }
+          },
+          "identity_max_abs": 0.033471625181501666,
+          "nonzero_worst_max_abs": 0.08795227283882699
+        },
+        {
+          "input": "OCIO_video_1_83",
+          "output": "sRGB_piecewise",
+          "errors": {
+            "-1": {
+              "max_abs": 0.08810666867224332,
+              "rmse": 0.06360447148493993
+            },
+            "0": {
+              "max_abs": 0.06854185503379973,
+              "rmse": 0.045129815308261254
+            },
+            "1": {
+              "max_abs": 0.07234364810262783,
+              "rmse": 0.03205286492728417
+            }
+          },
+          "identity_max_abs": 0.06854185503379973,
+          "nonzero_worst_max_abs": 0.08810666867224332
+        },
+        {
+          "input": "pure_gamma_2_4",
+          "output": "pure_gamma_2_4",
+          "errors": {
+            "-1": {
+              "max_abs": 0.059194370004197694,
+              "rmse": 0.04339981456355001
+            },
+            "0": {
+              "max_abs": 0.0,
+              "rmse": 0.0
+            },
+            "1": {
+              "max_abs": 0.09075984008197979,
+              "rmse": 0.06450254021060627
+            }
+          },
+          "identity_max_abs": 0.0,
+          "nonzero_worst_max_abs": 0.09075984008197979
+        },
+        {
+          "input": "sRGB_piecewise",
+          "output": "pure_gamma_2_4",
+          "errors": {
+            "-1": {
+              "max_abs": 0.07935598807982007,
+              "rmse": 0.060072923921898
+            },
+            "0": {
+              "max_abs": 0.0500238466813666,
+              "rmse": 0.02611807170121437
+            },
+            "1": {
+              "max_abs": 0.09075984008197979,
+              "rmse": 0.04161144785775257
+            }
+          },
+          "identity_max_abs": 0.0500238466813666,
+          "nonzero_worst_max_abs": 0.09075984008197979
+        },
+        {
+          "input": "sRGB_piecewise",
+          "output": "BT709_rounded_constants_Colour_inverse",
+          "errors": {
+            "-1": {
+              "max_abs": 0.02890116471457338,
+              "rmse": 0.015340903679576611
+            },
+            "0": {
+              "max_abs": 0.06173507914472107,
+              "rmse": 0.0385034897835717
+            },
+            "1": {
+              "max_abs": 0.1062808762855657,
+              "rmse": 0.07293919225339363
+            }
+          },
+          "identity_max_abs": 0.06173507914472107,
+          "nonzero_worst_max_abs": 0.1062808762855657
+        },
+        {
+          "input": "pure_gamma_2_4",
+          "output": "sRGB_piecewise",
+          "errors": {
+            "-1": {
+              "max_abs": 0.04539781461830639,
+              "rmse": 0.019732791656582826
+            },
+            "0": {
+              "max_abs": 0.04950797304511071,
+              "rmse": 0.025689759709243927
+            },
+            "1": {
+              "max_abs": 0.108897719536687,
+              "rmse": 0.08008224064244795
+            }
+          },
+          "identity_max_abs": 0.04950797304511071,
+          "nonzero_worst_max_abs": 0.108897719536687
+        },
+        {
+          "input": "sRGB_piecewise",
+          "output": "OCIO_video_1_83",
+          "errors": {
+            "-1": {
+              "max_abs": 0.02958029334522133,
+              "rmse": 0.020317715277846156
+            },
+            "0": {
+              "max_abs": 0.06957358490129095,
+              "rmse": 0.04577737948978264
+            },
+            "1": {
+              "max_abs": 0.11982029060280269,
+              "rmse": 0.0789322083906735
+            }
+          },
+          "identity_max_abs": 0.06957358490129095,
+          "nonzero_worst_max_abs": 0.11982029060280269
+        },
+        {
+          "input": "OCIO_video_1_83",
+          "output": "pure_gamma_2_4",
+          "errors": {
+            "-1": {
+              "max_abs": 0.12288859655647805,
+              "rmse": 0.08983721078077526
+            },
+            "0": {
+              "max_abs": 0.09938935728528053,
+              "rmse": 0.06522561208874303
+            },
+            "1": {
+              "max_abs": 0.09075984008197979,
+              "rmse": 0.04244575953834716
+            }
+          },
+          "identity_max_abs": 0.09938935728528053,
+          "nonzero_worst_max_abs": 0.12288859655647805
+        },
+        {
+          "input": "BT709_rounded_constants_Colour_inverse",
+          "output": "pure_gamma_2_4",
+          "errors": {
+            "-1": {
+              "max_abs": 0.12324702882751606,
+              "rmse": 0.08666256900612815
+            },
+            "0": {
+              "max_abs": 0.10551449909937696,
+              "rmse": 0.06286436824202363
+            },
+            "1": {
+              "max_abs": 0.09075984008197979,
+              "rmse": 0.04533780228798576
+            }
+          },
+          "identity_max_abs": 0.10551449909937696,
+          "nonzero_worst_max_abs": 0.12324702882751606
+        },
+        {
+          "input": "pure_gamma_2_4",
+          "output": "BT709_rounded_constants_Colour_inverse",
+          "errors": {
+            "-1": {
+              "max_abs": 0.05887660396898913,
+              "rmse": 0.031064991402154803
+            },
+            "0": {
+              "max_abs": 0.1047550426080188,
+              "rmse": 0.06140616294889008
+            },
+            "1": {
+              "max_abs": 0.16504787822053366,
+              "rmse": 0.10573030218191107
+            }
+          },
+          "identity_max_abs": 0.1047550426080188,
+          "nonzero_worst_max_abs": 0.16504787822053366
+        },
+        {
+          "input": "pure_gamma_2_4",
+          "output": "OCIO_video_1_83",
+          "errors": {
+            "-1": {
+              "max_abs": 0.047559698625447955,
+              "rmse": 0.030964892732629853
+            },
+            "0": {
+              "max_abs": 0.09878612113403368,
+              "rmse": 0.06644105026611064
+            },
+            "1": {
+              "max_abs": 0.16789481002189793,
+              "rmse": 0.11087129520528619
+            }
+          },
+          "identity_max_abs": 0.09878612113403368,
+          "nonzero_worst_max_abs": 0.16789481002189793
+        },
+        {
+          "input": "direct_EXR_channel",
+          "output": "OCIO_video_1_83",
+          "errors": {
+            "-1": {
+              "max_abs": 0.18112402236664232,
+              "rmse": 0.11440018545738977
+            },
+            "0": {
+              "max_abs": 0.21726600066896096,
+              "rmse": 0.14141104449093495
+            },
+            "1": {
+              "max_abs": 0.2876840074361374,
+              "rmse": 0.1916001892918723
+            }
+          },
+          "identity_max_abs": 0.21726600066896096,
+          "nonzero_worst_max_abs": 0.2876840074361374
+        },
+        {
+          "input": "direct_EXR_channel",
+          "output": "BT709_rounded_constants_Colour_inverse",
+          "errors": {
+            "-1": {
+              "max_abs": 0.19055790038196574,
+              "rmse": 0.12485926797311224
+            },
+            "0": {
+              "max_abs": 0.23814543977533464,
+              "rmse": 0.1541873043760386
+            },
+            "1": {
+              "max_abs": 0.3032444161326905,
+              "rmse": 0.19319747826585082
+            }
+          },
+          "identity_max_abs": 0.23814543977533464,
+          "nonzero_worst_max_abs": 0.3032444161326905
+        },
+        {
+          "input": "direct_EXR_channel",
+          "output": "sRGB_piecewise",
+          "errors": {
+            "-1": {
+              "max_abs": 0.24739295786336135,
+              "rmse": 0.1652973280203956
+            },
+            "0": {
+              "max_abs": 0.2864434191768249,
+              "rmse": 0.18325879720353513
+            },
+            "1": {
+              "max_abs": 0.3356932885781986,
+              "rmse": 0.20435397741918676
+            }
+          },
+          "identity_max_abs": 0.2864434191768249,
+          "nonzero_worst_max_abs": 0.3356932885781986
+        },
+        {
+          "input": "direct_EXR_channel",
+          "output": "pure_gamma_2_4",
+          "errors": {
+            "-1": {
+              "max_abs": 0.28042962633475943,
+              "rmse": 0.1879586421618279
+            },
+            "0": {
+              "max_abs": 0.3121258889220978,
+              "rmse": 0.19871727200265507
+            },
+            "1": {
+              "max_abs": 0.35155908076835307,
+              "rmse": 0.21139283546420148
+            }
+          },
+          "identity_max_abs": 0.3121258889220978,
+          "nonzero_worst_max_abs": 0.35155908076835307
+        },
+        {
+          "input": "direct_EXR_channel",
+          "output": "direct_EXR_channel",
+          "errors": {
+            "-1": {
+              "max_abs": 0.18995928764343262,
+              "rmse": 0.08350692601826747
+            },
+            "0": {
+              "max_abs": 0.0,
+              "rmse": 0.0
+            },
+            "1": {
+              "max_abs": 0.574400782585144,
+              "rmse": 0.26797886696065165
+            }
+          },
+          "identity_max_abs": 0.0,
+          "nonzero_worst_max_abs": 0.574400782585144
+        },
+        {
+          "input": "pure_gamma_2_4",
+          "output": "direct_EXR_channel",
+          "errors": {
+            "-1": {
+              "max_abs": 0.2568254628713378,
+              "rmse": 0.17129178503064754
+            },
+            "0": {
+              "max_abs": 0.3121259694795038,
+              "rmse": 0.20708464104452803
+            },
+            "1": {
+              "max_abs": 0.574400782585144,
+              "rmse": 0.28224111818883385
+            }
+          },
+          "identity_max_abs": 0.3121259694795038,
+          "nonzero_worst_max_abs": 0.574400782585144
+        },
+        {
+          "input": "OCIO_video_1_83",
+          "output": "direct_EXR_channel",
+          "errors": {
+            "-1": {
+              "max_abs": 0.21103839460055412,
+              "rmse": 0.14230178119151177
+            },
+            "0": {
+              "max_abs": 0.2185909505312878,
+              "rmse": 0.14653703657054273
+            },
+            "1": {
+              "max_abs": 0.574400782585144,
+              "rmse": 0.21305322328967322
+            }
+          },
+          "identity_max_abs": 0.2185909505312878,
+          "nonzero_worst_max_abs": 0.574400782585144
+        },
+        {
+          "input": "sRGB_piecewise",
+          "output": "direct_EXR_channel",
+          "errors": {
+            "-1": {
+              "max_abs": 0.24591796504338187,
+              "rmse": 0.16360176478375119
+            },
+            "0": {
+              "max_abs": 0.287098683074188,
+              "rmse": 0.19073028060413716
+            },
+            "1": {
+              "max_abs": 0.574400782585144,
+              "rmse": 0.25858038180244564
+            }
+          },
+          "identity_max_abs": 0.287098683074188,
+          "nonzero_worst_max_abs": 0.574400782585144
+        },
+        {
+          "input": "BT709_rounded_constants_Colour_inverse",
+          "output": "direct_EXR_channel",
+          "errors": {
+            "-1": {
+              "max_abs": 0.22484254938317444,
+              "rmse": 0.14931804539501936
+            },
+            "0": {
+              "max_abs": 0.24042298103345383,
+              "rmse": 0.16018091020991185
+            },
+            "1": {
+              "max_abs": 0.574400782585144,
+              "rmse": 0.22113878865953823
+            }
+          },
+          "identity_max_abs": 0.24042298103345383,
+          "nonzero_worst_max_abs": 0.574400782585144
+        }
+      ]
+    }
+  },
+  "limits": [
+    "Post hoc model search, not held-out validation or native algorithm identification.",
+    "Different input/output functions may fail neutrality; zero error is reported explicitly.",
+    "Uses existing nonnegative fixture samples only; no extra clipping or black offset.",
+    "Transfer definitions and extended-range caveats inherit the frozen model source."
+  ]
+}

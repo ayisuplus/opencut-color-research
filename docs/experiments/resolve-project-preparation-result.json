@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-12",
+  "scope": "isolated_project_creation_import_and_metadata_query_no_native_hdr_control_or_measurement_export",
+  "library": "OC_COLOR_001_TEST",
+  "library_created_by": "user_in_Resolve_GUI",
+  "library_selected_verified_by": "official_Lua_GetCurrentDatabase",
+  "library_storage_relative": "evidence/local/resolve-exposure-20261012/project-library",
+  "project": "EXPO_001_HDR_GLOBAL",
+  "project_database_exists_in_expected_library": true,
+  "project_saved": true,
+  "timeline": {
+    "name": "PATCHES_1080P30",
+    "width": 1920,
+    "height": 1080,
+    "frame_rate": 30,
+    "item_count": 1,
+    "graph_node_count": 1,
+    "start_frame": 108000,
+    "end_frame_api_value": 108187,
+    "start_timecode": "01:00:00:00"
+  },
+  "input_sha256": "2daa68135e4ac8c0585fb33630ce5d69a735640799b82a8173caafbfc8d9f09f",
+  "clip_metadata": {
+    "File Name": "opaque-srgb16-patches.png",
+    "Resolution": "1920x1080",
+    "Bit Depth": "16",
+    "Format": "PNG",
+    "Video Codec": "PNG",
+    "Input Color Space": "项目",
+    "Input Gamma": "Gamma 2.4",
+    "Data Level": "Auto",
+    "Alpha mode": "None",
+    "Frames": "1",
+    "FPS": 24
+  },
+  "color_settings": {
+    "colorScienceMode": "davinciYRGB",
+    "colorSpaceInput": "Rec.709 Gamma 2.4",
+    "colorSpaceInputGamma": "",
+    "colorSpaceTimeline": "Rec.709 (Scene)",
+    "colorSpaceTimelineGamma": "",
+    "colorSpaceOutput": "Rec.709 (Scene)",
+    "colorSpaceOutputGamma": "",
+    "rcmPresetMode": "Custom",
+    "separateColorSpaceAndGamma": "0",
+    "colorSpaceOutputToneMapping": "None",
+    "colorSpaceOutputGamutMapping": "None",
+    "useColorSpaceAwareGradingTools": "0",
+    "timelineWorkingLuminance": "1000",
+    "timelineWorkingLuminanceMode": "HDR 1000"
+  },
+  "queried_image_codecs": {
+    "DPX": {
+      "Alpha 8 bits": "Gray8",
+      "RGB 10 bits": "RGB10",
+      "RGB 12 bits": "RGB12",
+      "RGB 16 bits": "RGB16",
+      "RGB half float (16 bits)": "RGB16",
+      "RGBA 8 bits": "RGBA8"
+    },
+    "EXR": {
+      "RGB float": "RGBFloat",
+      "RGB float (DWAA)": "RGBFloatDWAA",
+      "RGB float (DWAB)": "RGBFloatDWAB",
+      "RGB float (PIZ)": "RGBFloatPIZ",
+      "RGB float (RLE)": "RGBFloatRLE",
+      "RGB float (ZIP)": "RGBFloatZIP",
+      "RGB float (ZIP1)": "RGBFloatZIP1",
+      "RGB half": "RGBHalf",
+      "RGB half (DWAA)": "RGBHalfDWAA",
+      "RGB half (DWAB)": "RGBHalfDWAB",
+      "RGB half (PIZ)": "RGBHalfPIZ",
+      "RGB half (RLE)": "RGBHalfRLE",
+      "RGB half (ZIP)": "RGBHalfZIP",
+      "RGB half (ZIP1)": "RGBHalfZIP1"
+    },
+    "PNG": {
+      "RGB 16 bits": "RGB16",
+      "RGB 8 bits": "RGB8"
+    },
+    "TIFF": {
+      "RGB 16 bits": "RGB16",
+      "RGB 8 bits": "RGB8",
+      "XYZ 16 bits": "XYZ16"
+    }
+  },
+  "current_page": "color",
+  "execution": {
+    "cli_exit_code": 0,
+    "finished_marker_present": true,
+    "executed_source_sha256": "2bf25f4b64ba07eb899077d55c59f218f6ea071d2261167875592a5aa11e2b9d",
+    "stdout_sha256": "c77115f0b9d44ea7e49612ecc5f6f5313e03d88469d77f766f024adc3e279fd9",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "snapshot_sha256": "f168f2f5bb28f5ae8e07ff929d7af415d05cadc92220b5d9c60c12040d015336"
+  },
+  "native_hdr_exposure_set": false,
+  "measurement_frames_exported": 0,
+  "remaining": [
+    "Confirm actual color-management and HDR palette interpretation before exposure testing.",
+    "Capture native bypass/0/-1/+1 grades and repeat baseline.",
+    "Validate actual high-bit or float export header, values and encoding."
+  ],
+  "limitations": [
+    "Clip metadata reports 16-bit; pixel preservation by the decoder is not yet measured.",
+    "Source still metadata FPS is 24; timeline FPS independently reads back 30. This is not a video/performance test.",
+    "EXR RGBFloat is returned in codec query, not evidence that a float frame has already been exported.",
+    "No claim about which functions the host internally invokes when opening the Color page."
+  ]
+}
